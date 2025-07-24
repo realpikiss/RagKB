@@ -19,7 +19,6 @@ These are the modules that were **actively used** during the empirical analysis 
 - **`build_pdg.py`** - PDG construction module (validated in Phase 4)
 - **`config.py`** - Original configuration (replaced by empirically-derived version)
 - **`utils.py`** - Utility functions used across all phases
-- **`create_kb.py`** - Knowledge base creation logic (removed from production)
 - **`__init__.py`** - Package initialization
 
 ### `scripts_original/` - Original Processing Scripts
