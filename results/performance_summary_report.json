@@ -1,0 +1,137 @@
+{
+  "analysis_metadata": {
+    "samples_tested": 2317,
+    "total_dataset_size": 2317,
+    "test_coverage": 1.0,
+    "hypothesis_timeout": 23
+  },
+  "timing_results": {
+    "avg_time_per_instance": 0.0030378560645342592,
+    "median_time_per_instance": 0.0014977455139160156,
+    "p95_time_per_instance": 0.008018302917480452,
+    "max_time_observed": 0.16236090660095215,
+    "sequential_total_hours": 0.001955197917090522
+  },
+  "success_rates": {
+    "overall_success_rate": 1.0,
+    "ast_success_rate": 1.0,
+    "cfg_success_rate": 1.0,
+    "pdg_success_rate": 1.0
+  },
+  "memory_analysis": {
+    "avg_memory_per_instance_mb": 0.003877589555459646,
+    "max_memory_delta_mb": 2.859375,
+    "projected_total_memory_gb": 0.0087738037109375
+  },
+  "component_performance": {
+    "ast": {
+      "avg_time": 0.000940101230046746,
+      "max_time": 0.07369685173034668,
+      "success_rate": 1.0,
+      "time_share": 0.3094620713015497
+    },
+    "cfg": {
+      "avg_time": 0.0003944082305407699,
+      "max_time": 0.04248189926147461,
+      "success_rate": 1.0,
+      "time_share": 0.12983111186383267
+    },
+    "pdg": {
+      "avg_time": 0.0017033466039467434,
+      "max_time": 0.11192202568054199,
+      "success_rate": 1.0,
+      "time_share": 0.5607068168346176
+    }
+  },
+  "recommendations": {
+    "timeout_validation": "VALIDATED",
+    "memory_validation": "VALID",
+    "processing_time_validation": "UNREALISTIC",
+    "optimal_timeout": 5
+  },
+  "timeout_analysis": {
+    "tested_timeouts": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30
+    ],
+    "optimal_timeout": 5,
+    "timeout_sensitivity": [
+      {
+        "timeout": 5,
+        "samples": 10,
+        "avg_time": 0.002615547180175781,
+        "max_time": 0.00486302375793457,
+        "success_rate": 1.0,
+        "timeout_rate": 0.0,
+        "ast_success": 1.0,
+        "cfg_success": 1.0,
+        "pdg_success": 1.0,
+        "score": 1.0
+      },
+      {
+        "timeout": 10,
+        "samples": 10,
+        "avg_time": 0.002190113067626953,
+        "max_time": 0.004294633865356445,
+        "success_rate": 1.0,
+        "timeout_rate": 0.0,
+        "ast_success": 1.0,
+        "cfg_success": 1.0,
+        "pdg_success": 1.0,
+        "score": 1.0
+      },
+      {
+        "timeout": 15,
+        "samples": 10,
+        "avg_time": 0.0021278858184814453,
+        "max_time": 0.0045278072357177734,
+        "success_rate": 1.0,
+        "timeout_rate": 0.0,
+        "ast_success": 1.0,
+        "cfg_success": 1.0,
+        "pdg_success": 1.0,
+        "score": 1.0
+      },
+      {
+        "timeout": 20,
+        "samples": 10,
+        "avg_time": 0.00222163200378418,
+        "max_time": 0.0040438175201416016,
+        "success_rate": 1.0,
+        "timeout_rate": 0.0,
+        "ast_success": 1.0,
+        "cfg_success": 1.0,
+        "pdg_success": 1.0,
+        "score": 1.0
+      },
+      {
+        "timeout": 25,
+        "samples": 10,
+        "avg_time": 0.00218660831451416,
+        "max_time": 0.004315853118896484,
+        "success_rate": 1.0,
+        "timeout_rate": 0.0,
+        "ast_success": 1.0,
+        "cfg_success": 1.0,
+        "pdg_success": 1.0,
+        "score": 1.0
+      },
+      {
+        "timeout": 30,
+        "samples": 10,
+        "avg_time": 0.002242898941040039,
+        "max_time": 0.00426030158996582,
+        "success_rate": 1.0,
+        "timeout_rate": 0.0,
+        "ast_success": 1.0,
+        "cfg_success": 1.0,
+        "pdg_success": 1.0,
+        "score": 1.0
+      }
+    ]
+  }
+}

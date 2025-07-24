@@ -20,7 +20,7 @@ def show_kb_stats():
     kb_files = glob.glob(str(DATA_ENRICHED_DIR / ENRICHED_FILE_PATTERN))
     
     if not kb_files:
-        print(f"❌ No files found in directory: {DATA_ENRICHED_DIR}")
+        print(MESSAGES['no_files_found'].format(DATA_ENRICHED_DIR))
         return
     
     print("=" * 80)
@@ -40,6 +40,7 @@ def show_kb_stats():
             
             # Graph statistics
             ast_success = 0
+            cfg_success = 0
             pdg_success = 0
             
             for entry in data:
@@ -50,8 +51,10 @@ def show_kb_stats():
                 if ast_data.get('success', False):
                     ast_success += 1
                 
-                # CFG checking removed - disabled based on Phase 4 empirical analysis
-                # (0% complex control flow detected, CFG not needed for this dataset)
+                # Check CFG
+                cfg_data = structural.get('cfg_patterns', {})
+                if cfg_data.get('success', False):
+                    cfg_success += 1
                 
                 # Check PDG
                 pdg_data = structural.get('pdg_patterns', {})
@@ -60,25 +63,17 @@ def show_kb_stats():
             
             cwe = Path(kb_file).stem.split('_')[-1]  # extract CWE from filename
             
-            # Calculate percentages safely (avoid division by zero)
-            ast_percentage = (ast_success / entry_count * 100) if entry_count > 0 else 0
-            pdg_percentage = (pdg_success / entry_count * 100) if entry_count > 0 else 0
-            
             print(f"\n🎯 {cwe}:")
             print(f"   📁 File: {Path(kb_file).name}")
             print(f"   📊 Entries: {entry_count}")
             print(f"   💾 Size: {file_size:.1f} MB")
-            print(f"   🌳 AST success: {ast_success}/{entry_count} ({ast_percentage:.1f}%)")
-            print(f"   🔗 CFG: DISABLED (Phase 4: 0% complex control flow, not needed)")
-            print(f"   📈 PDG success: {pdg_success}/{entry_count} ({pdg_percentage:.1f}%)")
+            print(f"   🌳 AST success: {ast_success}/{entry_count} ({ast_success/entry_count*100:.1f}%)")
+            print(f"   🔗 CFG success: {cfg_success}/{entry_count} ({cfg_success/entry_count*100:.1f}%)")
+            print(f"   📈 PDG success: {pdg_success}/{entry_count} ({pdg_success/entry_count*100:.1f}%)")
             
             total_entries += entry_count
             total_size += file_size
             
-        except FileNotFoundError:
-            print(f"❌ File not found: {kb_file}")
-        except json.JSONDecodeError as e:
-            print(f"❌ Invalid JSON in {kb_file}: {e}")
         except Exception as e:
             print(f"❌ Error reading {kb_file}: {e}")
     

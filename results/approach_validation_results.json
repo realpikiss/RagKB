@@ -1,0 +1,20 @@
+{
+  "function_metrics": {
+    "precision": 1.0,
+    "recall": 0.16012084592145015,
+    "f1_score": 0.27604166666666663,
+    "accuracy": 0.16012084592145015
+  },
+  "context_metrics": {
+    "precision": 1.0,
+    "recall": 0.5917134225291325,
+    "f1_score": 0.7434924078091106,
+    "accuracy": 0.5917134225291325
+  },
+  "validation_summary": {
+    "total_samples": 2317,
+    "context_better_cases": 1113,
+    "function_better_cases": 113,
+    "winner": "context_based"
+  }
+}

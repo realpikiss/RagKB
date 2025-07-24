@@ -1,0 +1,2318 @@
+cwe,cve_id,lines,chars,functions_detected,calls_detected,variables_detected,pointers_detected,arrays_detected,conditionals_detected,loops_detected,ast_success,vulnerability_indicators,indicator_count
+CWE-119,CVE-2014-3182,88,2802,1,21,8,51,6,6,0,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2014-3182,57,2166,1,7,6,7,1,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2013-7027,59,1832,1,4,3,31,0,4,1,True,['pointer_operations'],1
+CWE-119,CVE-2016-3134,109,2777,1,11,7,40,1,8,3,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2016-3134,52,1373,1,5,6,7,6,7,1,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2016-3134,14,388,1,3,2,6,0,2,0,True,['pointer_operations'],1
+CWE-119,CVE-2016-3134,104,2600,1,10,7,39,1,7,3,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2016-3134,30,916,1,4,7,22,2,4,0,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2016-3134,52,1377,1,5,6,7,6,7,1,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2016-3134,30,906,1,4,7,22,2,4,0,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2016-3134,109,2766,1,11,7,40,1,8,3,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2013-1929,120,3694,1,37,3,64,8,31,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-119,CVE-2012-3364,26,657,0,4,3,16,0,1,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-119,CVE-2012-3364,13,368,0,2,3,6,0,0,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-119,CVE-2012-3364,35,1099,1,5,5,20,0,3,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-119,CVE-2018-10124,34,694,1,12,5,2,0,6,0,True,['pointer_operations'],1
+CWE-119,CVE-2017-15126,124,3383,1,36,4,82,0,8,1,True,['pointer_operations'],1
+CWE-119,CVE-2017-15126,51,1184,1,16,3,35,0,4,1,True,['pointer_operations'],1
+CWE-119,CVE-2016-7425,245,8007,1,48,24,129,5,23,0,True,"['buffer_variables', 'unsafe_functions', 'pointer_operations', 'array_operations']",4
+CWE-119,CVE-2013-0310,136,3564,1,10,6,10,13,17,2,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2016-4998,54,1494,1,6,6,11,6,8,1,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2016-4998,76,2111,1,14,10,30,6,8,1,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2016-4998,55,1458,1,6,6,11,6,8,1,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2017-5548,28,863,1,5,3,17,3,2,0,True,"['buffer_variables', 'pointer_operations', 'array_operations']",3
+CWE-119,CVE-2017-5548,16,402,1,3,3,3,1,1,0,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2017-5548,12,352,1,3,2,4,0,1,0,True,['pointer_operations'],1
+CWE-119,CVE-2012-6712,64,1981,1,12,5,30,3,4,0,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2012-6712,19,659,1,3,1,18,6,2,0,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2017-16996,151,3909,1,38,5,59,7,28,0,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2017-16996,133,4077,1,32,8,32,9,21,0,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2013-2850,76,1551,1,26,10,4,1,10,1,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-119,CVE-2013-2850,29,778,1,10,4,8,0,2,0,True,['pointer_operations'],1
+CWE-119,CVE-2014-3184,9,268,0,1,3,1,3,1,0,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2014-3184,95,2749,0,12,5,19,21,10,0,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2014-3184,11,346,0,1,3,1,7,1,0,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2014-3184,61,1894,0,4,3,8,15,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2014-3184,12,378,0,1,3,1,8,1,0,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2019-19602,4,158,1,1,1,1,0,0,0,True,['pointer_operations'],1
+CWE-119,CVE-2022-3636,74,1662,1,20,9,31,2,10,0,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2018-7740,107,3109,1,17,6,5,0,11,0,True,['pointer_operations'],1
+CWE-119,CVE-2018-7740,52,1375,1,10,4,12,0,5,0,True,['pointer_operations'],1
+CWE-119,CVE-2018-8822,24,568,1,10,5,2,0,1,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-119,CVE-2022-3435,130,2804,1,18,9,52,0,27,0,True,['pointer_operations'],1
+CWE-119,CVE-2021-39633,4,144,1,1,1,0,0,1,0,True,[],0
+CWE-119,CVE-2021-4157,22,517,1,8,3,8,0,3,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-119,CVE-2013-6381,52,1543,1,17,7,24,0,7,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-119,CVE-2014-6416,27,768,1,7,7,11,0,4,0,True,['pointer_operations'],1
+CWE-119,CVE-2014-6416,45,801,1,8,7,3,0,4,1,True,['pointer_operations'],1
+CWE-119,CVE-2014-0069,130,3260,1,24,9,47,1,14,2,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2017-7895,57,1565,1,8,6,41,8,4,1,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2017-7895,49,1297,1,7,6,31,2,4,2,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2017-7895,53,1361,1,5,4,29,8,3,1,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2015-1333,19,552,1,8,3,11,0,2,0,True,['pointer_operations'],1
+CWE-119,CVE-2021-3635,59,1185,1,16,9,22,0,9,0,True,['pointer_operations'],1
+CWE-119,CVE-2016-5829,118,3065,1,13,7,59,10,21,2,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2013-4512,16,350,1,3,5,3,0,2,0,True,"['buffer_variables', 'pointer_operations']",2
+CWE-119,CVE-2017-18222,7,139,1,1,0,0,0,1,0,True,[],0
+CWE-119,CVE-2017-18222,7,141,1,1,0,0,0,1,0,True,[],0
+CWE-119,CVE-2017-18222,7,128,1,0,0,0,0,1,0,True,[],0
+CWE-119,CVE-2017-18222,6,117,1,0,0,0,0,1,0,True,[],0
+CWE-119,CVE-2013-4312,19,391,1,10,3,11,0,2,0,True,['pointer_operations'],1
+CWE-119,CVE-2013-4312,16,320,1,8,3,8,0,2,0,True,['pointer_operations'],1
+CWE-119,CVE-2017-8062,63,1460,1,15,5,25,37,8,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-119,CVE-2017-8062,106,3069,1,25,9,70,18,9,0,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2013-2893,38,1054,1,4,6,21,9,1,0,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2013-2893,173,5034,1,39,11,63,22,19,6,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2013-2893,54,1395,1,12,6,26,16,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2017-8068,12,361,1,3,2,3,0,1,0,True,['pointer_operations'],1
+CWE-119,CVE-2017-8068,12,348,1,3,1,4,0,1,0,True,['pointer_operations'],1
+CWE-119,CVE-2007-6762,25,669,1,4,4,7,5,4,0,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2013-2899,35,1086,1,10,7,12,4,6,1,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2017-17856,29,740,1,2,4,2,0,1,0,True,['pointer_operations'],1
+CWE-119,CVE-2013-1772,138,3144,1,27,6,8,1,12,3,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-119,CVE-2013-1772,7,159,1,4,0,0,0,0,0,True,[],0
+CWE-119,CVE-2013-1772,8,250,1,0,1,0,4,1,0,True,['array_operations'],1
+CWE-119,CVE-2013-1772,26,556,1,5,2,2,0,3,0,True,['pointer_operations'],1
+CWE-119,CVE-2013-1772,39,899,1,5,3,4,0,2,0,True,['pointer_operations'],1
+CWE-119,CVE-2013-1772,151,4318,1,11,2,55,11,22,1,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2013-1772,153,3554,1,22,3,11,3,22,3,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2015-5156,199,5841,1,55,4,80,3,27,1,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2021-4204,76,2136,1,18,5,15,5,10,1,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2021-4204,257,7814,1,53,13,64,3,50,0,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2021-4204,230,7172,1,69,15,51,9,48,0,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2023-6560,53,1519,0,10,3,4,4,8,1,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2011-4098,104,2525,1,24,9,36,0,15,1,True,['pointer_operations'],1
+CWE-119,CVE-2011-4098,128,3681,1,28,16,41,13,13,5,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2011-4098,64,1402,1,15,8,4,0,8,1,True,['pointer_operations'],1
+CWE-119,CVE-2016-3955,36,738,1,6,2,11,0,6,0,True,['pointer_operations'],1
+CWE-119,CVE-2017-18379,25,759,0,8,5,12,1,2,0,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2013-1773,91,1857,1,1,7,30,2,14,4,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2013-1773,82,2075,1,6,7,23,2,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2013-4588,142,3112,1,29,11,37,11,16,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-119,CVE-2013-4588,129,3360,1,28,8,36,2,17,0,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2015-4036,39,1011,0,15,5,18,0,4,0,True,['pointer_operations'],1
+CWE-119,CVE-2015-4036,29,760,1,3,4,20,4,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2013-0231,49,1284,1,12,5,23,10,8,2,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2013-0231,33,845,1,10,5,8,0,5,0,True,['pointer_operations'],1
+CWE-119,CVE-2013-0309,4,84,1,1,0,0,0,0,0,True,[],0
+CWE-119,CVE-2022-3625,8,229,1,0,3,3,0,1,0,True,['pointer_operations'],1
+CWE-119,CVE-2022-3625,8,229,1,0,3,3,0,1,0,True,['pointer_operations'],1
+CWE-119,CVE-2018-14615,62,1793,1,25,4,24,0,6,0,True,['pointer_operations'],1
+CWE-119,CVE-2013-4514,27,650,1,9,6,7,0,0,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-119,CVE-2011-5327,44,1265,0,12,7,14,1,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2017-16534,134,3852,1,5,9,22,4,20,1,True,"['buffer_variables', 'pointer_operations', 'array_operations']",3
+CWE-119,CVE-2017-18193,37,745,1,11,5,19,0,5,0,True,['pointer_operations'],1
+CWE-119,CVE-2016-8633,132,3282,1,33,6,29,2,11,1,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-119,CVE-2016-8633,64,1757,1,14,6,32,5,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2022-3541,40,911,1,15,5,1,0,4,0,True,['pointer_operations'],1
+CWE-119,CVE-2017-1000253,445,12362,1,64,17,124,1,64,4,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2013-2895,24,674,1,2,6,12,6,1,1,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2014-0205,132,3608,1,26,6,49,0,14,0,True,['pointer_operations'],1
+CWE-119,CVE-2014-0205,11,224,0,3,2,9,0,0,0,True,['pointer_operations'],1
+CWE-119,CVE-2014-0205,6,140,1,2,2,4,0,0,0,True,['pointer_operations'],1
+CWE-119,CVE-2014-0205,13,258,1,7,1,13,0,0,0,True,['pointer_operations'],1
+CWE-119,CVE-2016-8658,230,6610,1,67,12,82,1,33,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-119,CVE-2022-3649,82,2111,0,31,7,31,0,7,0,True,['pointer_operations'],1
+CWE-119,CVE-2016-10764,73,1571,1,11,7,32,3,7,1,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2022-3640,75,1586,1,15,3,9,0,9,0,True,['pointer_operations'],1
+CWE-119,CVE-2017-16526,9,245,1,2,1,9,0,1,0,True,['pointer_operations'],1
+CWE-119,CVE-2014-3183,30,766,1,4,5,4,4,3,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-119,CVE-2015-5283,182,5139,1,48,1,18,18,14,6,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2015-5283,37,970,1,17,0,2,0,0,0,True,['pointer_operations'],1
+CWE-119,CVE-2016-1583,43,968,0,13,6,5,0,6,0,True,['pointer_operations'],1
+CWE-119,CVE-2013-1860,11,262,1,5,2,6,0,0,0,True,['pointer_operations'],1
+CWE-119,CVE-2013-1860,43,1023,1,11,3,36,0,2,0,True,['pointer_operations'],1
+CWE-119,CVE-2013-1860,99,2120,1,23,5,53,2,15,1,True,"['buffer_variables', 'pointer_operations', 'array_operations']",3
+CWE-119,CVE-2014-8884,15,437,1,1,4,7,1,0,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-119,CVE-2013-2234,21,632,1,4,3,12,0,1,0,True,['pointer_operations'],1
+CWE-119,CVE-2018-12233,149,3790,1,29,6,83,0,20,0,True,['pointer_operations'],1
+CWE-119,CVE-2017-7541,101,3399,1,28,13,40,8,6,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-119,CVE-2014-2309,238,5325,1,36,11,131,0,41,0,True,['pointer_operations'],1
+CWE-119,CVE-2017-16913,87,2159,1,23,6,52,0,10,0,True,['pointer_operations'],1
+CWE-119,CVE-2017-5547,29,850,1,7,6,4,2,2,0,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2017-5547,29,823,1,7,6,1,2,2,0,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2016-8632,22,698,1,6,5,24,0,1,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-119,CVE-2016-8632,39,843,1,11,5,12,0,3,0,True,['pointer_operations'],1
+CWE-119,CVE-2016-8632,100,2540,1,22,11,54,6,13,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-119,CVE-2018-1120,62,1162,1,10,7,10,0,6,1,True,['pointer_operations'],1
+CWE-119,CVE-2018-1120,166,3245,1,20,9,20,4,17,4,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2018-1120,43,1210,1,2,4,1,0,9,0,True,['pointer_operations'],1
+CWE-119,CVE-2021-22543,57,1392,1,8,7,13,0,7,0,True,['pointer_operations'],1
+CWE-119,CVE-2018-7566,84,2214,1,11,8,33,1,14,1,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2018-20855,355,10446,1,118,15,205,0,68,0,True,['pointer_operations'],1
+CWE-119,CVE-2016-5728,93,2036,1,26,6,38,0,13,0,True,['pointer_operations'],1
+CWE-119,CVE-2018-1000199,44,1015,1,6,6,30,0,5,0,True,['pointer_operations'],1
+CWE-119,CVE-2006-3635,84,2030,1,29,1,8,0,5,0,True,['pointer_operations'],1
+CWE-119,CVE-2016-7042,94,2582,1,32,6,22,0,10,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-119,CVE-2022-3545,80,1908,0,13,3,43,0,9,0,True,['pointer_operations'],1
+CWE-119,CVE-2017-8069,6,231,1,2,2,2,0,0,0,True,['pointer_operations'],1
+CWE-119,CVE-2012-2119,70,1624,1,10,9,16,2,5,4,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2015-2666,59,1459,1,4,10,5,2,4,2,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2010-5332,47,1055,1,8,5,21,9,4,1,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2010-5332,47,1131,1,10,5,20,8,4,1,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2013-2890,66,1565,1,18,6,20,4,4,2,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2023-21264,10,334,1,3,2,6,0,2,0,True,['pointer_operations'],1
+CWE-119,CVE-2017-8061,46,1124,1,12,4,14,2,6,1,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2017-12762,26,556,0,6,4,4,0,5,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-119,CVE-2012-2137,62,1519,1,2,6,60,4,4,0,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2007-6761,31,643,1,5,3,21,5,3,1,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2014-3185,47,1733,1,13,5,37,5,8,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-119,CVE-2015-4002,67,2050,1,14,11,33,3,6,0,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2017-7187,284,8324,1,88,10,180,11,49,3,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2017-14497,239,6333,1,60,15,173,0,34,1,True,['pointer_operations'],1
+CWE-119,CVE-2013-2894,63,1814,1,20,6,28,0,4,0,True,['pointer_operations'],1
+CWE-119,CVE-2014-9728,278,8411,1,79,12,220,1,33,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-119,CVE-2009-2692,14,345,1,0,4,4,0,2,0,True,['pointer_operations'],1
+CWE-119,CVE-2016-6187,74,1948,1,17,6,10,2,14,0,True,"['pointer_operations', 'array_operations']",2
+CWE-119,CVE-2022-2964,61,1403,1,14,4,14,0,4,1,True,['pointer_operations'],1
+CWE-119,CVE-2014-3186,33,951,1,8,5,17,0,5,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-119,CVE-2016-9793,356,7734,1,58,4,59,0,40,0,True,['pointer_operations'],1
+CWE-119,CVE-2017-8063,25,586,1,6,4,10,2,2,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-119,CVE-2018-5848,35,923,1,7,6,3,1,4,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-119,CVE-2013-6382,49,1150,1,16,5,13,0,8,0,True,['pointer_operations'],1
+CWE-125,CVE-2014-7825,36,930,1,9,5,9,0,5,0,True,['pointer_operations'],1
+CWE-125,CVE-2014-7825,47,1252,1,10,8,11,1,5,0,True,"['buffer_variables', 'pointer_operations', 'array_operations']",3
+CWE-125,CVE-2014-7825,38,1062,1,9,5,12,0,5,0,True,['pointer_operations'],1
+CWE-125,CVE-2020-28974,14,332,1,4,2,1,0,1,0,True,['pointer_operations'],1
+CWE-125,CVE-2017-9074,294,7099,1,102,15,82,0,28,2,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-125,CVE-2017-9074,101,2969,0,30,8,35,0,10,0,True,['pointer_operations'],1
+CWE-125,CVE-2017-9074,76,2094,0,27,7,30,1,9,1,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2017-7277,41,908,1,11,4,11,0,7,0,True,['pointer_operations'],1
+CWE-125,CVE-2017-7277,17,471,1,6,3,5,0,2,0,True,['pointer_operations'],1
+CWE-125,CVE-2017-7277,46,1353,1,14,6,17,0,7,0,True,['pointer_operations'],1
+CWE-125,CVE-2019-15505,68,1325,1,11,4,23,7,5,1,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2021-43389,26,496,1,5,2,8,2,2,0,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2014-3180,22,460,1,5,2,6,0,2,0,True,['pointer_operations'],1
+CWE-125,CVE-2014-3180,34,718,0,9,1,10,0,5,0,True,['pointer_operations'],1
+CWE-125,CVE-2023-1380,75,2120,1,16,7,26,0,8,0,True,['pointer_operations'],1
+CWE-125,CVE-2023-39193,17,479,1,0,2,7,0,5,0,True,['pointer_operations'],1
+CWE-125,CVE-2017-16530,13,269,1,1,2,5,1,1,1,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2017-16530,91,3027,1,15,7,35,2,10,0,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2017-16530,12,255,1,2,2,3,1,1,0,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2023-6121,77,2058,1,24,5,38,0,12,0,True,['pointer_operations'],1
+CWE-125,CVE-2023-6121,61,1463,1,18,6,23,0,7,0,True,['pointer_operations'],1
+CWE-125,CVE-2016-7915,51,1509,1,11,9,26,21,6,2,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-125,CVE-2020-0067,45,1093,1,13,9,13,0,4,0,True,"['buffer_variables', 'unsafe_functions', 'pointer_operations']",3
+CWE-125,CVE-2022-20132,135,3941,1,23,8,28,1,15,0,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2022-20132,54,1781,1,20,9,28,2,6,1,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2022-20132,296,8138,1,69,7,50,0,34,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-125,CVE-2022-20132,118,2996,1,19,5,51,0,19,0,True,['pointer_operations'],1
+CWE-125,CVE-2019-15927,150,4057,1,25,16,89,5,21,3,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2021-3490,29,977,1,3,6,16,0,2,0,True,['pointer_operations'],1
+CWE-125,CVE-2021-3490,34,1158,1,4,7,17,0,2,0,True,['pointer_operations'],1
+CWE-125,CVE-2021-3490,35,1183,1,4,7,16,0,2,0,True,['pointer_operations'],1
+CWE-125,CVE-2020-35519,97,2317,1,18,7,41,0,13,0,True,['pointer_operations'],1
+CWE-125,CVE-2018-10877,76,1704,0,22,6,22,17,8,1,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2022-1508,93,2745,1,17,7,33,0,16,0,True,['pointer_operations'],1
+CWE-125,CVE-2022-1508,97,2805,1,16,7,25,0,15,1,True,['pointer_operations'],1
+CWE-125,CVE-2019-15926,68,2064,1,9,5,32,3,7,1,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2019-15926,57,1456,1,11,4,17,3,4,0,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2019-15926,26,850,1,3,3,10,1,1,0,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2021-29155,247,8233,1,37,20,104,6,26,0,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2020-9383,19,365,1,6,0,2,0,4,0,True,['pointer_operations'],1
+CWE-125,CVE-2017-18344,16,510,0,3,2,7,0,2,0,True,['pointer_operations'],1
+CWE-125,CVE-2017-18344,37,1102,1,3,4,17,0,3,0,True,['pointer_operations'],1
+CWE-125,CVE-2018-13099,53,1364,1,22,3,17,0,3,0,True,['pointer_operations'],1
+CWE-125,CVE-2018-13099,56,1608,1,22,5,18,0,4,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-125,CVE-2019-15090,24,513,1,9,4,10,0,1,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-125,CVE-2019-15090,28,570,1,9,4,10,0,2,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-125,CVE-2019-15090,28,567,1,9,4,10,0,2,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-125,CVE-2021-0941,39,1365,1,8,3,4,0,6,0,True,['pointer_operations'],1
+CWE-125,CVE-2021-0941,29,862,1,8,3,3,0,2,0,True,['pointer_operations'],1
+CWE-125,CVE-2021-0941,47,1253,0,17,5,3,0,7,0,True,['pointer_operations'],1
+CWE-125,CVE-2014-3145,21,432,1,2,2,6,1,4,0,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2014-3145,17,375,1,2,2,5,1,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2018-20854,28,631,0,6,4,8,4,3,1,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2023-34256,45,1412,1,16,7,16,0,4,0,True,['pointer_operations'],1
+CWE-125,CVE-2019-3459,53,1493,1,14,4,27,0,6,1,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-125,CVE-2020-28097,32,1051,1,3,4,17,0,3,0,True,['pointer_operations'],1
+CWE-125,CVE-2020-28097,189,5338,0,32,9,33,4,11,2,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2018-19985,66,1216,1,6,4,3,2,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2018-19985,90,2198,1,12,5,13,1,15,1,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2020-14314,105,2963,0,34,14,28,4,9,1,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2021-27364,223,6109,1,61,10,136,0,18,0,True,['pointer_operations'],1
+CWE-125,CVE-2015-9289,95,2506,1,9,3,29,11,11,2,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2023-2176,28,969,1,4,6,19,0,4,0,True,['pointer_operations'],1
+CWE-125,CVE-2023-2176,57,1370,2,16,5,28,0,11,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-125,CVE-2023-2176,31,834,1,12,3,3,0,4,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-125,CVE-2017-7558,24,558,1,5,7,2,0,1,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-125,CVE-2017-7558,85,3158,1,8,6,149,0,1,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-125,CVE-2017-7558,22,520,1,4,6,7,0,1,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-125,CVE-2022-3170,14,321,1,0,2,7,0,0,1,True,['pointer_operations'],1
+CWE-125,CVE-2021-39711,56,1452,1,19,9,12,0,7,0,True,['pointer_operations'],1
+CWE-125,CVE-2020-0430,133,4061,1,33,8,23,7,21,0,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2020-0430,150,4544,1,23,7,20,3,27,0,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2021-4093,8,212,1,1,1,13,0,0,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-125,CVE-2021-4093,8,272,1,2,2,2,0,1,0,True,['pointer_operations'],1
+CWE-125,CVE-2022-48502,224,4681,1,50,13,49,1,30,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-125,CVE-2022-48502,60,1011,1,10,8,9,0,11,0,True,"['buffer_variables', 'unsafe_functions', 'pointer_operations']",3
+CWE-125,CVE-2022-48502,461,10906,0,95,20,238,0,70,0,True,['pointer_operations'],1
+CWE-125,CVE-2022-48502,205,4851,1,51,18,39,0,17,1,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-125,CVE-2022-48502,42,1099,1,6,4,19,0,6,0,True,['pointer_operations'],1
+CWE-125,CVE-2022-48502,499,13262,0,127,28,238,1,51,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-125,CVE-2022-48502,16,235,1,1,2,5,2,1,1,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2023-3268,19,686,1,0,5,7,1,1,0,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2016-10208,953,29183,1,332,17,317,8,144,4,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-125,CVE-2019-19449,169,5639,1,62,7,43,2,21,1,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2018-1093,48,1547,1,14,4,5,0,4,0,True,['pointer_operations'],1
+CWE-125,CVE-2017-9984,25,667,1,10,3,9,0,1,1,True,['pointer_operations'],1
+CWE-125,CVE-2017-9984,25,780,1,12,3,24,0,2,1,True,['pointer_operations'],1
+CWE-125,CVE-2022-2785,9,211,1,2,1,0,0,0,0,True,[],0
+CWE-125,CVE-2022-2785,49,1375,0,12,1,28,0,5,0,True,['pointer_operations'],1
+CWE-125,CVE-2017-16535,99,2269,1,12,5,22,0,11,1,True,"['buffer_variables', 'pointer_operations']",2
+CWE-125,CVE-2018-13098,14,370,1,5,2,3,0,1,0,True,['pointer_operations'],1
+CWE-125,CVE-2018-13098,65,1871,0,29,4,41,0,12,0,True,['pointer_operations'],1
+CWE-125,CVE-2020-13143,39,787,1,10,4,18,2,6,0,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2023-38430,4,86,1,0,1,1,1,0,0,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2023-38430,109,2604,1,25,4,34,0,17,1,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-125,CVE-2019-15925,22,488,1,2,4,10,1,2,1,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2019-15925,73,1626,1,0,7,9,1,5,2,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2017-8831,173,5168,1,34,5,78,0,18,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-125,CVE-2023-6606,83,2684,1,11,6,5,2,11,0,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2023-1194,53,1585,0,11,10,34,0,4,1,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-125,CVE-2023-6040,89,2313,1,30,11,50,6,13,0,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2017-5897,77,2044,1,10,7,28,3,14,0,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2017-6347,15,363,1,4,3,3,0,2,0,True,['pointer_operations'],1
+CWE-125,CVE-2021-0605,45,1301,1,12,7,42,2,4,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-125,CVE-2017-17741,11,264,1,1,2,5,1,1,0,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2017-17741,21,454,1,5,3,5,0,1,1,True,['pointer_operations'],1
+CWE-125,CVE-2017-17741,63,1578,1,13,3,20,0,6,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-125,CVE-2017-17741,27,635,1,4,2,14,0,3,0,True,['pointer_operations'],1
+CWE-125,CVE-2017-17741,6,182,1,1,2,0,0,0,0,True,[],0
+CWE-125,CVE-2023-38428,35,1051,0,12,5,7,0,3,0,True,['pointer_operations'],1
+CWE-125,CVE-2019-15918,205,6892,1,71,8,111,9,31,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-125,CVE-2018-15471,30,810,1,3,3,11,2,4,1,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2023-26607,108,3015,1,21,9,39,0,17,1,True,['pointer_operations'],1
+CWE-125,CVE-2021-45469,133,3059,1,36,11,11,0,20,1,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-125,CVE-2017-16529,84,2087,1,12,9,31,2,8,2,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2022-47943,136,3692,1,33,10,56,0,20,0,True,['pointer_operations'],1
+CWE-125,CVE-2017-16533,71,2032,1,19,8,33,3,9,1,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2021-3743,103,2384,1,23,9,49,0,13,0,True,['pointer_operations'],1
+CWE-125,CVE-2021-3753,33,573,1,4,1,3,0,4,0,True,['pointer_operations'],1
+CWE-125,CVE-2021-3753,202,4736,1,35,4,17,0,23,0,True,['pointer_operations'],1
+CWE-125,CVE-2019-15666,53,832,1,2,1,16,0,7,0,True,['pointer_operations'],1
+CWE-125,CVE-2022-47940,141,3855,1,34,8,66,1,21,0,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2019-9245,38,799,1,9,8,9,0,5,0,True,"['buffer_variables', 'unsafe_functions', 'pointer_operations']",3
+CWE-125,CVE-2021-3444,350,10610,1,73,36,144,13,42,2,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2016-9777,5,168,1,1,1,5,0,0,0,True,['pointer_operations'],1
+CWE-125,CVE-2023-39189,45,962,1,8,7,14,4,7,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-125,CVE-2019-9445,78,1884,1,22,10,35,2,9,1,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2023-38426,27,817,1,8,5,9,0,4,0,True,['pointer_operations'],1
+CWE-125,CVE-2023-38426,808,21783,1,210,42,340,0,142,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-125,CVE-2016-7917,161,3836,1,37,11,31,3,21,1,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2021-39657,46,1081,1,9,5,18,2,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2019-19252,186,3941,1,33,12,8,1,23,4,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2016-9555,71,2053,1,13,12,9,0,9,1,True,['pointer_operations'],1
+CWE-125,CVE-2023-37453,239,6596,1,61,7,80,2,34,1,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2023-37453,138,4121,1,31,11,58,2,11,3,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2020-8835,122,3527,1,29,13,30,0,20,0,True,['pointer_operations'],1
+CWE-125,CVE-2018-14610,53,1248,1,9,8,20,3,6,1,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2017-16645,33,805,0,4,4,16,0,3,1,True,['pointer_operations'],1
+CWE-125,CVE-2023-6610,146,4308,1,26,10,23,1,22,0,True,"['pointer_operations', 'array_operations']",2
+CWE-125,CVE-2019-14283,71,2200,1,15,3,25,15,11,2,True,"['pointer_operations', 'array_operations']",2
+CWE-200,CVE-2018-19854,14,337,1,2,2,3,0,1,0,True,['pointer_operations'],1
+CWE-200,CVE-2018-19854,13,338,1,2,2,3,0,1,0,True,['pointer_operations'],1
+CWE-200,CVE-2018-19854,66,1619,1,13,3,27,0,11,0,True,['pointer_operations'],1
+CWE-200,CVE-2018-19854,18,500,1,2,2,11,0,1,0,True,['pointer_operations'],1
+CWE-200,CVE-2018-19854,14,319,1,2,2,3,0,1,0,True,['pointer_operations'],1
+CWE-200,CVE-2018-19854,14,364,1,2,2,3,0,1,0,True,['pointer_operations'],1
+CWE-200,CVE-2018-3665,26,517,1,8,1,1,0,5,0,True,['pointer_operations'],1
+CWE-200,CVE-2018-3665,7,140,1,3,1,0,0,1,0,True,[],0
+CWE-200,CVE-2018-3665,8,106,1,4,0,0,0,1,0,True,[],0
+CWE-200,CVE-2018-3665,8,154,1,3,0,0,0,1,0,True,[],0
+CWE-200,CVE-2018-3665,21,406,1,7,2,2,0,1,0,True,['pointer_operations'],1
+CWE-200,CVE-2018-3665,43,1001,1,12,0,12,0,2,0,True,['pointer_operations'],1
+CWE-200,CVE-2018-3665,23,476,1,3,3,15,0,3,0,True,['pointer_operations'],1
+CWE-200,CVE-2018-3665,6,123,1,3,1,0,0,1,0,True,[],0
+CWE-200,CVE-2018-3665,14,338,1,5,1,4,0,1,0,True,['pointer_operations'],1
+CWE-200,CVE-2018-3665,90,2313,1,20,9,10,0,10,0,True,['pointer_operations'],1
+CWE-200,CVE-2018-3665,12,231,1,1,1,0,0,1,0,True,[],0
+CWE-200,CVE-2018-3665,6,130,1,3,0,0,0,0,0,True,[],0
+CWE-200,CVE-2018-3665,15,334,1,3,1,2,0,2,0,True,['pointer_operations'],1
+CWE-200,CVE-2018-3665,6,123,1,3,1,0,0,1,0,True,[],0
+CWE-200,CVE-2018-3665,15,327,1,9,1,0,0,2,0,True,[],0
+CWE-200,CVE-2018-3665,15,415,1,5,5,15,0,1,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-200,CVE-2018-3665,14,271,1,8,1,5,0,1,0,True,['pointer_operations'],1
+CWE-200,CVE-2022-33742,10,415,1,3,1,7,0,4,0,True,['pointer_operations'],1
+CWE-200,CVE-2022-33742,93,2594,1,27,6,51,19,8,3,True,"['pointer_operations', 'array_operations']",2
+CWE-200,CVE-2022-33742,93,2724,1,27,6,72,15,9,3,True,"['pointer_operations', 'array_operations']",2
+CWE-200,CVE-2022-33742,40,938,1,9,6,14,0,4,1,True,['pointer_operations'],1
+CWE-200,CVE-2022-33742,158,4868,1,31,12,95,11,16,0,True,"['pointer_operations', 'array_operations']",2
+CWE-200,CVE-2022-33742,21,482,1,7,3,9,0,2,0,True,['pointer_operations'],1
+CWE-200,CVE-2022-33742,51,1456,1,9,1,23,0,7,0,True,['pointer_operations'],1
+CWE-200,CVE-2022-33742,24,718,0,5,4,8,0,2,0,True,['pointer_operations'],1
+CWE-200,CVE-2015-8553,56,1416,1,13,5,27,10,10,2,True,"['pointer_operations', 'array_operations']",2
+CWE-200,CVE-2018-20509,30,726,1,4,1,20,0,6,0,True,['pointer_operations'],1
+CWE-200,CVE-2018-20509,132,4067,1,26,17,44,1,10,2,True,"['buffer_variables', 'pointer_operations', 'array_operations']",3
+CWE-200,CVE-2018-20509,22,409,1,2,2,6,0,5,0,True,['pointer_operations'],1
+CWE-200,CVE-2018-20509,392,12400,1,86,17,226,3,51,1,True,"['buffer_variables', 'pointer_operations', 'array_operations']",3
+CWE-200,CVE-2018-20509,52,1444,1,19,5,24,0,1,3,True,['pointer_operations'],1
+CWE-200,CVE-2018-20509,68,1849,1,21,6,32,0,1,3,True,['pointer_operations'],1
+CWE-200,CVE-2018-20509,52,1675,1,10,7,46,0,5,0,True,['pointer_operations'],1
+CWE-200,CVE-2018-20509,49,1486,1,8,7,37,0,6,0,True,['pointer_operations'],1
+CWE-200,CVE-2013-7281,47,1033,1,8,9,17,0,9,0,True,['pointer_operations'],1
+CWE-200,CVE-2013-7281,44,889,1,5,8,11,0,7,0,True,['pointer_operations'],1
+CWE-200,CVE-2013-7281,54,1129,1,9,9,17,0,10,0,True,['pointer_operations'],1
+CWE-200,CVE-2013-7281,45,909,1,5,6,10,0,7,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-200,CVE-2012-6545,17,444,1,6,5,13,0,1,0,True,['pointer_operations'],1
+CWE-200,CVE-2017-7495,73,2061,1,19,9,5,0,11,0,True,['pointer_operations'],1
+CWE-200,CVE-2017-7495,222,6310,1,44,4,78,0,33,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-200,CVE-2017-14991,255,7465,1,86,10,146,2,42,0,True,"['pointer_operations', 'array_operations']",2
+CWE-200,CVE-2017-14991,33,801,1,3,3,31,9,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-200,CVE-2013-3231,164,3682,1,28,12,47,0,27,1,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-200,CVE-2014-8709,59,1450,1,11,9,22,0,4,1,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-200,CVE-2013-3235,117,2972,1,29,10,18,0,19,1,True,['pointer_operations'],1
+CWE-200,CVE-2013-3235,14,458,1,2,3,14,0,1,0,True,['pointer_operations'],1
+CWE-200,CVE-2016-0723,147,3439,1,37,7,27,0,19,0,True,['pointer_operations'],1
+CWE-200,CVE-2017-17864,94,3248,1,13,3,28,0,12,0,True,['pointer_operations'],1
+CWE-200,CVE-2013-3227,35,680,1,4,5,7,0,5,0,True,['pointer_operations'],1
+CWE-200,CVE-2016-4913,99,2250,1,20,7,49,1,14,1,True,"['pointer_operations', 'array_operations']",2
+CWE-200,CVE-2015-4176,49,1256,1,19,2,31,0,6,2,True,['pointer_operations'],1
+CWE-200,CVE-2012-6536,26,509,1,6,6,2,0,3,0,True,['pointer_operations'],1
+CWE-200,CVE-2012-6536,19,334,1,0,3,4,1,4,0,True,"['pointer_operations', 'array_operations']",2
+CWE-200,CVE-2022-33741,155,4165,1,49,12,72,2,15,1,True,"['pointer_operations', 'array_operations']",2
+CWE-200,CVE-2022-33741,65,1625,1,23,5,29,1,6,1,True,"['pointer_operations', 'array_operations']",2
+CWE-200,CVE-2013-3222,45,1052,1,11,7,16,0,7,0,True,['pointer_operations'],1
+CWE-200,CVE-2016-4486,15,378,1,1,3,7,0,1,0,True,['pointer_operations'],1
+CWE-200,CVE-2013-3229,115,3046,1,29,10,55,0,22,1,True,['pointer_operations'],1
+CWE-200,CVE-2016-9756,30,870,1,4,3,18,0,3,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-200,CVE-2016-9756,34,1015,1,5,3,17,0,6,0,True,['pointer_operations'],1
+CWE-200,CVE-2018-16862,36,1073,1,5,1,6,0,1,0,True,['pointer_operations'],1
+CWE-200,CVE-2017-2584,28,564,1,5,1,11,1,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-200,CVE-2017-2584,18,496,1,2,3,13,0,2,0,True,['pointer_operations'],1
+CWE-200,CVE-2017-2584,26,574,1,3,1,10,3,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-200,CVE-2017-15537,97,2586,1,25,10,20,0,9,0,True,['pointer_operations'],1
+CWE-200,CVE-2017-15537,48,1093,1,8,6,19,0,5,0,True,['pointer_operations'],1
+CWE-200,CVE-2013-3226,21,473,1,8,5,7,0,1,0,True,['pointer_operations'],1
+CWE-200,CVE-2012-6547,203,4358,1,31,4,60,1,25,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-200,CVE-2018-20449,4,39,1,0,0,0,0,0,0,True,[],0
+CWE-200,CVE-2018-20449,122,3030,0,28,6,20,3,9,0,True,"['pointer_operations', 'array_operations']",2
+CWE-200,CVE-2018-20449,25,901,1,4,0,0,0,0,0,True,[],0
+CWE-200,CVE-2018-7755,175,4210,1,42,4,31,2,25,0,True,"['pointer_operations', 'array_operations']",2
+CWE-200,CVE-2016-0823,7,257,1,1,2,0,0,0,0,True,[],0
+CWE-200,CVE-2015-8569,18,408,1,4,7,7,0,1,0,True,['pointer_operations'],1
+CWE-200,CVE-2019-18660,14,361,1,5,1,0,0,2,0,True,[],0
+CWE-200,CVE-2019-18660,36,966,1,12,3,11,0,7,0,True,['pointer_operations'],1
+CWE-200,CVE-2013-2164,57,1452,1,10,5,15,0,6,0,True,['pointer_operations'],1
+CWE-200,CVE-2012-6546,16,495,1,2,5,15,0,1,0,True,['pointer_operations'],1
+CWE-200,CVE-2017-5550,38,915,1,5,6,23,3,6,2,True,"['pointer_operations', 'array_operations']",2
+CWE-200,CVE-2017-5550,11,281,1,1,2,8,0,0,0,True,['pointer_operations'],1
+CWE-200,CVE-2013-3076,31,719,1,9,7,16,0,5,0,True,['pointer_operations'],1
+CWE-200,CVE-2013-3076,82,1696,1,16,14,31,0,8,3,True,['pointer_operations'],1
+CWE-200,CVE-2018-12126,24,692,1,5,0,2,0,3,0,True,['pointer_operations'],1
+CWE-200,CVE-2015-8950,22,451,0,5,3,1,0,3,0,True,['pointer_operations'],1
+CWE-200,CVE-2015-8950,31,822,0,12,5,2,0,5,0,True,['pointer_operations'],1
+CWE-200,CVE-2014-1739,32,858,1,6,3,35,1,4,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-200,CVE-2018-16658,14,439,1,3,1,5,0,3,0,True,['pointer_operations'],1
+CWE-200,CVE-2018-20511,38,918,1,9,4,9,0,6,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-200,CVE-2012-6549,41,979,1,2,9,10,6,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-200,CVE-2012-6548,32,797,1,2,8,25,0,3,0,True,['pointer_operations'],1
+CWE-200,CVE-2012-6542,41,928,1,9,6,32,0,6,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-200,CVE-2014-3917,25,593,1,6,6,10,2,2,0,True,"['pointer_operations', 'array_operations']",2
+CWE-200,CVE-2014-3917,28,683,1,8,6,9,1,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-200,CVE-2016-2117,138,3386,1,37,4,47,0,9,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-200,CVE-2017-9605,111,3126,1,25,12,75,0,12,0,True,['pointer_operations'],1
+CWE-200,CVE-2016-5244,23,575,1,3,2,23,0,1,0,True,['pointer_operations'],1
+CWE-200,CVE-2013-4299,26,678,1,5,4,11,0,2,0,True,['pointer_operations'],1
+CWE-200,CVE-2013-4299,25,508,1,2,4,4,0,2,1,True,['pointer_operations'],1
+CWE-200,CVE-2012-4530,108,2479,1,21,6,29,0,15,0,True,['pointer_operations'],1
+CWE-200,CVE-2012-4530,70,1939,1,12,5,24,0,8,0,True,['pointer_operations'],1
+CWE-200,CVE-2012-4530,83,2095,1,13,6,35,3,12,4,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-200,CVE-2012-4530,82,2061,1,26,3,27,5,12,1,True,"['pointer_operations', 'array_operations']",2
+CWE-200,CVE-2018-20510,39,1062,1,7,6,28,0,7,0,True,"['buffer_variables', 'pointer_operations']",2
+CWE-200,CVE-2018-20510,460,13882,1,116,20,206,3,51,1,True,"['buffer_variables', 'pointer_operations', 'array_operations']",3
+CWE-200,CVE-2016-4580,65,1955,1,11,10,40,0,11,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-200,CVE-2018-18710,24,665,1,4,1,5,0,4,0,True,['pointer_operations'],1
+CWE-200,CVE-2012-6539,68,1808,1,11,6,21,0,9,2,True,['pointer_operations'],1
+CWE-200,CVE-2013-3230,56,1235,1,10,9,20,0,11,0,True,['pointer_operations'],1
+CWE-200,CVE-2017-9150,275,6865,1,52,13,70,5,47,1,True,"['pointer_operations', 'array_operations']",2
+CWE-200,CVE-2013-3225,24,606,1,10,5,10,0,3,0,True,['pointer_operations'],1
+CWE-200,CVE-2018-5750,35,923,1,11,2,16,0,3,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-200,CVE-2012-6544,23,593,1,8,6,20,0,1,0,True,['pointer_operations'],1
+CWE-200,CVE-2013-3224,38,779,1,6,6,7,0,6,0,True,['pointer_operations'],1
+CWE-200,CVE-2018-15594,19,506,1,1,4,3,0,2,0,True,['pointer_operations'],1
+CWE-200,CVE-2012-6538,17,436,1,4,4,9,0,1,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-200,CVE-2017-14140,68,1561,0,23,4,9,0,8,0,True,['pointer_operations'],1
+CWE-200,CVE-2017-10911,37,1122,1,11,2,31,0,2,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-200,CVE-2014-9903,40,726,1,2,4,4,0,4,1,True,['pointer_operations'],1
+CWE-200,CVE-2018-6412,92,2300,1,23,11,58,9,8,2,True,"['pointer_operations', 'array_operations']",2
+CWE-200,CVE-2014-4027,75,1980,1,10,7,17,6,6,2,True,"['pointer_operations', 'array_operations']",2
+CWE-200,CVE-2014-4027,36,879,1,5,5,13,3,2,2,True,"['pointer_operations', 'array_operations']",2
+CWE-200,CVE-2013-0160,25,644,1,6,6,11,0,4,0,True,['pointer_operations'],1
+CWE-200,CVE-2015-8575,32,566,1,5,5,11,0,3,0,True,['pointer_operations'],1
+CWE-200,CVE-2017-18549,21,660,1,2,2,25,0,1,0,True,['pointer_operations'],1
+CWE-200,CVE-2016-4482,11,257,1,1,3,5,0,1,0,True,['pointer_operations'],1
+CWE-200,CVE-2015-7884,24,550,1,2,2,6,0,2,0,True,['pointer_operations'],1
+CWE-200,CVE-2017-17449,27,615,1,11,5,6,0,4,0,True,['pointer_operations'],1
+CWE-200,CVE-2020-2732,21,686,1,2,4,8,0,1,0,True,['pointer_operations'],1
+CWE-200,CVE-2017-16911,23,659,1,8,2,27,0,2,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-200,CVE-2017-16911,94,2483,1,24,14,44,3,6,0,True,"['pointer_operations', 'array_operations']",2
+CWE-200,CVE-2014-2038,13,423,1,2,3,9,0,3,0,True,['pointer_operations'],1
+CWE-200,CVE-2015-8964,6,164,1,2,1,6,0,0,0,True,['pointer_operations'],1
+CWE-200,CVE-2013-3228,45,1161,1,10,6,11,0,4,0,True,['pointer_operations'],1
+CWE-200,CVE-2013-4516,24,762,1,4,3,31,0,1,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-200,CVE-2017-14156,97,2865,1,10,6,90,0,9,0,True,['pointer_operations'],1
+CWE-200,CVE-2015-8374,314,8128,1,58,25,56,12,50,1,True,"['pointer_operations', 'array_operations']",2
+CWE-200,CVE-2016-7917,161,3836,1,37,11,31,3,21,1,True,"['pointer_operations', 'array_operations']",2
+CWE-200,CVE-2016-4485,13,384,1,5,3,10,0,1,0,True,['pointer_operations'],1
+CWE-200,CVE-2014-9895,44,1039,1,6,4,28,6,6,2,True,"['pointer_operations', 'array_operations']",2
+CWE-200,CVE-2013-3237,181,3969,1,21,6,26,0,24,1,True,['pointer_operations'],1
+CWE-200,CVE-2016-4569,101,2860,1,10,7,68,1,16,0,True,"['pointer_operations', 'array_operations']",2
+CWE-200,CVE-2012-6537,27,698,1,3,5,32,2,1,1,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-200,CVE-2017-0627,77,1895,1,14,7,30,1,10,1,True,"['pointer_operations', 'array_operations']",2
+CWE-200,CVE-2012-6543,31,863,1,4,7,26,0,5,0,True,['pointer_operations'],1
+CWE-200,CVE-2012-6541,30,751,1,3,5,15,0,3,0,True,['pointer_operations'],1
+CWE-200,CVE-2015-7885,161,3310,1,14,6,81,12,20,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-20,CVE-2013-7266,47,1185,1,10,6,12,0,4,0,True,['pointer_operations'],1
+CWE-20,CVE-2013-7266,88,2185,1,19,10,34,0,12,0,True,['pointer_operations'],1
+CWE-20,CVE-2013-7266,64,1417,1,4,6,21,0,8,0,True,['pointer_operations'],1
+CWE-20,CVE-2013-7266,83,1719,1,16,14,32,0,8,3,True,['pointer_operations'],1
+CWE-20,CVE-2013-7266,98,2405,1,30,8,38,0,14,0,True,['pointer_operations'],1
+CWE-20,CVE-2013-7266,65,1771,1,19,6,37,0,10,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-20,CVE-2013-7266,117,2621,1,28,8,28,0,19,1,True,['pointer_operations'],1
+CWE-20,CVE-2013-7266,153,4011,1,22,9,57,0,23,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-20,CVE-2013-7266,33,621,1,4,5,9,0,5,0,True,['pointer_operations'],1
+CWE-20,CVE-2013-7266,29,608,1,4,6,6,0,3,0,True,['pointer_operations'],1
+CWE-20,CVE-2013-7266,32,628,1,5,6,6,0,4,0,True,['pointer_operations'],1
+CWE-20,CVE-2013-7266,37,708,1,4,5,8,0,5,0,True,['pointer_operations'],1
+CWE-20,CVE-2013-7266,33,743,1,9,7,17,0,5,0,True,['pointer_operations'],1
+CWE-20,CVE-2013-7266,25,630,1,10,5,11,0,3,0,True,['pointer_operations'],1
+CWE-20,CVE-2013-7266,90,2267,1,12,8,19,0,17,0,True,['pointer_operations'],1
+CWE-20,CVE-2013-7266,323,7790,1,114,9,144,1,50,1,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-20,CVE-2013-7266,49,1111,1,7,10,19,0,6,0,True,['pointer_operations'],1
+CWE-20,CVE-2013-7266,42,919,1,8,6,12,0,6,0,True,['pointer_operations'],1
+CWE-20,CVE-2013-7266,166,3706,1,28,12,48,0,27,1,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-20,CVE-2013-7266,159,3370,1,51,12,54,0,23,2,True,['pointer_operations'],1
+CWE-20,CVE-2013-7266,183,3993,1,21,6,27,0,24,1,True,['pointer_operations'],1
+CWE-20,CVE-2013-7266,96,2205,1,25,7,17,0,13,1,True,['pointer_operations'],1
+CWE-20,CVE-2013-7266,10,235,1,2,3,10,0,1,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-20,CVE-2013-7266,91,2123,1,18,10,32,0,11,0,True,['pointer_operations'],1
+CWE-20,CVE-2013-7266,47,1076,1,11,7,17,0,7,0,True,['pointer_operations'],1
+CWE-20,CVE-2013-7266,65,1761,1,8,9,29,4,7,1,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2013-7266,46,927,1,8,6,8,0,6,0,True,['pointer_operations'],1
+CWE-20,CVE-2013-7266,105,2050,1,23,9,24,0,15,1,True,['pointer_operations'],1
+CWE-20,CVE-2013-7266,120,3197,1,31,10,59,0,22,1,True,['pointer_operations'],1
+CWE-20,CVE-2013-7266,102,2170,1,21,9,27,1,13,0,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2013-7266,55,1216,1,12,6,13,0,5,0,True,['pointer_operations'],1
+CWE-20,CVE-2013-7266,119,3005,1,29,10,18,0,19,1,True,['pointer_operations'],1
+CWE-20,CVE-2013-7266,72,1674,1,13,8,32,0,9,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-20,CVE-2013-7266,25,635,1,2,4,8,0,4,0,True,['pointer_operations'],1
+CWE-20,CVE-2013-7266,41,930,0,5,1,18,0,5,0,True,['pointer_operations'],1
+CWE-20,CVE-2013-7266,22,513,1,8,5,9,0,1,0,True,['pointer_operations'],1
+CWE-20,CVE-2013-7266,111,2159,1,24,7,17,0,15,1,True,['pointer_operations'],1
+CWE-20,CVE-2017-15121,25,1142,1,4,4,1,0,1,0,True,['pointer_operations'],1
+CWE-20,CVE-2017-15121,91,2181,1,35,6,17,3,10,4,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2021-20194,13,382,1,5,2,14,0,1,0,True,['pointer_operations'],1
+CWE-20,CVE-2021-20194,22,538,1,10,2,15,1,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2021-20194,31,796,1,7,3,19,0,3,0,True,['pointer_operations'],1
+CWE-20,CVE-2021-20194,527,14375,0,157,7,218,0,56,0,True,['pointer_operations'],1
+CWE-20,CVE-2021-20194,116,2986,1,45,5,46,0,10,1,True,['pointer_operations'],1
+CWE-20,CVE-2021-20194,10,240,1,2,2,5,0,2,0,True,['pointer_operations'],1
+CWE-20,CVE-2021-20194,43,1214,1,15,4,21,0,5,1,True,['pointer_operations'],1
+CWE-20,CVE-2021-20194,26,812,1,3,2,24,0,4,0,True,['pointer_operations'],1
+CWE-20,CVE-2021-20194,33,979,1,14,3,29,0,3,0,True,['pointer_operations'],1
+CWE-20,CVE-2021-20194,51,1066,1,10,3,14,0,9,0,True,['pointer_operations'],1
+CWE-20,CVE-2021-20194,6,137,1,0,3,1,0,0,0,True,['pointer_operations'],1
+CWE-20,CVE-2021-20194,74,1683,1,18,4,14,0,9,0,True,['pointer_operations'],1
+CWE-20,CVE-2021-20194,14,362,1,3,3,3,0,1,0,True,['pointer_operations'],1
+CWE-20,CVE-2021-20194,51,1322,1,16,4,30,2,7,0,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2021-20194,16,346,1,12,1,4,0,1,0,True,['pointer_operations'],1
+CWE-20,CVE-2021-20194,11,191,1,3,2,2,0,1,0,True,['pointer_operations'],1
+CWE-20,CVE-2021-20194,12,297,1,6,2,6,0,1,0,True,['pointer_operations'],1
+CWE-20,CVE-2021-20194,36,680,1,8,2,8,0,3,0,True,['pointer_operations'],1
+CWE-20,CVE-2017-16538,17,379,1,5,3,2,2,2,0,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2018-5803,38,995,0,7,5,12,0,4,0,True,['pointer_operations'],1
+CWE-20,CVE-2013-0290,56,1274,0,9,7,19,0,4,1,True,['pointer_operations'],1
+CWE-20,CVE-2012-4398,61,1854,1,10,9,13,4,7,0,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2012-4398,60,1662,1,14,8,15,2,4,0,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2012-4398,15,204,1,1,2,0,0,0,0,True,[],0
+CWE-20,CVE-2012-4398,25,637,1,5,3,0,6,4,0,True,['array_operations'],1
+CWE-20,CVE-2012-4398,52,1494,1,9,7,12,4,7,0,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2012-4398,22,634,1,3,5,3,0,2,0,True,['pointer_operations'],1
+CWE-20,CVE-2013-1848,16,374,0,5,3,0,0,1,0,True,[],0
+CWE-20,CVE-2015-3288,71,1920,1,28,7,8,0,8,0,True,['pointer_operations'],1
+CWE-20,CVE-2015-3288,61,1770,1,21,5,5,0,10,0,True,['pointer_operations'],1
+CWE-20,CVE-2018-14641,161,4498,1,52,13,124,2,13,3,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2018-14641,131,3701,1,36,8,84,4,11,3,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2018-20669,76,2112,1,22,8,14,5,8,1,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2018-20669,34,905,0,13,3,20,0,5,0,True,['pointer_operations'],1
+CWE-20,CVE-2018-20669,27,759,1,9,3,1,0,2,1,True,['pointer_operations'],1
+CWE-20,CVE-2018-20669,79,1936,1,14,7,17,7,5,4,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2018-20669,20,409,1,6,2,0,0,2,0,True,[],0
+CWE-20,CVE-2018-20669,29,770,1,9,2,2,0,2,1,True,['pointer_operations'],1
+CWE-20,CVE-2013-6368,25,680,1,8,3,12,0,3,0,True,['pointer_operations'],1
+CWE-20,CVE-2013-6368,17,474,1,7,2,17,0,2,0,True,['pointer_operations'],1
+CWE-20,CVE-2008-7316,22,417,1,2,4,8,0,2,1,True,['pointer_operations'],1
+CWE-20,CVE-2008-7316,86,2339,1,19,9,6,0,6,1,True,['pointer_operations'],1
+CWE-20,CVE-2013-7263,44,889,1,5,8,11,0,7,0,True,['pointer_operations'],1
+CWE-20,CVE-2013-7263,47,1033,1,8,9,17,0,9,0,True,['pointer_operations'],1
+CWE-20,CVE-2013-7263,45,909,1,5,6,10,0,7,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-20,CVE-2013-7263,145,3378,1,44,10,36,0,25,0,True,['pointer_operations'],1
+CWE-20,CVE-2013-7263,79,1792,1,16,7,26,0,15,0,True,['pointer_operations'],1
+CWE-20,CVE-2020-0041,712,22702,1,153,37,332,0,62,2,True,"['buffer_variables', 'pointer_operations']",2
+CWE-20,CVE-2015-7872,38,882,1,15,2,32,0,3,1,True,['pointer_operations'],1
+CWE-20,CVE-2012-2669,230,5934,1,62,7,116,0,14,1,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-20,CVE-2018-12207,22,663,1,3,4,5,0,2,0,True,['pointer_operations'],1
+CWE-20,CVE-2018-12207,13,344,1,2,1,4,1,0,1,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2012-2136,80,1664,0,15,4,16,0,10,2,True,['pointer_operations'],1
+CWE-20,CVE-2014-0038,29,846,1,5,2,3,0,5,0,True,['pointer_operations'],1
+CWE-20,CVE-2017-18200,75,1779,1,28,4,17,2,3,2,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2021-3655,219,5448,1,33,8,120,1,24,1,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2021-3655,41,993,1,9,6,6,0,3,1,True,['pointer_operations'],1
+CWE-20,CVE-2021-3655,47,1360,0,5,9,8,0,2,0,True,['pointer_operations'],1
+CWE-20,CVE-2021-3655,170,5690,1,30,9,124,0,15,0,True,['pointer_operations'],1
+CWE-20,CVE-2021-3655,10,300,1,0,2,12,0,0,0,True,['pointer_operations'],1
+CWE-20,CVE-2021-3655,50,1532,1,16,7,29,0,3,0,True,['pointer_operations'],1
+CWE-20,CVE-2021-3655,140,4376,1,18,6,57,0,17,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-20,CVE-2018-11232,67,1803,0,10,5,10,2,6,0,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2014-2523,91,2799,1,20,6,62,9,9,0,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2014-2523,41,1151,1,7,7,21,5,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2014-4611,110,2342,1,10,11,7,10,9,4,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-20,CVE-2019-9453,121,2774,1,31,11,10,0,19,1,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-20,CVE-2019-9453,58,1321,1,11,13,10,0,10,0,True,['pointer_operations'],1
+CWE-20,CVE-2013-2897,138,3845,1,31,9,48,1,11,0,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2013-2897,32,830,1,1,4,24,2,4,1,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2013-2146,259,8067,1,41,1,110,7,12,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-20,CVE-2017-17862,288,7281,1,55,13,79,5,51,1,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2017-17862,130,3368,1,24,5,68,3,19,1,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-20,CVE-2020-12363,6,103,1,1,1,1,0,1,0,True,['pointer_operations'],1
+CWE-20,CVE-2020-12363,16,532,1,7,2,2,6,0,1,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2020-12363,60,2192,1,18,4,46,2,1,1,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2020-12363,79,2395,1,24,4,59,6,8,0,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2020-12363,17,311,1,4,2,5,0,1,0,True,['pointer_operations'],1
+CWE-20,CVE-2015-2672,32,782,1,1,4,0,1,0,0,True,['array_operations'],1
+CWE-20,CVE-2015-2672,25,534,1,2,4,2,0,1,0,True,['pointer_operations'],1
+CWE-20,CVE-2015-2672,24,507,1,1,4,1,0,0,0,True,['pointer_operations'],1
+CWE-20,CVE-2016-2549,11,299,1,5,2,10,0,0,0,True,['pointer_operations'],1
+CWE-20,CVE-2016-2549,6,142,1,1,2,3,0,0,0,True,['pointer_operations'],1
+CWE-20,CVE-2016-5828,107,3005,1,11,3,64,6,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2019-9503,40,915,1,11,5,20,0,4,0,True,['pointer_operations'],1
+CWE-20,CVE-2019-9503,21,528,1,8,5,3,0,3,0,True,['pointer_operations'],1
+CWE-20,CVE-2019-9503,14,363,1,6,5,3,0,1,0,True,['pointer_operations'],1
+CWE-20,CVE-2018-5391,192,4458,1,27,11,96,0,30,2,True,['pointer_operations'],1
+CWE-20,CVE-2020-25643,56,1507,1,9,8,4,11,9,1,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-20,CVE-2017-18221,69,1883,1,21,6,12,4,5,2,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2017-14489,45,1056,1,8,3,18,0,5,2,True,['pointer_operations'],1
+CWE-20,CVE-2018-18021,24,763,1,5,5,5,0,2,0,True,['pointer_operations'],1
+CWE-20,CVE-2013-2888,25,610,0,2,3,13,3,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2013-4254,6,189,1,0,2,1,1,1,0,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2018-10087,38,814,1,6,3,8,0,5,0,True,['pointer_operations'],1
+CWE-20,CVE-2017-1000252,79,2157,1,22,5,23,2,6,0,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2016-2548,12,373,1,3,1,9,0,1,0,True,['pointer_operations'],1
+CWE-20,CVE-2016-2548,19,653,1,5,3,19,0,2,0,True,['pointer_operations'],1
+CWE-20,CVE-2016-2548,44,1206,1,9,2,24,0,9,0,True,['pointer_operations'],1
+CWE-20,CVE-2016-2548,61,1706,1,28,4,43,0,6,2,True,['pointer_operations'],1
+CWE-20,CVE-2013-4270,20,697,1,8,7,7,0,2,0,True,['pointer_operations'],1
+CWE-20,CVE-2017-17805,36,970,1,11,5,32,0,2,1,True,['pointer_operations'],1
+CWE-20,CVE-2017-17805,36,970,1,11,5,32,0,2,1,True,['pointer_operations'],1
+CWE-20,CVE-2018-14656,22,564,1,8,3,5,0,3,0,True,['pointer_operations'],1
+CWE-20,CVE-2018-14656,9,253,1,3,2,4,0,0,0,True,['pointer_operations'],1
+CWE-20,CVE-2014-3645,96,3156,1,24,5,6,0,5,0,True,['pointer_operations'],1
+CWE-20,CVE-2016-6197,238,5877,1,63,17,28,0,46,0,True,['pointer_operations'],1
+CWE-20,CVE-2016-6197,32,817,1,10,4,4,0,3,0,True,['pointer_operations'],1
+CWE-20,CVE-2016-6162,118,3353,1,36,6,16,0,13,0,True,['pointer_operations'],1
+CWE-20,CVE-2016-6162,97,2481,1,35,6,16,0,13,0,True,['pointer_operations'],1
+CWE-20,CVE-2013-2898,22,601,1,6,5,12,2,1,0,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2017-9242,314,8409,1,47,24,99,1,38,1,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2016-9919,161,4058,1,41,14,80,0,16,0,True,['pointer_operations'],1
+CWE-20,CVE-2016-8650,287,7033,1,46,8,31,7,43,2,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2015-8552,33,855,1,11,4,8,0,5,0,True,['pointer_operations'],1
+CWE-20,CVE-2014-9584,291,7062,1,66,9,186,13,26,3,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2015-8844,148,5242,1,38,6,118,21,10,1,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2018-1000026,7,237,1,2,2,0,0,0,0,True,[],0
+CWE-20,CVE-2013-1819,105,2588,0,27,9,46,2,7,2,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2015-7509,66,2209,1,34,4,29,0,7,0,True,['pointer_operations'],1
+CWE-20,CVE-2013-1943,202,5159,1,24,7,92,15,31,4,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-20,CVE-2017-6345,58,1603,1,18,4,14,0,5,0,True,['pointer_operations'],1
+CWE-20,CVE-2017-6345,10,239,1,2,4,3,0,0,0,True,['pointer_operations'],1
+CWE-20,CVE-2013-1763,18,398,1,4,4,3,0,2,0,True,['pointer_operations'],1
+CWE-20,CVE-2013-1828,58,1735,1,7,4,57,0,5,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-20,CVE-2017-15868,82,1900,1,31,7,41,0,5,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-20,CVE-2017-5123,31,846,0,12,3,19,0,4,0,True,['pointer_operations'],1
+CWE-20,CVE-2017-5123,40,1029,0,13,3,20,0,6,0,True,['pointer_operations'],1
+CWE-20,CVE-2014-0155,39,1181,1,4,2,46,1,4,0,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2012-6647,135,3761,1,26,8,47,0,14,0,True,['pointer_operations'],1
+CWE-20,CVE-2013-0216,15,357,1,4,3,6,0,1,1,True,['pointer_operations'],1
+CWE-20,CVE-2016-2143,17,570,1,4,2,21,0,0,0,True,['pointer_operations'],1
+CWE-20,CVE-2016-2143,6,200,1,1,2,6,0,1,0,True,['pointer_operations'],1
+CWE-20,CVE-2017-18509,145,3066,1,29,5,21,0,26,0,True,['pointer_operations'],1
+CWE-20,CVE-2021-33098,89,2360,1,19,4,4,9,6,0,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2019-0147,75,2478,1,11,5,31,2,5,1,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2016-9191,27,596,1,11,6,5,0,3,1,True,['pointer_operations'],1
+CWE-20,CVE-2020-12351,91,2168,1,15,4,27,1,13,0,True,"['pointer_operations', 'array_operations']",2
+CWE-20,CVE-2013-4129,55,1257,1,15,8,47,0,7,1,True,['pointer_operations'],1
+CWE-20,CVE-2013-4129,34,738,1,11,6,21,0,3,1,True,['pointer_operations'],1
+CWE-20,CVE-2018-14619,16,506,1,8,8,7,0,0,0,True,['pointer_operations'],1
+CWE-20,CVE-2013-2140,29,764,1,5,5,18,0,3,0,True,['pointer_operations'],1
+CWE-20,CVE-2019-11085,26,738,1,3,4,8,0,4,0,True,['pointer_operations'],1
+CWE-264,CVE-2014-0181,47,1028,1,4,7,10,2,6,0,True,"['pointer_operations', 'array_operations']",2
+CWE-264,CVE-2014-0181,58,1238,1,12,6,7,0,7,0,True,['pointer_operations'],1
+CWE-264,CVE-2014-0181,29,841,1,10,7,9,0,2,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-264,CVE-2014-0181,199,4415,1,33,18,31,22,45,0,True,"['pointer_operations', 'array_operations']",2
+CWE-264,CVE-2014-0181,130,2868,1,13,10,23,0,24,0,True,['pointer_operations'],1
+CWE-264,CVE-2014-0181,43,984,1,4,6,13,2,6,0,True,"['pointer_operations', 'array_operations']",2
+CWE-264,CVE-2014-0181,104,2306,1,18,9,48,0,16,0,True,['pointer_operations'],1
+CWE-264,CVE-2014-0181,63,1401,1,16,8,15,2,16,0,True,"['pointer_operations', 'array_operations']",2
+CWE-264,CVE-2014-0181,33,756,1,9,4,13,0,5,0,True,['pointer_operations'],1
+CWE-264,CVE-2014-0181,24,566,1,8,6,6,0,4,0,True,['pointer_operations'],1
+CWE-264,CVE-2014-0181,40,840,1,6,4,10,0,4,0,True,['pointer_operations'],1
+CWE-264,CVE-2014-0181,57,1307,1,16,8,17,10,12,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-264,CVE-2014-0181,35,810,1,13,7,21,2,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-264,CVE-2014-0181,74,1506,1,9,3,19,0,10,1,True,['pointer_operations'],1
+CWE-264,CVE-2014-0181,14,316,1,4,2,4,0,2,0,True,['pointer_operations'],1
+CWE-264,CVE-2014-0181,43,940,1,10,9,12,4,6,1,True,"['pointer_operations', 'array_operations']",2
+CWE-264,CVE-2014-1438,14,509,1,1,1,6,1,0,0,True,"['pointer_operations', 'array_operations']",2
+CWE-264,CVE-2015-8709,9,163,1,6,1,1,0,0,0,True,['pointer_operations'],1
+CWE-264,CVE-2015-8709,67,1984,1,22,4,14,0,7,0,True,['pointer_operations'],1
+CWE-264,CVE-2015-8709,34,582,0,7,3,9,0,4,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-264,CVE-2016-6786,56,1287,1,7,3,18,0,6,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-6786,41,982,1,6,3,13,0,4,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-6786,11,285,1,4,1,6,0,0,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-6786,11,283,1,4,1,6,0,0,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-6786,12,333,1,6,2,8,0,0,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-6786,49,1160,1,9,9,13,7,6,0,True,"['pointer_operations', 'array_operations']",2
+CWE-264,CVE-2016-6786,15,445,1,6,3,9,0,0,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-6786,13,268,1,3,1,4,0,1,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-6786,285,6606,0,64,12,56,0,40,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-6786,7,183,1,1,4,1,0,0,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-3857,26,692,1,8,2,7,2,3,1,True,"['pointer_operations', 'array_operations']",2
+CWE-264,CVE-2016-3857,38,965,1,10,4,13,3,4,1,True,"['pointer_operations', 'array_operations']",2
+CWE-264,CVE-2016-3841,46,1152,1,16,9,28,0,2,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-3841,161,3965,1,31,14,77,1,32,0,True,"['pointer_operations', 'array_operations']",2
+CWE-264,CVE-2016-3841,31,874,0,11,6,21,0,2,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-3841,187,4459,1,32,12,119,2,24,0,True,"['pointer_operations', 'array_operations']",2
+CWE-264,CVE-2016-3841,25,438,1,8,4,7,0,3,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-3841,164,3906,1,30,10,107,2,27,0,True,"['pointer_operations', 'array_operations']",2
+CWE-264,CVE-2016-3841,25,568,1,10,5,8,0,1,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-3841,71,1874,0,22,6,37,0,20,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-3841,157,3810,1,27,12,91,2,21,0,True,"['pointer_operations', 'array_operations']",2
+CWE-264,CVE-2016-3841,201,5295,0,63,14,87,0,16,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-264,CVE-2016-3841,37,895,1,12,5,25,0,2,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-3841,149,3979,0,39,12,62,0,11,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-264,CVE-2016-3841,27,783,0,9,7,16,0,1,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-3841,734,15410,1,85,21,181,0,114,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-3841,17,496,0,6,3,10,0,2,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-3841,34,894,1,9,10,15,0,3,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-3841,339,6886,1,51,12,144,0,44,0,True,['pointer_operations'],1
+CWE-264,CVE-2014-4014,12,284,1,4,3,3,0,3,0,True,['pointer_operations'],1
+CWE-264,CVE-2014-4014,26,743,1,5,4,20,0,7,0,True,['pointer_operations'],1
+CWE-264,CVE-2014-4014,261,7059,1,58,8,69,0,33,0,True,['pointer_operations'],1
+CWE-264,CVE-2014-4014,8,186,1,3,1,1,0,2,0,True,['pointer_operations'],1
+CWE-264,CVE-2014-4014,39,906,1,6,1,2,0,9,0,True,['pointer_operations'],1
+CWE-264,CVE-2014-4014,51,1354,1,14,4,12,0,11,0,True,['pointer_operations'],1
+CWE-264,CVE-2015-1593,10,227,1,0,1,2,0,1,0,True,['pointer_operations'],1
+CWE-264,CVE-2015-1593,15,425,1,3,1,2,0,1,0,True,['pointer_operations'],1
+CWE-264,CVE-2015-9016,11,332,0,2,3,4,1,1,0,True,"['pointer_operations', 'array_operations']",2
+CWE-264,CVE-2015-9016,21,566,1,4,6,14,1,1,2,True,"['pointer_operations', 'array_operations']",2
+CWE-264,CVE-2015-9016,50,1524,1,11,9,20,1,4,0,True,"['pointer_operations', 'array_operations']",2
+CWE-264,CVE-2015-9016,41,1173,1,6,5,21,1,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-264,CVE-2016-9644,27,537,1,1,3,4,0,0,2,True,['pointer_operations'],1
+CWE-264,CVE-2016-9644,41,1077,1,17,2,12,0,5,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-9644,57,1694,1,9,3,14,0,5,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-9644,28,634,1,5,3,4,0,5,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-9644,80,1992,1,13,2,13,0,7,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-9644,20,383,1,2,2,4,0,2,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-9644,89,1892,1,24,3,20,5,6,0,True,"['pointer_operations', 'array_operations']",2
+CWE-264,CVE-2013-1979,9,317,1,3,3,10,0,3,0,True,['pointer_operations'],1
+CWE-264,CVE-2015-9004,101,2168,1,18,3,53,0,13,0,True,['pointer_operations'],1
+CWE-264,CVE-2014-8133,25,694,1,2,6,0,0,3,0,True,[],0
+CWE-264,CVE-2014-8133,31,637,1,4,2,5,0,6,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-3157,8,227,1,1,0,2,0,1,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-3157,171,5737,0,29,8,33,0,11,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-10200,58,1511,1,17,5,25,0,8,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-10200,101,2452,1,25,8,30,0,13,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-4997,90,2411,1,18,11,37,6,10,1,True,"['pointer_operations', 'array_operations']",2
+CWE-264,CVE-2016-4997,90,2398,1,18,11,37,6,10,1,True,"['pointer_operations', 'array_operations']",2
+CWE-264,CVE-2016-4997,54,1494,1,6,6,11,6,8,1,True,"['pointer_operations', 'array_operations']",2
+CWE-264,CVE-2016-4997,55,1465,1,6,6,11,6,8,1,True,"['pointer_operations', 'array_operations']",2
+CWE-264,CVE-2016-8632,100,2540,1,22,11,54,6,13,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-264,CVE-2016-8632,39,843,1,11,5,12,0,3,0,True,['pointer_operations'],1
+CWE-264,CVE-2015-8955,27,670,1,6,3,7,0,3,0,True,['pointer_operations'],1
+CWE-264,CVE-2013-4299,25,508,1,2,4,4,0,2,1,True,['pointer_operations'],1
+CWE-264,CVE-2016-9120,103,2152,1,24,9,38,0,13,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-9120,11,235,1,3,2,7,0,0,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-9120,13,300,0,5,2,6,0,2,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-9120,17,392,1,7,2,7,0,1,0,True,['pointer_operations'],1
+CWE-264,CVE-2014-9870,115,2494,1,22,2,8,0,3,0,True,['pointer_operations'],1
+CWE-264,CVE-2014-9870,9,211,1,1,2,3,1,1,0,True,"['pointer_operations', 'array_operations']",2
+CWE-264,CVE-2014-9870,155,4496,1,36,9,46,0,15,1,True,['pointer_operations'],1
+CWE-264,CVE-2014-9870,32,887,1,8,3,18,0,3,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-10044,8,263,0,1,4,1,0,0,0,True,['pointer_operations'],1
+CWE-264,CVE-2013-6431,138,3075,1,25,10,67,0,18,0,True,['pointer_operations'],1
+CWE-264,CVE-2014-9888,12,370,0,4,5,1,0,1,0,True,['pointer_operations'],1
+CWE-264,CVE-2014-9888,12,360,0,4,5,1,0,1,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-10318,21,567,1,4,2,7,0,5,0,True,['pointer_operations'],1
+CWE-264,CVE-2015-2686,42,941,0,6,1,20,0,5,0,True,['pointer_operations'],1
+CWE-264,CVE-2015-2686,42,1073,0,6,1,18,0,6,0,True,['pointer_operations'],1
+CWE-264,CVE-2016-4440,6,177,1,3,2,0,0,0,0,True,[],0
+CWE-264,CVE-2016-4440,209,5594,1,70,1,8,1,33,2,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-264,CVE-2016-4440,20,499,1,5,2,2,0,4,0,True,['pointer_operations'],1
+CWE-264,CVE-2013-1858,395,10545,0,113,3,181,0,45,0,True,['pointer_operations'],1
+CWE-264,CVE-2013-1858,27,615,1,8,4,4,0,4,0,True,['pointer_operations'],1
+CWE-264,CVE-2013-1858,113,2540,0,16,7,14,0,21,0,True,['pointer_operations'],1
+CWE-264,CVE-2012-2319,82,2244,1,24,5,43,0,11,0,True,['pointer_operations'],1
+CWE-264,CVE-2012-2319,120,3035,1,33,6,69,0,23,1,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-264,CVE-2012-2313,59,1438,1,15,5,19,1,1,1,True,"['pointer_operations', 'array_operations']",2
+CWE-264,CVE-2013-4300,19,678,1,15,4,14,0,2,0,True,['pointer_operations'],1
+CWE-264,CVE-2013-1957,16,358,1,5,3,0,0,3,0,True,[],0
+CWE-264,CVE-2014-8989,6,123,1,2,1,0,0,0,0,True,[],0
+CWE-264,CVE-2015-8966,50,1142,1,6,2,23,0,5,0,True,['pointer_operations'],1
+CWE-264,CVE-2013-1774,55,1557,1,21,3,28,0,6,2,True,['pointer_operations'],1
+CWE-264,CVE-2016-6187,74,1948,1,17,6,10,2,14,0,True,"['pointer_operations', 'array_operations']",2
+CWE-264,CVE-2013-0914,13,315,1,1,2,12,1,1,1,True,"['pointer_operations', 'array_operations']",2
+CWE-264,CVE-2013-4470,54,1582,1,12,7,15,0,2,0,True,['pointer_operations'],1
+CWE-264,CVE-2014-9922,114,2923,0,30,8,48,0,11,0,True,['pointer_operations'],1
+CWE-264,CVE-2014-9922,161,4011,1,48,6,84,0,19,0,True,['pointer_operations'],1
+CWE-264,CVE-2013-1956,35,816,1,7,5,10,0,3,0,True,['pointer_operations'],1
+CWE-264,CVE-2014-8159,149,3392,0,32,7,38,2,17,1,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2012-3552,67,1744,1,25,5,44,0,6,0,True,['pointer_operations'],1
+CWE-362,CVE-2012-3552,28,714,1,17,2,15,0,2,0,True,['pointer_operations'],1
+CWE-362,CVE-2012-3552,37,1048,1,13,4,34,6,7,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-362,CVE-2012-3552,218,4588,1,45,9,57,0,26,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-362,CVE-2012-3552,112,3110,0,37,13,68,0,11,0,True,['pointer_operations'],1
+CWE-362,CVE-2012-3552,153,3407,1,22,7,63,3,19,0,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2012-3552,84,2202,1,26,6,45,0,9,0,True,['pointer_operations'],1
+CWE-362,CVE-2012-3552,49,1179,0,18,7,13,0,4,0,True,['pointer_operations'],1
+CWE-362,CVE-2012-3552,18,388,0,5,5,3,0,3,0,True,['pointer_operations'],1
+CWE-362,CVE-2012-3552,40,1018,1,9,3,17,0,4,0,True,['pointer_operations'],1
+CWE-362,CVE-2012-3552,44,1087,1,8,5,19,0,4,0,True,['pointer_operations'],1
+CWE-362,CVE-2012-3552,119,2758,1,16,6,56,19,19,2,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-362,CVE-2012-3552,166,4526,0,54,12,96,0,13,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-362,CVE-2012-3552,227,5313,1,47,15,95,0,42,0,True,['pointer_operations'],1
+CWE-362,CVE-2012-3552,39,927,1,6,7,27,0,5,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-362,CVE-2012-3552,100,2379,1,24,10,27,0,13,0,True,['pointer_operations'],1
+CWE-362,CVE-2012-3552,83,2235,0,31,10,34,0,8,0,True,['pointer_operations'],1
+CWE-362,CVE-2012-3552,95,2439,1,18,6,47,0,12,0,True,['pointer_operations'],1
+CWE-362,CVE-2012-3552,11,277,1,2,3,4,0,1,0,True,['pointer_operations'],1
+CWE-362,CVE-2012-3552,18,454,1,3,4,8,0,2,0,True,['pointer_operations'],1
+CWE-362,CVE-2012-3552,68,1994,1,11,8,15,0,6,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-362,CVE-2012-3552,47,1140,1,16,7,34,0,6,0,True,['pointer_operations'],1
+CWE-362,CVE-2012-3552,524,11913,1,64,13,155,2,92,1,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2019-19537,58,1459,1,14,4,22,3,6,1,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2019-19537,17,407,1,6,2,11,1,1,0,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2020-29369,108,2765,1,15,8,13,0,16,1,True,['pointer_operations'],1
+CWE-362,CVE-2020-29369,26,659,1,4,5,14,0,3,1,True,['pointer_operations'],1
+CWE-362,CVE-2021-4203,79,2014,1,19,2,60,2,2,0,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2021-4203,8,215,1,5,1,5,0,1,0,True,['pointer_operations'],1
+CWE-362,CVE-2022-41849,25,674,1,6,2,8,0,1,0,True,['pointer_operations'],1
+CWE-362,CVE-2022-41849,38,959,1,4,3,12,0,4,0,True,['pointer_operations'],1
+CWE-362,CVE-2014-4652,8,234,1,1,3,5,0,0,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-362,CVE-2014-4652,32,799,1,6,5,11,0,7,0,True,['pointer_operations'],1
+CWE-362,CVE-2014-4652,89,2580,1,29,5,45,0,16,0,True,['pointer_operations'],1
+CWE-362,CVE-2020-29370,60,1413,1,20,4,7,6,4,2,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2021-23133,24,576,1,9,2,7,0,2,0,True,['pointer_operations'],1
+CWE-362,CVE-2021-23133,153,4360,1,19,3,118,0,3,0,True,['pointer_operations'],1
+CWE-362,CVE-2021-23133,76,2262,1,31,7,24,0,4,0,True,['pointer_operations'],1
+CWE-362,CVE-2021-20261,27,639,1,6,1,11,0,3,0,True,['pointer_operations'],1
+CWE-362,CVE-2021-20261,22,615,1,10,2,12,0,3,0,True,['pointer_operations'],1
+CWE-362,CVE-2020-29372,97,2148,1,15,4,25,0,18,1,True,['pointer_operations'],1
+CWE-362,CVE-2022-45869,63,1768,1,14,5,21,0,6,0,True,['pointer_operations'],1
+CWE-362,CVE-2022-45869,59,1218,1,17,3,21,0,10,0,True,['pointer_operations'],1
+CWE-362,CVE-2020-27067,5,130,1,2,0,1,0,0,0,True,['pointer_operations'],1
+CWE-362,CVE-2020-27067,21,367,1,4,1,2,0,2,0,True,['pointer_operations'],1
+CWE-362,CVE-2021-44733,14,400,1,2,1,2,0,1,0,True,['pointer_operations'],1
+CWE-362,CVE-2021-44733,5,104,1,1,1,2,0,1,0,True,['pointer_operations'],1
+CWE-362,CVE-2021-44733,123,2728,0,35,7,58,2,16,1,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2021-44733,13,232,1,3,1,4,0,2,0,True,['pointer_operations'],1
+CWE-362,CVE-2021-44733,18,417,0,6,3,10,0,3,0,True,['pointer_operations'],1
+CWE-362,CVE-2019-18683,101,3280,1,14,2,40,0,6,1,True,['pointer_operations'],1
+CWE-362,CVE-2019-18683,65,1894,1,23,5,71,0,5,3,True,['pointer_operations'],1
+CWE-362,CVE-2019-18683,87,2763,1,11,2,24,0,6,1,True,['pointer_operations'],1
+CWE-362,CVE-2019-18683,24,634,1,9,3,22,0,1,1,True,['pointer_operations'],1
+CWE-362,CVE-2019-18683,98,3172,1,11,2,38,0,7,1,True,['pointer_operations'],1
+CWE-362,CVE-2019-18683,65,1894,1,23,5,71,0,5,3,True,['pointer_operations'],1
+CWE-362,CVE-2014-9529,38,888,1,15,2,32,0,3,1,True,['pointer_operations'],1
+CWE-362,CVE-2016-2069,18,396,1,10,2,3,0,3,0,True,['pointer_operations'],1
+CWE-362,CVE-2016-2069,13,365,1,10,1,1,0,1,0,True,['pointer_operations'],1
+CWE-362,CVE-2016-2069,65,1989,1,24,4,10,0,3,0,True,['pointer_operations'],1
+CWE-362,CVE-2016-8655,150,3606,1,41,9,82,0,28,0,True,['pointer_operations'],1
+CWE-362,CVE-2016-8655,212,4109,1,21,5,55,0,41,0,True,['pointer_operations'],1
+CWE-362,CVE-2023-6546,45,1189,1,17,4,33,4,4,1,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2021-39686,19,582,1,13,2,14,0,2,0,True,['pointer_operations'],1
+CWE-362,CVE-2021-39686,738,23754,1,156,37,344,0,66,2,True,"['buffer_variables', 'pointer_operations']",2
+CWE-362,CVE-2020-29368,44,1666,1,14,4,11,0,4,0,True,['pointer_operations'],1
+CWE-362,CVE-2015-3212,25,663,1,6,3,13,0,6,0,True,['pointer_operations'],1
+CWE-362,CVE-2015-3212,75,2056,1,30,7,16,0,5,0,True,['pointer_operations'],1
+CWE-362,CVE-2015-3212,137,3913,1,14,3,97,0,3,0,True,['pointer_operations'],1
+CWE-362,CVE-2015-3212,133,4289,1,44,12,71,1,7,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-362,CVE-2014-2672,35,633,1,6,6,12,1,2,1,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2023-1582,95,2229,2,24,14,12,0,16,2,True,['pointer_operations'],1
+CWE-362,CVE-2023-1582,39,1026,1,16,5,3,0,12,0,True,['pointer_operations'],1
+CWE-362,CVE-2018-5873,51,1235,0,18,6,27,0,5,0,True,['pointer_operations'],1
+CWE-362,CVE-2016-10906,62,1612,1,24,6,31,5,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2016-10906,53,1323,1,12,8,27,2,7,1,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2022-20567,3,68,1,0,1,0,0,0,0,True,[],0
+CWE-362,CVE-2022-20567,55,1161,1,16,4,14,0,3,0,True,['pointer_operations'],1
+CWE-362,CVE-2018-5814,54,1104,1,14,4,20,0,5,0,True,['pointer_operations'],1
+CWE-362,CVE-2018-5814,25,477,1,4,2,7,5,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2018-5814,86,2093,1,18,4,40,0,6,0,True,['pointer_operations'],1
+CWE-362,CVE-2018-5814,13,235,1,1,2,2,3,2,1,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2018-5814,14,327,1,4,3,4,3,1,1,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-362,CVE-2018-5814,29,583,1,4,3,1,0,3,0,True,['pointer_operations'],1
+CWE-362,CVE-2018-5814,27,663,1,4,1,10,9,2,2,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2018-5814,13,252,0,3,2,3,1,1,0,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2022-3028,28,745,1,5,6,9,0,5,0,True,['pointer_operations'],1
+CWE-362,CVE-2017-1000112,315,8421,1,46,24,100,1,39,1,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2017-1000112,142,3285,1,25,9,55,0,20,1,True,['pointer_operations'],1
+CWE-362,CVE-2017-1000112,55,1272,1,15,10,20,0,6,0,True,['pointer_operations'],1
+CWE-362,CVE-2017-1000112,253,6426,1,41,19,78,1,31,1,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2023-2006,47,1288,1,16,5,29,3,7,2,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2023-2006,15,392,0,5,2,11,0,1,0,True,['pointer_operations'],1
+CWE-362,CVE-2023-2006,82,2096,0,31,7,41,0,12,2,True,['pointer_operations'],1
+CWE-362,CVE-2023-2006,12,233,1,3,2,4,0,1,0,True,['pointer_operations'],1
+CWE-362,CVE-2023-2006,62,1378,1,21,4,20,2,6,2,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2015-8839,9,224,1,4,2,8,0,0,0,True,['pointer_operations'],1
+CWE-362,CVE-2015-8839,155,4140,1,38,7,15,0,21,0,True,['pointer_operations'],1
+CWE-362,CVE-2015-8839,28,642,1,10,5,4,0,4,0,True,['pointer_operations'],1
+CWE-362,CVE-2015-8839,87,2414,1,32,9,14,0,10,1,True,['pointer_operations'],1
+CWE-362,CVE-2015-8839,31,753,1,10,6,3,0,4,0,True,['pointer_operations'],1
+CWE-362,CVE-2015-8839,5,149,1,2,1,2,0,0,0,True,['pointer_operations'],1
+CWE-362,CVE-2015-8839,159,4060,1,51,8,28,1,19,0,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2015-8839,5,159,1,1,2,0,0,0,0,True,[],0
+CWE-362,CVE-2015-8839,122,3107,1,46,3,21,0,13,0,True,['pointer_operations'],1
+CWE-362,CVE-2015-8839,126,3405,1,40,5,25,0,16,0,True,['pointer_operations'],1
+CWE-362,CVE-2012-4508,35,1112,1,5,6,14,1,2,0,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2012-4508,55,1505,1,11,6,10,1,11,0,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2012-4508,92,2531,1,27,6,15,1,10,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-362,CVE-2020-25285,29,610,1,5,5,8,0,4,0,True,"['buffer_variables', 'pointer_operations']",2
+CWE-362,CVE-2020-25285,23,566,1,3,6,6,0,3,0,True,"['buffer_variables', 'pointer_operations']",2
+CWE-362,CVE-2016-10741,166,4556,1,45,10,40,0,21,0,True,['pointer_operations'],1
+CWE-362,CVE-2016-7911,13,248,1,2,1,3,0,2,0,True,['pointer_operations'],1
+CWE-362,CVE-2020-0305,12,240,0,3,3,3,0,2,0,True,['pointer_operations'],1
+CWE-362,CVE-2022-3567,7,221,1,0,4,3,0,0,0,True,['pointer_operations'],1
+CWE-362,CVE-2022-3567,21,545,1,4,3,10,0,5,0,True,['pointer_operations'],1
+CWE-362,CVE-2022-3567,25,501,1,5,5,6,0,1,0,True,['pointer_operations'],1
+CWE-362,CVE-2022-3567,12,346,1,3,3,5,0,2,0,True,['pointer_operations'],1
+CWE-362,CVE-2022-3567,7,219,1,0,2,3,0,0,0,True,['pointer_operations'],1
+CWE-362,CVE-2017-15265,39,1197,1,4,5,39,0,7,0,True,['pointer_operations'],1
+CWE-362,CVE-2022-20148,515,13153,1,193,11,145,21,64,6,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-362,CVE-2022-3566,220,5402,1,47,16,125,1,32,0,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2022-3566,10,338,1,2,2,2,0,1,0,True,['pointer_operations'],1
+CWE-362,CVE-2022-3566,618,13024,1,80,11,160,0,96,0,True,['pointer_operations'],1
+CWE-362,CVE-2022-3566,11,367,1,4,4,2,0,1,0,True,['pointer_operations'],1
+CWE-362,CVE-2016-2545,100,2848,1,17,7,80,0,16,1,True,['pointer_operations'],1
+CWE-362,CVE-2023-4732,44,1444,1,11,8,4,1,2,0,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2023-4732,105,2720,1,28,16,10,0,14,1,True,['pointer_operations'],1
+CWE-362,CVE-2023-4732,52,1273,1,13,10,4,1,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2023-4732,36,1029,1,10,8,5,0,6,1,True,['pointer_operations'],1
+CWE-362,CVE-2022-23037,76,1911,1,19,4,42,9,5,2,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2021-39713,67,1662,0,20,8,22,0,11,0,True,['pointer_operations'],1
+CWE-362,CVE-2021-39713,112,3110,1,29,9,18,2,15,0,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2021-39713,117,2899,1,30,12,22,5,17,0,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2021-39713,153,3814,1,36,11,31,6,25,0,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2021-39713,84,2155,1,23,12,16,4,12,0,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2020-12114,49,1029,0,16,3,10,0,7,0,True,['pointer_operations'],1
+CWE-362,CVE-2020-12114,31,1020,1,8,6,15,0,0,0,True,['pointer_operations'],1
+CWE-362,CVE-2020-12114,6,183,1,2,2,6,0,0,0,True,['pointer_operations'],1
+CWE-362,CVE-2020-12114,11,332,1,3,3,9,0,0,0,True,['pointer_operations'],1
+CWE-362,CVE-2020-12114,6,184,1,2,1,2,0,0,0,True,['pointer_operations'],1
+CWE-362,CVE-2020-12114,15,229,1,6,0,5,0,1,0,True,['pointer_operations'],1
+CWE-362,CVE-2020-12114,7,174,1,4,2,3,0,0,0,True,['pointer_operations'],1
+CWE-362,CVE-2020-12114,12,295,1,6,2,11,0,1,0,True,['pointer_operations'],1
+CWE-362,CVE-2019-6974,51,989,1,12,5,30,1,7,0,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2020-11884,8,151,1,2,2,1,0,1,0,True,['pointer_operations'],1
+CWE-362,CVE-2020-11884,25,575,1,7,0,8,0,4,0,True,['pointer_operations'],1
+CWE-362,CVE-2016-2547,61,1706,1,28,4,43,0,6,2,True,['pointer_operations'],1
+CWE-362,CVE-2016-2547,12,373,1,3,1,9,0,1,0,True,['pointer_operations'],1
+CWE-362,CVE-2016-2547,44,1206,1,9,2,24,0,9,0,True,['pointer_operations'],1
+CWE-362,CVE-2016-2547,19,653,1,5,3,19,0,2,0,True,['pointer_operations'],1
+CWE-362,CVE-2017-18224,28,788,1,6,6,9,0,3,0,True,['pointer_operations'],1
+CWE-362,CVE-2022-45887,16,448,1,6,1,31,0,2,0,True,['pointer_operations'],1
+CWE-362,CVE-2016-2546,15,307,1,4,3,7,0,2,0,True,['pointer_operations'],1
+CWE-362,CVE-2016-2546,56,1454,1,11,5,41,0,9,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-362,CVE-2016-2546,26,580,1,7,3,13,0,3,0,True,['pointer_operations'],1
+CWE-362,CVE-2016-2546,59,1697,1,18,4,11,0,5,0,True,['pointer_operations'],1
+CWE-362,CVE-2014-2706,59,1928,1,21,6,49,6,2,1,True,"['buffer_variables', 'pointer_operations', 'array_operations']",3
+CWE-362,CVE-2014-2706,123,3379,0,29,7,75,11,10,6,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-362,CVE-2016-6130,32,855,1,11,2,11,0,8,0,True,['pointer_operations'],1
+CWE-362,CVE-2013-0871,8,241,1,4,1,5,0,0,0,True,['pointer_operations'],1
+CWE-362,CVE-2013-0871,48,1410,1,9,1,21,0,3,0,True,['pointer_operations'],1
+CWE-362,CVE-2018-17972,32,668,1,6,5,7,1,2,1,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2019-2213,8,205,1,3,1,3,0,1,0,True,['pointer_operations'],1
+CWE-362,CVE-2019-2213,30,876,1,10,4,16,0,3,0,True,"['buffer_variables', 'pointer_operations']",2
+CWE-362,CVE-2012-3511,31,832,1,3,2,18,0,3,0,True,['pointer_operations'],1
+CWE-362,CVE-2016-0723,147,3439,1,37,7,27,0,19,0,True,['pointer_operations'],1
+CWE-362,CVE-2023-35826,18,449,1,9,2,12,0,1,0,True,['pointer_operations'],1
+CWE-362,CVE-2018-12232,12,266,1,3,4,4,0,1,0,True,['pointer_operations'],1
+CWE-362,CVE-2018-12232,19,367,1,5,2,10,0,3,0,True,['pointer_operations'],1
+CWE-362,CVE-2016-10200,58,1511,1,17,5,25,0,8,0,True,['pointer_operations'],1
+CWE-362,CVE-2017-18249,38,862,1,13,4,6,0,5,0,True,['pointer_operations'],1
+CWE-362,CVE-2021-20321,214,5102,1,79,18,27,0,46,0,True,['pointer_operations'],1
+CWE-362,CVE-2022-23040,32,630,1,7,3,1,2,2,2,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2022-28796,30,851,1,11,1,16,0,1,0,True,['pointer_operations'],1
+CWE-362,CVE-2022-28796,24,720,1,12,2,23,0,2,1,True,['pointer_operations'],1
+CWE-362,CVE-2023-35828,18,474,1,9,2,13,0,0,0,True,['pointer_operations'],1
+CWE-362,CVE-2020-29374,125,2871,1,21,11,14,3,19,1,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2020-29374,5,172,1,2,0,0,0,0,0,True,[],0
+CWE-362,CVE-2020-29374,45,1241,1,8,3,1,0,4,0,True,['pointer_operations'],1
+CWE-362,CVE-2020-29374,48,1159,1,10,3,1,0,7,0,True,['pointer_operations'],1
+CWE-362,CVE-2020-29374,5,166,1,2,0,0,0,0,0,True,[],0
+CWE-362,CVE-2021-3752,6,114,1,1,2,1,0,0,0,True,['pointer_operations'],1
+CWE-362,CVE-2021-3752,50,1148,1,9,3,13,0,2,0,True,['pointer_operations'],1
+CWE-362,CVE-2023-42756,72,1886,1,21,17,19,1,5,1,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2023-32250,23,638,1,4,5,13,0,2,0,True,['pointer_operations'],1
+CWE-362,CVE-2023-32250,4,87,1,1,1,2,0,0,0,True,['pointer_operations'],1
+CWE-362,CVE-2023-32250,4,91,1,1,1,2,0,0,0,True,['pointer_operations'],1
+CWE-362,CVE-2023-32250,57,1992,1,23,4,50,0,1,0,True,['pointer_operations'],1
+CWE-362,CVE-2023-32250,27,679,1,5,1,8,0,5,0,True,['pointer_operations'],1
+CWE-362,CVE-2023-32250,173,4920,1,47,6,91,0,15,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-362,CVE-2015-7613,42,968,1,12,5,32,0,3,0,True,['pointer_operations'],1
+CWE-362,CVE-2015-7613,48,889,1,12,3,26,0,6,0,True,['pointer_operations'],1
+CWE-362,CVE-2014-3940,24,682,1,10,6,2,0,2,0,True,['pointer_operations'],1
+CWE-362,CVE-2020-0030,76,2002,1,14,6,40,0,9,1,True,['pointer_operations'],1
+CWE-362,CVE-2017-7533,42,1308,0,25,7,2,0,5,0,True,['pointer_operations'],1
+CWE-362,CVE-2017-7533,123,3154,1,28,11,18,0,33,0,True,['pointer_operations'],1
+CWE-362,CVE-2017-7533,34,883,1,7,5,9,0,5,0,True,['pointer_operations'],1
+CWE-362,CVE-2021-4202,17,377,1,4,4,6,0,1,0,True,['pointer_operations'],1
+CWE-362,CVE-2013-7026,13,433,1,8,2,10,0,2,0,True,['pointer_operations'],1
+CWE-362,CVE-2013-7026,88,1931,0,27,5,29,0,11,0,True,['pointer_operations'],1
+CWE-362,CVE-2013-7026,153,3240,1,39,7,50,0,21,0,True,['pointer_operations'],1
+CWE-362,CVE-2016-5195,64,1993,1,5,5,12,0,17,0,True,['pointer_operations'],1
+CWE-362,CVE-2016-5195,137,3470,0,49,7,6,0,22,0,True,['pointer_operations'],1
+CWE-362,CVE-2022-41850,35,947,1,4,5,16,2,2,0,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2022-20154,4,86,1,1,1,3,0,0,0,True,['pointer_operations'],1
+CWE-362,CVE-2022-20154,49,1334,1,4,7,15,9,4,0,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2022-20154,36,793,1,14,2,17,0,2,0,True,['pointer_operations'],1
+CWE-362,CVE-2017-6346,94,2305,1,24,6,71,0,13,0,True,['pointer_operations'],1
+CWE-362,CVE-2017-6346,23,417,1,9,3,12,0,3,0,True,['pointer_operations'],1
+CWE-362,CVE-2020-27675,26,526,1,5,0,0,5,4,0,True,['array_operations'],1
+CWE-362,CVE-2020-27675,21,335,1,8,1,3,0,2,0,True,['pointer_operations'],1
+CWE-362,CVE-2020-27675,16,345,1,6,2,2,0,0,1,True,['pointer_operations'],1
+CWE-362,CVE-2020-27675,8,226,1,4,0,0,3,2,0,True,['array_operations'],1
+CWE-362,CVE-2016-2544,14,349,1,7,1,9,0,0,0,True,['pointer_operations'],1
+CWE-362,CVE-2023-35823,5,107,1,1,1,4,0,0,0,True,['pointer_operations'],1
+CWE-362,CVE-2018-8897,43,1159,1,16,1,1,0,5,0,True,['pointer_operations'],1
+CWE-362,CVE-2023-3108,73,1513,1,19,11,35,0,8,2,True,['pointer_operations'],1
+CWE-362,CVE-2023-3108,26,509,1,6,3,5,1,2,1,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2023-32254,5,146,0,1,1,2,0,0,0,True,['pointer_operations'],1
+CWE-362,CVE-2021-32399,16,385,1,4,3,2,0,1,0,True,['pointer_operations'],1
+CWE-362,CVE-2017-12146,29,631,1,6,7,4,0,4,0,True,['pointer_operations'],1
+CWE-362,CVE-2014-9710,99,2428,1,26,9,1,0,16,0,True,['pointer_operations'],1
+CWE-362,CVE-2014-9710,268,6415,1,46,10,46,19,36,1,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2015-8767,39,1022,1,10,3,17,0,4,0,True,['pointer_operations'],1
+CWE-362,CVE-2015-8767,35,913,1,10,4,17,0,4,0,True,['pointer_operations'],1
+CWE-362,CVE-2015-8767,31,844,1,10,3,15,0,3,0,True,['pointer_operations'],1
+CWE-362,CVE-2020-12652,77,2209,1,18,4,8,0,16,0,True,['pointer_operations'],1
+CWE-362,CVE-2020-12652,53,1666,1,7,4,39,0,3,0,True,['pointer_operations'],1
+CWE-362,CVE-2020-12652,39,986,1,8,3,16,0,3,0,True,['pointer_operations'],1
+CWE-362,CVE-2020-36557,38,749,1,4,4,26,3,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2020-36557,52,1451,1,12,1,17,4,6,0,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2022-1048,99,2696,1,21,8,44,2,16,3,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2022-1048,25,677,1,8,2,7,0,3,0,True,['pointer_operations'],1
+CWE-362,CVE-2022-1048,126,3666,1,31,4,69,0,17,2,True,['pointer_operations'],1
+CWE-362,CVE-2022-1048,27,831,1,10,2,20,0,3,0,True,['pointer_operations'],1
+CWE-362,CVE-2023-35829,9,236,1,4,2,4,0,0,0,True,['pointer_operations'],1
+CWE-362,CVE-2018-7995,22,465,1,3,3,4,0,3,0,True,['pointer_operations'],1
+CWE-362,CVE-2022-1729,447,10790,0,78,14,74,0,67,0,True,['pointer_operations'],1
+CWE-362,CVE-2018-12633,68,1627,1,14,4,13,0,13,0,True,['pointer_operations'],1
+CWE-362,CVE-2016-7916,62,1099,1,10,7,11,0,6,1,True,['pointer_operations'],1
+CWE-362,CVE-2022-23042,69,1853,1,16,4,16,0,7,0,True,['pointer_operations'],1
+CWE-362,CVE-2022-23042,107,2789,1,29,15,37,3,16,1,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2022-23042,111,2823,1,40,9,72,4,11,2,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2015-1420,46,1062,1,6,4,5,0,5,0,True,['pointer_operations'],1
+CWE-362,CVE-2015-7990,166,4142,1,32,11,60,0,22,1,True,['pointer_operations'],1
+CWE-362,CVE-2015-7990,138,3795,0,36,7,53,0,14,0,True,['pointer_operations'],1
+CWE-362,CVE-2023-31083,54,1011,1,9,3,16,0,7,0,True,['pointer_operations'],1
+CWE-362,CVE-2017-15129,17,292,0,6,2,6,0,2,0,True,['pointer_operations'],1
+CWE-362,CVE-2022-39188,13,418,1,2,2,1,0,1,0,True,['pointer_operations'],1
+CWE-362,CVE-2022-39188,2,95,1,0,2,0,0,0,0,True,[],0
+CWE-362,CVE-2017-1000405,44,1049,0,14,6,5,0,5,0,True,['pointer_operations'],1
+CWE-362,CVE-2017-1000405,38,834,0,13,6,5,0,5,0,True,['pointer_operations'],1
+CWE-362,CVE-2017-1000405,67,1964,0,23,4,8,0,10,0,True,['pointer_operations'],1
+CWE-362,CVE-2023-33951,40,972,1,11,9,15,0,4,0,True,['pointer_operations'],1
+CWE-362,CVE-2023-33951,46,1321,1,9,6,6,0,4,0,True,"['buffer_variables', 'pointer_operations']",2
+CWE-362,CVE-2023-33951,16,343,1,3,3,5,0,2,0,True,['pointer_operations'],1
+CWE-362,CVE-2023-33951,49,1297,1,11,5,11,0,6,0,True,['pointer_operations'],1
+CWE-362,CVE-2023-33951,34,964,1,10,7,18,0,3,0,True,['pointer_operations'],1
+CWE-362,CVE-2020-14416,19,436,1,4,2,12,0,1,0,True,['pointer_operations'],1
+CWE-362,CVE-2020-14416,6,125,1,1,2,3,0,0,0,True,['pointer_operations'],1
+CWE-362,CVE-2021-4083,22,500,0,4,2,1,0,3,0,True,['pointer_operations'],1
+CWE-362,CVE-2013-3302,62,1555,1,11,8,15,4,4,1,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2013-3302,115,2984,1,7,7,22,8,10,3,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2016-6516,34,619,1,7,4,2,1,4,0,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2022-23036,11,309,1,6,0,0,0,3,0,True,[],0
+CWE-362,CVE-2021-28964,76,2240,0,37,9,13,0,9,0,True,['pointer_operations'],1
+CWE-362,CVE-2022-20141,42,1005,1,5,6,11,5,8,2,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2016-6156,35,816,1,7,3,13,0,6,0,True,['pointer_operations'],1
+CWE-362,CVE-2014-0196,84,1805,1,19,6,30,0,16,3,True,['pointer_operations'],1
+CWE-362,CVE-2021-3640,25,419,1,5,3,3,0,3,0,True,['pointer_operations'],1
+CWE-362,CVE-2015-9016,21,566,1,4,6,14,1,1,2,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2015-9016,22,553,1,4,6,12,1,1,2,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2015-9016,50,1524,1,11,9,20,1,4,0,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2018-20836,6,145,1,2,1,6,0,1,0,True,['pointer_operations'],1
+CWE-362,CVE-2022-3564,35,830,1,11,3,15,0,3,0,True,['pointer_operations'],1
+CWE-362,CVE-2022-3564,133,3314,1,43,5,44,0,14,0,True,['pointer_operations'],1
+CWE-362,CVE-2022-2590,42,1122,0,22,4,6,0,6,0,True,['pointer_operations'],1
+CWE-362,CVE-2023-2898,17,387,1,6,2,2,0,3,0,True,['pointer_operations'],1
+CWE-362,CVE-2015-7550,50,1073,1,9,2,8,0,6,0,True,"['buffer_variables', 'pointer_operations']",2
+CWE-362,CVE-2022-3623,107,2862,0,61,7,16,0,21,0,True,['pointer_operations'],1
+CWE-362,CVE-2022-3623,126,3250,0,47,7,7,0,20,0,True,['pointer_operations'],1
+CWE-362,CVE-2021-3573,45,987,1,14,3,17,0,5,0,True,['pointer_operations'],1
+CWE-362,CVE-2022-3521,67,1562,1,17,5,20,0,3,0,True,['pointer_operations'],1
+CWE-362,CVE-2023-35824,29,795,1,14,5,24,0,1,0,True,['pointer_operations'],1
+CWE-362,CVE-2021-0920,106,2480,1,32,6,42,0,16,1,True,['pointer_operations'],1
+CWE-362,CVE-2021-39648,6,203,1,2,3,3,0,1,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-362,CVE-2020-0066,85,1869,1,26,6,23,0,11,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-362,CVE-2015-8963,15,416,1,7,2,9,0,1,0,True,['pointer_operations'],1
+CWE-362,CVE-2018-5344,28,661,1,6,2,11,0,4,0,True,['pointer_operations'],1
+CWE-362,CVE-2021-40490,37,815,1,15,3,6,0,3,0,True,['pointer_operations'],1
+CWE-362,CVE-2019-11815,26,850,1,12,6,24,0,2,0,True,['pointer_operations'],1
+CWE-362,CVE-2019-13233,47,1129,1,8,2,3,0,5,0,True,['pointer_operations'],1
+CWE-362,CVE-2014-3611,12,283,1,3,3,6,0,2,0,True,['pointer_operations'],1
+CWE-362,CVE-2013-1935,144,3538,1,59,3,52,4,21,0,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2016-6136,33,855,1,5,5,8,0,2,1,True,['pointer_operations'],1
+CWE-362,CVE-2021-3609,44,1046,1,10,5,14,0,4,0,True,['pointer_operations'],1
+CWE-362,CVE-2016-9806,91,2370,1,25,6,20,0,10,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-362,CVE-2014-8086,102,2788,1,24,11,32,0,12,0,True,['pointer_operations'],1
+CWE-362,CVE-2022-23039,32,668,1,10,2,22,1,6,0,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2022-23039,62,1692,1,20,5,33,1,4,1,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2016-9794,22,565,1,7,2,5,0,3,0,True,['pointer_operations'],1
+CWE-362,CVE-2022-29582,32,1040,1,9,3,20,0,2,1,True,['pointer_operations'],1
+CWE-362,CVE-2022-29582,57,1585,1,14,5,43,0,13,0,True,['pointer_operations'],1
+CWE-362,CVE-2014-9914,23,660,1,11,5,14,0,3,0,True,['pointer_operations'],1
+CWE-362,CVE-2022-45888,188,4204,1,27,7,77,1,26,0,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2018-1000004,45,1292,0,13,1,20,6,5,1,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2013-1792,83,2042,1,24,5,12,0,7,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-362,CVE-2015-3339,42,1160,1,9,3,28,0,4,0,True,['pointer_operations'],1
+CWE-362,CVE-2023-33203,21,447,1,10,3,16,0,1,0,True,['pointer_operations'],1
+CWE-362,CVE-2018-18559,87,1710,1,24,7,26,0,15,0,True,['pointer_operations'],1
+CWE-362,CVE-2014-7842,16,410,1,3,2,10,0,1,0,True,['pointer_operations'],1
+CWE-362,CVE-2017-6874,12,267,1,5,1,6,0,1,0,True,['pointer_operations'],1
+CWE-362,CVE-2016-6480,101,2597,1,19,6,30,0,14,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-362,CVE-2019-3016,12,370,1,1,1,21,0,1,0,True,['pointer_operations'],1
+CWE-362,CVE-2022-3635,21,416,1,5,2,8,0,1,1,True,['pointer_operations'],1
+CWE-362,CVE-2018-7566,84,2214,1,11,8,33,1,14,1,True,"['pointer_operations', 'array_operations']",2
+CWE-362,CVE-2017-6001,397,9589,0,72,12,80,0,56,0,True,['pointer_operations'],1
+CWE-362,CVE-2022-40307,10,244,1,3,3,5,0,0,0,True,['pointer_operations'],1
+CWE-362,CVE-2022-2959,58,1504,1,8,5,19,0,6,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-401,CVE-2019-19053,38,765,1,8,6,10,0,6,0,True,['pointer_operations'],1
+CWE-401,CVE-2023-32247,10,216,0,1,1,1,0,1,0,True,['pointer_operations'],1
+CWE-401,CVE-2023-32247,38,792,0,12,1,17,0,4,0,True,['pointer_operations'],1
+CWE-401,CVE-2023-32247,5,140,0,1,1,2,0,0,0,True,['pointer_operations'],1
+CWE-401,CVE-2023-32247,10,219,0,3,1,2,0,0,0,True,['pointer_operations'],1
+CWE-401,CVE-2023-32247,7,260,1,3,2,7,0,0,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-401,CVE-2022-4139,98,2872,1,27,10,18,0,8,0,True,['pointer_operations'],1
+CWE-401,CVE-2022-0854,47,1701,1,11,3,6,1,6,1,True,"['pointer_operations', 'array_operations']",2
+CWE-401,CVE-2022-0854,8,274,1,2,1,0,0,1,0,True,[],0
+CWE-401,CVE-2019-19078,58,1333,1,10,7,14,2,4,1,True,"['pointer_operations', 'array_operations']",2
+CWE-401,CVE-2023-0615,86,3055,1,25,3,93,8,8,0,True,"['pointer_operations', 'array_operations']",2
+CWE-401,CVE-2022-3526,78,2095,1,22,8,23,0,12,0,True,['pointer_operations'],1
+CWE-401,CVE-2019-19073,35,812,1,9,4,7,0,3,0,True,['pointer_operations'],1
+CWE-401,CVE-2019-19073,37,912,1,9,3,10,0,3,0,True,['pointer_operations'],1
+CWE-401,CVE-2019-19073,58,1800,1,15,6,30,0,4,0,True,['pointer_operations'],1
+CWE-401,CVE-2022-1012,16,432,1,4,2,4,0,0,0,True,['pointer_operations'],1
+CWE-401,CVE-2022-1012,8,230,1,2,2,5,0,0,0,True,['pointer_operations'],1
+CWE-401,CVE-2022-1012,8,211,1,2,2,3,0,0,0,True,['pointer_operations'],1
+CWE-401,CVE-2022-1012,10,280,1,3,3,1,0,1,0,True,['pointer_operations'],1
+CWE-401,CVE-2022-1012,6,198,1,2,0,1,0,0,0,True,['pointer_operations'],1
+CWE-401,CVE-2022-1012,10,276,1,3,3,1,0,1,0,True,['pointer_operations'],1
+CWE-401,CVE-2019-20810,59,1384,1,17,2,40,3,7,0,True,"['pointer_operations', 'array_operations']",2
+CWE-401,CVE-2019-15807,76,2264,0,31,7,67,1,4,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-401,CVE-2022-0742,22,468,1,8,2,12,0,4,0,True,['pointer_operations'],1
+CWE-401,CVE-2022-0742,22,474,1,8,2,12,0,4,0,True,['pointer_operations'],1
+CWE-401,CVE-2019-12379,28,625,1,3,3,3,6,4,1,True,"['pointer_operations', 'array_operations']",2
+CWE-401,CVE-2022-47941,170,4826,1,45,6,88,0,15,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-401,CVE-2019-18807,100,2948,1,24,7,16,0,13,1,True,['pointer_operations'],1
+CWE-401,CVE-2019-20096,18,559,1,5,2,2,0,3,0,True,['pointer_operations'],1
+CWE-401,CVE-2019-19052,117,2602,1,24,6,29,0,13,1,True,['pointer_operations'],1
+CWE-401,CVE-2019-19082,16,329,0,3,2,2,0,2,0,True,['pointer_operations'],1
+CWE-401,CVE-2019-19082,16,349,0,3,3,3,0,2,0,True,['pointer_operations'],1
+CWE-401,CVE-2019-19082,16,328,0,3,2,2,0,2,0,True,['pointer_operations'],1
+CWE-401,CVE-2019-19083,22,497,0,3,4,6,0,2,0,True,['pointer_operations'],1
+CWE-401,CVE-2019-19083,22,498,0,3,4,7,0,2,0,True,['pointer_operations'],1
+CWE-401,CVE-2019-19083,22,498,0,3,4,6,0,2,0,True,['pointer_operations'],1
+CWE-401,CVE-2019-19083,22,498,0,3,4,6,0,2,0,True,['pointer_operations'],1
+CWE-401,CVE-2019-19083,22,498,0,3,4,6,0,2,0,True,['pointer_operations'],1
+CWE-401,CVE-2019-19056,21,550,1,4,3,2,0,2,0,True,['pointer_operations'],1
+CWE-401,CVE-2021-20265,193,4028,1,53,12,55,0,28,2,True,['pointer_operations'],1
+CWE-401,CVE-2021-29649,17,410,1,3,3,9,0,1,0,True,['pointer_operations'],1
+CWE-401,CVE-2021-29649,12,300,1,3,2,6,0,1,0,True,['pointer_operations'],1
+CWE-401,CVE-2021-29649,8,226,1,2,0,6,0,0,0,True,['pointer_operations'],1
+CWE-401,CVE-2021-3744,281,6897,1,39,13,190,2,36,2,True,"['pointer_operations', 'array_operations']",2
+CWE-401,CVE-2022-3629,138,3388,1,24,6,31,0,12,1,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-401,CVE-2019-18811,68,1644,1,11,5,33,0,6,1,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-401,CVE-2019-16995,71,1754,1,19,4,25,5,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-401,CVE-2023-0597,7,236,0,1,1,0,0,0,0,True,[],0
+CWE-401,CVE-2023-0597,59,1639,1,11,0,4,0,7,0,True,['pointer_operations'],1
+CWE-401,CVE-2023-0597,15,311,1,2,0,0,0,0,0,True,[],0
+CWE-401,CVE-2023-0597,18,567,1,4,0,0,0,0,1,True,[],0
+CWE-401,CVE-2019-19049,66,1581,1,13,7,4,0,5,1,True,['pointer_operations'],1
+CWE-401,CVE-2019-18813,71,1604,1,23,6,27,7,7,0,True,"['pointer_operations', 'array_operations']",2
+CWE-401,CVE-2019-19081,101,2467,1,24,10,25,1,10,1,True,"['pointer_operations', 'array_operations']",2
+CWE-401,CVE-2019-9857,51,1216,1,7,8,13,0,5,0,True,['pointer_operations'],1
+CWE-401,CVE-2019-19075,113,2664,1,34,4,58,0,12,0,True,['pointer_operations'],1
+CWE-401,CVE-2019-8980,68,1168,1,11,4,9,0,13,1,True,['pointer_operations'],1
+CWE-401,CVE-2019-19071,24,638,1,8,3,7,1,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-401,CVE-2019-19065,183,5270,1,48,8,104,3,13,2,True,"['pointer_operations', 'array_operations']",2
+CWE-401,CVE-2020-36312,36,856,1,9,4,13,2,4,1,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-401,CVE-2023-7192,155,3504,0,44,14,16,11,24,0,True,"['pointer_operations', 'array_operations']",2
+CWE-401,CVE-2019-19077,76,1981,1,15,9,56,2,9,0,True,"['pointer_operations', 'array_operations']",2
+CWE-401,CVE-2019-19061,36,969,1,7,4,35,10,2,0,True,"['pointer_operations', 'array_operations']",2
+CWE-401,CVE-2020-15393,8,196,1,4,2,2,0,0,0,True,['pointer_operations'],1
+CWE-401,CVE-2019-19047,48,1172,1,9,7,3,0,8,1,True,['pointer_operations'],1
+CWE-401,CVE-2023-4569,22,532,1,5,6,7,0,2,0,True,['pointer_operations'],1
+CWE-401,CVE-2019-19051,69,1965,1,24,6,22,0,6,0,True,['pointer_operations'],1
+CWE-401,CVE-2021-3736,57,1649,1,15,5,43,1,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-401,CVE-2021-3736,10,290,1,5,2,8,0,0,0,True,['pointer_operations'],1
+CWE-401,CVE-2022-3619,107,2547,1,23,4,29,0,16,0,True,['pointer_operations'],1
+CWE-401,CVE-2019-19045,81,2338,1,26,9,97,0,4,1,True,['pointer_operations'],1
+CWE-401,CVE-2019-19070,80,2336,1,11,6,35,8,8,0,True,"['pointer_operations', 'array_operations']",2
+CWE-401,CVE-2019-19043,94,2697,1,23,7,66,2,5,1,True,"['pointer_operations', 'array_operations']",2
+CWE-401,CVE-2022-24959,135,3469,1,18,5,126,0,36,0,True,['pointer_operations'],1
+CWE-401,CVE-2022-27950,41,875,1,15,4,9,0,5,0,True,['pointer_operations'],1
+CWE-401,CVE-2020-25704,157,3343,1,15,13,29,6,22,1,True,"['pointer_operations', 'array_operations']",2
+CWE-401,CVE-2019-18806,56,1444,1,16,3,17,1,2,1,True,"['pointer_operations', 'array_operations']",2
+CWE-401,CVE-2019-19079,19,431,1,4,6,4,0,3,0,True,['pointer_operations'],1
+CWE-401,CVE-2021-4135,48,1008,1,9,4,31,3,6,2,True,"['pointer_operations', 'array_operations']",2
+CWE-401,CVE-2019-19060,54,1379,1,11,6,45,9,8,2,True,"['pointer_operations', 'array_operations']",2
+CWE-401,CVE-2020-12656,16,386,1,11,0,1,0,0,0,True,['pointer_operations'],1
+CWE-401,CVE-2019-15921,71,1721,1,14,3,21,1,9,1,True,"['pointer_operations', 'array_operations']",2
+CWE-401,CVE-2022-26878,17,348,1,3,2,3,0,1,0,True,['pointer_operations'],1
+CWE-401,CVE-2019-19055,70,2154,1,18,9,10,2,7,0,True,"['pointer_operations', 'array_operations']",2
+CWE-401,CVE-2022-3630,122,3402,1,41,2,50,0,11,0,True,['pointer_operations'],1
+CWE-401,CVE-2019-19062,37,809,1,10,7,11,0,4,0,True,['pointer_operations'],1
+CWE-401,CVE-2019-19066,47,1630,0,9,5,57,1,2,0,True,"['pointer_operations', 'array_operations']",2
+CWE-401,CVE-2019-19068,28,623,1,7,3,6,0,2,0,True,['pointer_operations'],1
+CWE-401,CVE-2019-19057,41,1099,1,7,4,13,3,2,1,True,"['pointer_operations', 'array_operations']",2
+CWE-401,CVE-2019-19050,37,814,1,10,7,11,0,4,0,True,['pointer_operations'],1
+CWE-401,CVE-2020-12768,32,519,1,6,1,5,0,4,0,True,['pointer_operations'],1
+CWE-401,CVE-2021-30002,106,2546,1,20,11,8,0,20,0,True,['pointer_operations'],1
+CWE-401,CVE-2019-19058,31,787,0,12,3,1,0,3,0,True,['pointer_operations'],1
+CWE-401,CVE-2019-19074,61,1347,1,16,8,16,0,6,0,True,['pointer_operations'],1
+CWE-401,CVE-2022-1651,307,8488,1,117,11,82,5,49,4,True,"['pointer_operations', 'array_operations']",2
+CWE-401,CVE-2019-19076,57,1398,1,10,5,28,2,7,0,True,"['pointer_operations', 'array_operations']",2
+CWE-401,CVE-2019-16994,45,1175,1,10,3,25,4,3,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-401,CVE-2019-19059,132,4280,1,39,10,86,3,8,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-401,CVE-2021-45480,185,5020,0,45,11,54,4,18,2,True,"['pointer_operations', 'array_operations']",2
+CWE-401,CVE-2021-4002,102,2643,1,39,9,9,0,8,1,True,['pointer_operations'],1
+CWE-401,CVE-2019-19054,45,1324,1,13,3,22,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-14381,20,404,1,4,1,8,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-14381,31,850,1,5,1,6,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-14381,207,6306,1,37,9,30,0,15,0,True,['pointer_operations'],1
+CWE-416,CVE-2018-10876,16,374,1,3,3,2,0,2,1,True,['pointer_operations'],1
+CWE-416,CVE-2018-10876,458,12393,0,173,24,83,4,63,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2018-10876,80,2103,0,37,4,5,0,9,0,True,['pointer_operations'],1
+CWE-416,CVE-2018-10876,112,3291,1,41,8,63,1,10,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2018-10876,88,2341,0,44,4,8,0,9,0,True,['pointer_operations'],1
+CWE-416,CVE-2016-9576,35,813,1,9,7,7,0,6,1,True,['pointer_operations'],1
+CWE-416,CVE-2018-9465,17,405,1,4,2,6,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2018-9465,17,431,1,2,1,2,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2018-9465,38,852,1,8,3,10,0,6,1,True,['pointer_operations'],1
+CWE-416,CVE-2022-42703,18,473,0,2,1,5,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-42703,47,1039,1,16,5,8,0,6,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-42703,60,1599,1,9,4,12,0,5,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-42703,48,1430,1,9,6,12,0,4,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-42703,53,1409,1,12,6,22,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-1786,14,277,1,4,2,5,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-1786,25,579,1,1,4,11,0,6,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-1786,12,337,1,7,2,13,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-1786,77,1933,1,20,7,43,3,10,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2022-1786,19,381,1,7,2,5,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-1786,38,901,1,17,3,29,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-1786,33,916,1,16,3,28,0,4,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-1786,14,369,1,2,2,12,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-1786,8,252,1,2,2,6,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-1786,21,579,1,6,3,19,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-1786,60,1574,1,16,7,17,0,7,2,True,['pointer_operations'],1
+CWE-416,CVE-2022-1786,47,1320,1,15,5,17,1,8,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2022-1786,33,1211,1,23,8,13,1,1,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2016-3841,31,874,0,11,6,21,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2016-3841,118,3354,0,43,12,90,0,11,0,True,['pointer_operations'],1
+CWE-416,CVE-2016-3841,157,3810,1,27,12,91,2,21,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2016-3841,37,895,1,12,5,25,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2016-3841,27,783,0,9,7,16,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2016-3841,161,3965,1,31,14,77,1,32,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2016-3841,25,438,1,8,4,7,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2016-3841,339,6886,1,51,12,144,0,44,0,True,['pointer_operations'],1
+CWE-416,CVE-2016-3841,149,3979,0,39,12,62,0,11,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-416,CVE-2016-3841,201,5295,0,63,14,87,0,16,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-416,CVE-2016-3841,25,568,1,10,5,8,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2016-3841,183,4467,1,37,14,92,1,38,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2016-3841,164,3906,1,30,10,107,2,27,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2016-3841,71,1874,0,22,6,37,0,20,0,True,['pointer_operations'],1
+CWE-416,CVE-2016-3841,294,7272,1,61,19,136,2,59,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2016-3841,734,15410,1,85,21,181,0,114,0,True,['pointer_operations'],1
+CWE-416,CVE-2016-3841,187,4459,1,32,12,119,2,24,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2016-3841,17,496,0,6,3,10,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2016-3841,20,508,0,2,4,18,0,5,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-416,CVE-2016-3841,46,1152,1,16,9,28,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-3439,7,144,1,3,1,3,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-3439,22,485,1,8,2,4,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-3389,23,497,1,8,4,10,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-3389,46,1274,1,9,5,11,0,7,2,True,['pointer_operations'],1
+CWE-416,CVE-2023-3389,30,962,1,11,2,14,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-3389,8,174,1,3,1,2,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-3389,5,156,1,1,2,2,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-3389,67,2111,0,37,2,76,0,4,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-3389,56,1445,1,11,8,20,0,9,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-3389,16,303,1,5,2,1,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-3389,57,1670,1,10,5,39,1,12,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2022-1679,48,1014,1,10,6,10,0,5,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-4611,110,2370,1,28,6,13,1,22,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-4611,10,232,1,5,3,1,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-3863,87,1656,1,15,9,19,7,10,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-3863,12,238,0,2,2,2,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-3863,28,628,1,7,4,4,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-3863,54,1149,1,13,7,14,0,4,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-416,CVE-2023-3863,6,115,0,1,1,2,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-3863,48,844,1,10,6,9,3,6,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-3863,24,523,1,6,2,8,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-3863,121,2733,1,24,8,50,0,13,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-3863,14,313,1,2,2,2,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-3863,10,199,1,4,2,2,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-3863,65,1301,1,10,7,21,13,11,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2019-11487,4,106,1,1,2,1,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-11487,111,2384,1,11,6,32,0,11,1,True,['pointer_operations'],1
+CWE-416,CVE-2019-11487,5,121,1,0,2,2,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-11487,74,1654,1,6,6,20,0,6,1,True,['pointer_operations'],1
+CWE-416,CVE-2019-11487,7,169,1,0,3,2,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-11487,83,1627,1,15,7,36,4,5,3,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2022-45919,20,416,1,5,4,5,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-45919,80,1829,1,19,4,38,1,6,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2022-45919,17,375,1,5,2,5,0,0,1,True,['pointer_operations'],1
+CWE-416,CVE-2022-45919,41,858,1,8,5,15,1,4,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-32233,7,175,1,1,3,2,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-32233,17,396,1,1,3,2,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-36694,60,1395,1,9,9,9,2,5,2,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2020-36694,27,636,1,6,8,4,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-36694,55,1311,1,18,6,21,1,7,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-416,CVE-2020-36694,140,3886,1,32,16,65,5,14,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2020-36694,32,729,1,7,5,13,1,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2020-36694,133,3730,1,28,15,68,5,14,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2020-36694,54,1322,1,18,6,21,1,7,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-416,CVE-2020-36694,55,1305,1,18,6,21,1,7,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-416,CVE-2020-36694,28,621,1,6,8,4,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-36694,14,341,0,5,2,12,2,0,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2020-36694,46,1106,1,8,8,6,2,4,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2020-36694,28,622,1,6,8,4,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-36694,60,1399,1,9,9,9,2,5,2,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2020-36694,33,728,1,7,5,13,1,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2020-36694,106,2621,1,24,16,41,5,12,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2020-36694,47,1134,0,11,7,27,5,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2020-36694,48,986,1,16,7,13,2,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2020-36694,48,993,1,16,7,13,2,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2020-36694,47,987,1,16,7,13,2,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2020-27835,31,862,1,11,3,18,0,0,1,True,['pointer_operations'],1
+CWE-416,CVE-2020-27835,20,537,1,2,5,11,2,1,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2020-27835,26,688,1,8,4,21,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-27835,87,2219,1,25,6,31,0,4,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-27835,14,468,1,5,2,13,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-27835,29,801,1,9,5,23,0,2,1,True,['pointer_operations'],1
+CWE-416,CVE-2020-27835,70,2044,1,17,7,39,3,4,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-416,CVE-2020-27835,40,1034,1,10,5,25,0,5,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-416,CVE-2018-9422,115,3297,1,22,8,25,0,11,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-25012,35,790,1,10,4,14,1,4,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-25012,33,866,1,6,5,18,0,4,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-25012,70,2031,1,12,6,48,17,6,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2022-38457,32,879,1,10,7,15,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-38457,63,1559,1,13,8,22,1,10,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2022-38457,46,1335,1,12,7,27,0,6,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-38457,72,1948,1,19,6,38,0,10,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-38457,55,1543,1,20,9,10,0,8,1,True,['pointer_operations'],1
+CWE-416,CVE-2022-38457,44,1137,1,13,6,16,0,5,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-38457,40,1051,1,13,6,12,0,4,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-38457,33,858,1,10,7,15,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-38457,19,444,0,6,3,4,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-15920,74,2124,1,15,10,51,2,10,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-416,CVE-2020-10720,36,890,0,13,4,9,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-2318,9,193,1,2,1,8,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-2318,4,72,1,1,1,2,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-2318,23,510,1,9,3,7,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-2318,4,82,1,2,1,2,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-2318,4,74,1,2,1,2,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-2318,11,225,1,3,2,9,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-2318,28,654,1,7,3,8,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-2318,37,975,1,12,3,10,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-10125,32,752,1,11,5,10,0,6,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-10125,41,1076,1,11,2,21,0,5,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-10125,20,479,1,7,2,16,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-10125,7,174,1,3,2,2,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-10125,22,569,1,9,3,8,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-10125,8,229,1,4,1,7,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-10125,45,1261,1,17,5,14,0,7,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-10125,71,1949,1,21,4,64,0,8,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-19767,30,1052,1,7,3,15,0,5,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-19767,35,943,1,9,6,5,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-7053,7,131,1,1,3,0,0,0,0,True,[],0
+CWE-416,CVE-2020-7053,33,705,1,8,2,17,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-7053,9,286,1,3,2,9,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-7053,54,1122,1,16,7,11,0,7,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-7053,31,684,1,6,6,11,0,4,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-7053,35,729,1,14,4,15,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-3610,17,419,1,5,4,0,0,0,1,True,[],0
+CWE-416,CVE-2023-3610,24,473,1,3,3,11,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-3610,50,1086,1,6,6,24,5,6,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-3610,5,174,1,2,2,0,0,0,0,True,[],0
+CWE-416,CVE-2023-3610,14,335,1,3,3,4,0,1,1,True,['pointer_operations'],1
+CWE-416,CVE-2023-3610,11,317,1,3,3,3,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-3610,20,499,0,7,2,5,2,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-3610,22,396,1,3,3,10,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-3610,13,283,1,3,3,4,0,1,1,True,['pointer_operations'],1
+CWE-416,CVE-2023-3610,13,280,1,2,2,9,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2021-3348,58,1240,1,11,5,25,1,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2014-2851,25,618,1,9,7,5,2,2,2,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2018-9517,159,4212,1,32,10,78,48,31,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-416,CVE-2022-1882,35,793,1,9,6,10,0,4,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-1882,30,847,1,15,5,33,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-1882,69,1585,1,22,5,41,0,6,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-1882,63,1555,1,14,7,39,3,6,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-416,CVE-2019-19768,7,184,1,1,3,1,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-19768,39,927,1,9,2,16,0,4,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-19768,71,1469,1,13,7,22,0,17,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-19768,16,406,1,7,2,3,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-19768,12,205,1,3,2,2,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-19768,12,327,1,4,3,6,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-19768,14,305,1,2,4,1,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-19768,5,94,1,2,1,0,0,0,0,True,[],0
+CWE-416,CVE-2019-19768,7,188,1,1,2,2,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-19768,19,517,1,10,4,6,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-19768,11,204,1,4,1,5,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-19768,18,528,1,8,4,11,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-41218,44,1084,1,8,5,29,2,4,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2022-41218,19,475,1,5,1,20,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-20566,34,693,1,7,5,7,0,4,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-20566,31,668,0,11,3,15,0,5,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-20566,113,2616,1,29,9,28,0,15,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-20566,13,271,0,4,2,4,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-20566,41,977,1,9,5,11,0,5,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-20566,48,1034,0,10,4,16,0,7,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-20566,45,980,1,9,5,8,0,4,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-20566,96,2500,1,16,8,37,0,11,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-20566,28,658,1,6,2,4,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-20566,13,265,0,4,2,4,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2018-16884,249,6507,1,49,9,93,2,24,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2018-16884,7,179,1,1,2,3,1,0,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2018-16884,12,299,1,2,2,9,1,1,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2018-16884,72,2063,1,17,6,82,7,4,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-416,CVE-2021-39800,61,1550,0,19,5,12,0,7,0,True,"['buffer_variables', 'pointer_operations']",2
+CWE-416,CVE-2022-3977,32,745,1,11,3,19,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-3977,33,775,1,10,3,11,0,5,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-27786,25,761,1,5,4,18,0,4,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-27786,59,1659,1,10,4,30,0,11,1,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-416,CVE-2020-27786,39,1177,1,6,5,21,0,6,1,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-416,CVE-2023-45898,41,977,1,13,4,9,0,5,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-0433,23,528,1,4,5,6,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-0433,38,1079,1,14,2,16,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-1249,277,8038,1,63,17,71,5,32,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-1249,62,1812,1,17,5,64,0,4,1,True,['pointer_operations'],1
+CWE-416,CVE-2023-1249,55,1382,1,10,7,26,0,5,2,True,['pointer_operations'],1
+CWE-416,CVE-2021-1048,43,1276,1,12,8,31,0,4,1,True,['pointer_operations'],1
+CWE-416,CVE-2023-35829,9,236,1,4,2,4,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-35824,29,795,1,14,5,24,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2017-18218,16,441,1,5,3,10,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-12657,19,622,1,2,3,1,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-1872,87,2546,1,20,4,48,3,17,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-1872,33,796,1,5,8,17,0,7,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-1872,24,533,1,10,3,13,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-1872,29,634,1,5,6,11,0,5,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-1872,54,1419,0,16,6,20,0,10,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-1872,19,396,1,7,3,7,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-19525,23,534,1,12,2,13,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2018-5873,51,1235,0,18,6,27,0,5,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-51781,52,1094,1,9,7,5,0,4,0,True,['pointer_operations'],1
+CWE-416,CVE-2021-3483,45,1079,1,11,3,19,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2018-10902,28,879,1,2,4,21,0,5,0,True,['pointer_operations'],1
+CWE-416,CVE-2018-10902,24,708,1,2,4,15,0,4,0,True,['pointer_operations'],1
+CWE-416,CVE-2021-0941,47,1253,0,17,5,3,0,7,0,True,['pointer_operations'],1
+CWE-416,CVE-2021-0941,39,1365,1,8,3,4,0,6,0,True,['pointer_operations'],1
+CWE-416,CVE-2017-6874,12,267,1,5,1,6,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2017-6874,32,737,0,12,4,13,0,4,0,True,['pointer_operations'],1
+CWE-416,CVE-2017-7374,56,1427,1,15,8,19,0,6,0,True,['pointer_operations'],1
+CWE-416,CVE-2017-7374,66,1694,1,10,5,55,1,11,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-416,CVE-2017-7374,9,185,1,3,1,2,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2017-7374,12,331,1,1,2,4,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2017-7374,45,1309,1,9,3,12,0,4,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-8912,6,91,1,1,1,2,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-0240,20,462,1,9,3,13,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-0240,33,837,1,6,2,41,0,7,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-0240,56,1485,1,17,4,35,2,8,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-0240,10,214,1,2,4,2,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-0240,68,2177,1,17,3,94,2,11,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2022-47946,26,646,1,8,4,12,0,4,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-47946,18,510,1,5,2,14,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-47946,40,980,1,13,3,14,0,5,1,True,['pointer_operations'],1
+CWE-416,CVE-2022-47946,126,3874,1,23,4,61,0,16,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-47946,30,1005,1,11,1,17,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-47946,28,731,1,12,3,16,0,5,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-47946,99,2429,0,22,5,30,0,19,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-20934,147,3260,1,39,5,35,2,24,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2022-1652,10,257,1,2,0,4,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-1652,27,657,1,6,1,11,1,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2022-1652,48,1363,1,8,0,13,13,9,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2022-1652,18,551,1,2,0,12,7,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2017-17053,15,412,1,2,2,4,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-5633,51,1364,1,11,3,32,1,9,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-5633,34,895,1,10,7,16,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-5633,52,1282,0,12,7,13,3,6,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-5633,16,344,1,3,3,3,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-5633,13,400,1,3,4,12,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-5633,51,1341,1,15,5,34,0,6,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-5633,66,1747,1,21,5,40,1,8,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-5633,165,4742,1,34,15,115,1,25,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-5633,46,1319,1,9,6,5,0,4,0,True,"['buffer_variables', 'pointer_operations']",2
+CWE-416,CVE-2023-5633,5,111,1,2,1,3,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-5633,28,632,1,5,4,15,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-5633,18,359,1,4,3,4,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-5633,40,970,1,11,9,14,0,4,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-5633,25,635,1,2,5,11,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-5633,53,1393,1,19,5,45,1,7,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-5633,34,965,1,10,7,16,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-5633,132,3522,1,42,11,39,0,8,1,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-416,CVE-2023-5633,37,906,1,6,5,9,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-5633,49,1295,1,11,5,10,0,6,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-25044,53,1087,1,9,4,17,0,5,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-25044,36,973,1,16,1,9,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-25044,27,770,1,4,1,4,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-25044,9,222,1,2,3,1,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-36387,6,159,1,2,2,0,0,0,0,True,[],0
+CWE-416,CVE-2020-36387,32,943,1,9,3,17,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-36387,15,332,1,3,1,4,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-36387,9,233,1,3,3,1,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-36387,16,387,1,7,2,10,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-36387,28,761,1,13,4,19,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2014-0100,45,1234,0,14,6,33,1,2,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2022-3424,44,1083,1,11,4,12,0,6,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-3424,46,1160,1,9,2,21,1,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2022-3424,47,1226,1,21,3,13,0,4,0,True,['pointer_operations'],1
+CWE-416,CVE-2021-43057,13,346,1,5,3,3,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2021-43057,6,204,1,3,1,1,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2021-43057,17,340,1,4,5,2,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-19377,125,2768,1,23,10,30,1,13,2,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-1281,191,4645,1,35,15,97,12,34,2,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2018-21008,23,461,1,6,3,5,1,1,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2021-38204,130,3340,1,24,9,57,0,12,1,True,['pointer_operations'],1
+CWE-416,CVE-2021-38204,24,575,1,5,3,8,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-3523,38,900,1,8,3,11,0,6,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-3523,84,2384,1,22,11,45,0,6,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-3523,186,4914,1,52,11,42,0,22,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-3523,67,1430,1,20,8,9,6,8,2,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2022-3523,76,2075,1,14,7,20,8,9,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2022-3523,18,429,1,5,3,0,0,2,0,True,[],0
+CWE-416,CVE-2022-3523,59,1431,1,14,7,22,0,5,1,True,['pointer_operations'],1
+CWE-416,CVE-2022-3523,315,9239,1,106,10,70,0,41,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-3523,24,579,1,3,3,3,0,2,1,True,['pointer_operations'],1
+CWE-416,CVE-2022-3523,61,1664,1,25,6,38,0,4,2,True,['pointer_operations'],1
+CWE-416,CVE-2022-3523,80,2122,1,26,8,39,0,12,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-3523,53,1080,1,9,6,22,0,6,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-3523,25,556,1,3,4,4,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-3523,11,298,1,1,2,7,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-3523,78,1925,1,22,7,32,0,8,1,True,['pointer_operations'],1
+CWE-416,CVE-2022-3523,36,937,1,5,2,29,0,6,0,True,['pointer_operations'],1
+CWE-416,CVE-2021-20292,24,658,0,3,3,19,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2021-20292,12,275,1,4,2,0,0,1,0,True,[],0
+CWE-416,CVE-2021-20292,15,376,1,5,3,4,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-20409,14,369,1,2,2,12,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-20409,38,901,1,17,3,29,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-20409,19,381,1,7,2,5,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-20409,33,1211,1,23,8,13,1,1,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2022-20409,14,277,1,4,2,5,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-20409,47,1320,1,15,5,17,1,8,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2022-20409,8,252,1,2,2,6,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-20409,21,579,1,6,3,19,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-20409,33,916,1,16,3,28,0,4,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-20409,77,1933,1,20,7,43,3,10,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2022-20409,12,337,1,7,2,13,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-4244,305,9303,1,158,9,196,0,26,1,True,['pointer_operations'],1
+CWE-416,CVE-2023-4244,42,1048,1,13,8,13,2,6,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2022-1195,34,702,1,9,2,14,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-2938,6,157,1,1,2,4,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-2938,28,613,1,10,6,9,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-2938,7,195,1,2,3,3,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-2938,29,607,1,9,5,10,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-2938,32,732,1,9,5,9,1,4,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2017-8824,48,1180,1,15,5,17,0,6,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-1048,25,677,1,8,2,7,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-1048,99,2696,1,21,8,44,2,16,3,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2022-32250,29,617,0,4,4,11,0,5,0,True,['pointer_operations'],1
+CWE-416,CVE-2017-17975,57,1311,1,14,5,19,3,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2019-11810,59,1349,1,11,2,23,4,3,3,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2018-11412,33,784,1,9,3,18,0,4,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-1976,43,1051,1,22,3,27,0,4,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-1976,66,1723,1,17,6,31,0,12,1,True,['pointer_operations'],1
+CWE-416,CVE-2022-1976,76,1795,1,20,3,49,0,8,0,True,['pointer_operations'],1
+CWE-416,CVE-2018-20836,13,428,1,4,3,10,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-25045,64,1247,1,2,1,9,8,7,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2019-25045,45,1180,1,4,4,32,0,9,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-25045,14,436,1,7,2,4,2,0,2,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-1079,13,362,1,4,2,7,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-1079,18,524,1,5,3,8,1,2,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2021-3543,42,877,1,9,6,9,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-15220,16,344,1,7,3,4,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-15220,74,2048,1,12,5,39,1,4,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2019-15220,37,755,1,8,5,13,0,4,0,True,['pointer_operations'],1
+CWE-416,CVE-2014-2568,96,2553,1,27,9,28,0,12,0,True,['pointer_operations'],1
+CWE-416,CVE-2014-2568,221,6433,0,70,18,85,0,33,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-11815,26,850,1,12,6,24,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-3896,30,506,1,3,4,8,2,1,3,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2014-4653,60,1634,1,7,6,35,2,11,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2014-4653,33,913,1,7,5,21,1,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2014-4653,41,1052,1,11,3,33,0,4,1,True,['pointer_operations'],1
+CWE-416,CVE-2014-4653,48,1132,1,12,3,29,0,6,1,True,['pointer_operations'],1
+CWE-416,CVE-2019-19526,123,3008,1,29,13,49,1,10,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2022-3586,143,3334,1,38,15,62,12,25,2,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2019-15214,59,1543,1,19,2,37,1,4,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2020-29660,58,1436,1,25,3,36,0,8,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-29660,45,1195,1,21,4,9,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-29660,23,696,1,12,1,21,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-29660,12,353,1,2,3,4,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-5197,79,2023,1,25,12,23,6,12,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-5197,77,1987,1,31,11,19,11,14,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-5197,71,1397,1,20,9,24,0,13,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-5197,232,5941,1,72,20,81,34,43,2,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-5197,51,1377,1,24,13,40,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-10690,97,2432,0,35,5,55,0,12,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-10690,25,427,1,4,3,14,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-10690,10,189,1,4,1,9,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-10690,14,265,1,1,4,8,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2021-4154,84,2176,1,16,5,29,1,14,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2019-2025,36,884,0,3,4,12,0,3,1,True,"['buffer_variables', 'pointer_operations']",2
+CWE-416,CVE-2019-2025,434,13081,1,107,18,190,3,48,1,True,"['buffer_variables', 'pointer_operations', 'array_operations']",3
+CWE-416,CVE-2019-2025,603,19521,1,134,37,289,0,55,2,True,['pointer_operations'],1
+CWE-416,CVE-2019-2025,162,5244,0,46,13,41,0,15,3,True,"['buffer_variables', 'pointer_operations']",2
+CWE-416,CVE-2016-9120,103,2152,1,24,9,38,0,13,0,True,['pointer_operations'],1
+CWE-416,CVE-2016-9120,11,235,1,3,2,7,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2016-9120,13,300,0,5,2,6,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2016-9120,17,392,1,7,2,7,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-1118,15,385,1,9,2,7,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-35823,5,75,1,0,1,0,0,0,0,True,[],0
+CWE-416,CVE-2023-35823,9,293,1,5,1,12,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2021-23134,118,2689,1,25,8,49,0,13,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-3176,22,626,1,5,5,7,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-3176,10,299,1,4,3,2,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-3176,9,230,1,3,2,9,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2016-10200,58,1511,1,17,5,25,0,8,0,True,['pointer_operations'],1
+CWE-416,CVE-2016-10200,101,2452,1,25,8,30,0,13,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-33981,181,4708,1,45,4,42,21,26,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-416,CVE-2022-20158,274,7248,1,71,17,189,0,39,1,True,['pointer_operations'],1
+CWE-416,CVE-2022-20158,142,3691,1,24,8,53,0,17,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-416,CVE-2023-3390,227,5811,1,69,20,78,34,43,2,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2018-20976,7,139,1,2,2,0,0,0,0,True,[],0
+CWE-416,CVE-2018-20976,18,366,1,11,2,2,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2018-20976,179,4210,1,43,7,50,0,23,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-19530,385,11242,1,93,23,259,8,50,4,True,"['buffer_variables', 'unsafe_functions', 'pointer_operations', 'array_operations']",4
+CWE-416,CVE-2020-14351,109,3320,1,29,6,51,0,6,0,True,['pointer_operations'],1
+CWE-416,CVE-2021-29657,102,2821,1,22,4,142,6,8,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2021-29657,19,417,1,6,2,8,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2017-17052,50,1171,0,18,3,33,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-3609,56,1308,1,12,9,13,6,10,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2019-19448,50,1630,1,14,8,16,0,5,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-19447,80,2026,1,33,6,16,0,13,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-3141,27,682,1,11,3,16,0,1,1,True,['pointer_operations'],1
+CWE-416,CVE-2021-0342,274,6906,1,101,22,107,1,47,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2022-1419,19,448,0,6,4,6,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2015-8963,23,512,1,7,4,8,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2015-8963,15,416,1,7,2,9,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-27784,17,426,1,3,3,8,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-27784,11,278,1,5,3,6,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-27784,55,1477,0,18,3,61,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-18683,65,1894,1,23,5,71,0,5,3,True,['pointer_operations'],1
+CWE-416,CVE-2019-18683,24,634,1,9,3,22,0,1,1,True,['pointer_operations'],1
+CWE-416,CVE-2019-18683,65,1894,1,23,5,71,0,5,3,True,['pointer_operations'],1
+CWE-416,CVE-2019-18683,87,2763,1,11,2,24,0,6,1,True,['pointer_operations'],1
+CWE-416,CVE-2019-18683,101,3280,1,14,2,40,0,6,1,True,['pointer_operations'],1
+CWE-416,CVE-2019-18683,98,3172,1,11,2,38,0,7,1,True,['pointer_operations'],1
+CWE-416,CVE-2018-5344,28,661,1,6,2,11,0,4,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-0429,52,1274,1,13,4,24,1,3,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2018-14625,39,931,1,11,6,24,1,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2018-14625,10,215,0,3,1,2,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2018-14625,32,897,1,16,4,21,0,0,1,True,['pointer_operations'],1
+CWE-416,CVE-2018-14625,23,570,1,8,3,18,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2018-14625,25,587,1,4,2,4,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-2586,17,417,0,3,5,0,0,2,0,True,[],0
+CWE-416,CVE-2023-3812,52,1083,0,13,6,12,1,5,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-0469,48,1192,1,13,5,17,0,9,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-4206,100,2259,1,24,16,51,5,14,2,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-6111,31,697,0,8,4,5,0,4,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-15292,4,120,1,1,0,1,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-15292,4,87,1,1,0,1,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-9003,9,174,1,3,1,4,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-9003,5,130,1,2,2,0,0,0,0,True,[],0
+CWE-416,CVE-2023-20928,65,1616,1,21,4,35,3,5,3,True,"['buffer_variables', 'pointer_operations', 'array_operations']",3
+CWE-416,CVE-2023-20928,12,249,0,1,2,2,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-20928,20,492,1,6,2,3,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-20928,14,406,1,1,2,3,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-20928,130,3010,1,26,8,34,4,17,3,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2021-32606,83,1840,1,8,4,30,0,17,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-416,CVE-2021-32606,98,2132,1,15,10,57,0,18,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-11811,170,4200,1,29,3,112,4,15,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2019-11811,51,1101,1,3,2,16,0,3,2,True,['pointer_operations'],1
+CWE-416,CVE-2019-11811,70,1638,1,5,2,23,0,4,1,True,['pointer_operations'],1
+CWE-416,CVE-2022-4379,35,875,1,11,3,16,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2021-29266,5,113,1,1,1,2,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2018-16882,89,3164,1,26,4,45,0,10,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-1193,17,450,1,4,3,14,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-1193,23,539,1,8,3,20,0,4,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-1193,32,1006,1,6,4,38,0,1,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-416,CVE-2020-27675,26,526,1,5,0,0,5,4,0,True,['array_operations'],1
+CWE-416,CVE-2020-27675,8,226,1,4,0,0,3,2,0,True,['array_operations'],1
+CWE-416,CVE-2020-27675,16,345,1,6,2,2,0,0,1,True,['pointer_operations'],1
+CWE-416,CVE-2020-27675,7,148,1,2,0,1,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-2162,52,1357,1,11,8,19,0,5,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-3239,297,8029,1,50,10,168,9,38,4,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-1192,462,10925,0,95,20,238,0,70,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-1670,13,238,1,4,2,3,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2017-16527,11,259,1,6,1,7,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2021-39656,90,2234,1,14,6,44,0,15,0,True,"['buffer_variables', 'pointer_operations']",2
+CWE-416,CVE-2018-20856,35,786,1,7,1,19,0,5,0,True,['pointer_operations'],1
+CWE-416,CVE-2017-11176,123,2749,1,29,5,45,0,18,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-27067,79,1793,1,23,9,27,0,4,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-416,CVE-2020-27067,5,130,1,2,0,1,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-27067,10,271,1,7,3,6,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-29569,76,1839,1,21,6,43,3,6,3,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2019-19966,8,133,1,3,0,0,0,0,0,True,[],0
+CWE-416,CVE-2019-7221,42,1224,1,14,2,54,0,5,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-20421,31,805,1,9,7,3,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-2513,23,683,1,9,6,8,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-2513,27,825,1,8,5,26,0,4,0,True,['pointer_operations'],1
+CWE-416,CVE-2014-0131,196,4323,0,66,15,37,0,18,3,True,['pointer_operations'],1
+CWE-416,CVE-2017-16939,50,1150,1,5,7,14,2,9,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2017-16939,8,229,1,2,3,4,1,0,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2017-16939,23,615,1,4,4,16,4,1,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2017-15265,39,1197,1,4,5,39,0,7,0,True,['pointer_operations'],1
+CWE-416,CVE-2017-15265,48,1393,0,14,4,38,0,6,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-416,CVE-2018-10879,93,2866,1,30,7,11,0,16,1,True,['pointer_operations'],1
+CWE-416,CVE-2023-32269,16,341,1,5,2,6,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-0030,79,2400,1,10,8,36,3,6,3,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-0030,29,609,1,10,4,28,0,4,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-0030,86,2241,1,23,11,51,0,11,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-0030,137,3857,1,33,12,59,1,20,3,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2020-8648,42,969,1,17,5,11,0,3,1,True,['pointer_operations'],1
+CWE-416,CVE-2020-8648,157,4026,1,47,5,37,3,25,4,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-35826,18,449,1,9,2,12,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-1611,35,988,1,14,4,20,0,5,1,True,['pointer_operations'],1
+CWE-416,CVE-2021-3347,180,4671,1,28,7,50,0,13,1,True,['pointer_operations'],1
+CWE-416,CVE-2021-3347,160,4209,1,31,9,53,0,17,0,True,['pointer_operations'],1
+CWE-416,CVE-2021-3347,44,1264,1,4,3,12,0,5,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-26606,81,1588,1,12,16,23,1,13,2,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2020-27820,16,353,1,7,4,5,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-19813,222,5826,0,48,16,72,10,28,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-3776,37,838,1,6,7,10,7,7,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2017-6346,94,2305,1,24,6,71,0,13,0,True,['pointer_operations'],1
+CWE-416,CVE-2017-6346,23,417,1,9,3,12,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-19319,14,435,1,3,3,7,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-19319,39,998,1,18,5,5,0,8,1,True,['pointer_operations'],1
+CWE-416,CVE-2020-25656,121,3075,1,19,7,10,16,21,5,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-416,CVE-2021-0707,33,835,1,10,2,19,1,2,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-0266,49,1339,1,12,5,30,1,7,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-0266,22,524,1,8,3,6,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-6932,8,207,1,3,2,5,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2018-14734,67,1506,1,23,5,34,0,8,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-416,CVE-2018-14734,22,410,0,6,2,11,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-2215,64,1634,1,12,6,35,0,8,1,True,['pointer_operations'],1
+CWE-416,CVE-2023-4623,165,3558,1,39,13,63,11,37,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2022-1158,42,1213,0,14,7,11,2,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2016-7911,13,248,1,2,1,3,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-4387,89,2560,1,17,7,60,4,8,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-0461,22,420,1,3,3,8,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-0461,34,870,1,11,3,14,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-51780,163,3745,1,36,13,37,0,24,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-42720,108,2799,0,31,7,57,0,13,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-416,CVE-2022-42720,19,486,1,3,2,13,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-42720,109,3334,0,21,10,67,0,13,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-416,CVE-2018-14611,63,2028,1,18,3,3,0,7,0,True,['pointer_operations'],1
+CWE-416,CVE-2021-33034,23,526,1,7,4,7,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2021-33034,37,921,1,10,7,15,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-25669,6,159,1,2,1,3,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-25669,17,661,1,12,2,18,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2014-0203,31,754,1,11,5,20,0,6,0,True,['pointer_operations'],1
+CWE-416,CVE-2018-18559,87,1710,1,24,7,26,0,15,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-28893,36,834,1,14,5,16,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-28893,59,1554,1,14,7,30,0,6,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-28893,39,940,1,14,2,22,0,7,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-1990,13,279,1,5,1,11,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2021-3760,17,449,1,5,4,7,1,2,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2020-0427,12,334,1,1,3,4,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-39198,33,850,1,3,6,17,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-39198,43,926,1,3,5,21,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-39198,26,628,1,4,7,6,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-21255,34,1004,1,12,5,16,0,3,0,True,"['buffer_variables', 'pointer_operations']",2
+CWE-416,CVE-2016-7912,29,790,1,10,3,30,0,5,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-19770,96,2184,1,21,6,48,1,13,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-51782,93,2365,1,18,6,30,0,12,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-1989,18,281,1,5,3,1,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2016-4805,32,748,1,10,4,28,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2016-4805,32,756,1,12,3,26,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2024-0193,13,281,1,2,3,6,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2021-39801,61,1550,0,19,5,12,0,7,0,True,"['buffer_variables', 'pointer_operations']",2
+CWE-416,CVE-2021-39801,121,2666,1,34,9,54,0,14,0,True,['pointer_operations'],1
+CWE-416,CVE-2016-10905,26,567,1,11,4,13,0,1,1,True,['pointer_operations'],1
+CWE-416,CVE-2019-15211,74,2276,1,21,4,65,1,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2019-15919,77,2101,1,16,7,62,2,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-6039,49,1008,1,22,5,17,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-19527,69,1563,1,16,7,34,0,10,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-42719,62,1827,0,9,7,30,0,6,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-1043,15,316,1,4,2,5,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-19543,38,664,1,2,0,2,2,7,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2021-4028,61,1433,1,15,2,14,0,12,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-45888,65,1899,1,13,5,25,1,2,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2016-10088,107,3658,1,20,9,42,1,21,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-416,CVE-2016-10088,26,592,1,5,4,6,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2018-25015,452,12055,1,74,22,107,1,58,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-416,CVE-2019-2213,8,205,1,3,1,3,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-16119,56,1782,0,9,7,24,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-24122,37,807,0,14,4,12,0,4,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-27418,14,474,1,2,1,4,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2017-2584,26,574,1,3,1,10,3,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2017-2584,18,496,1,2,3,13,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-25220,12,303,1,2,1,1,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-4015,48,1122,1,10,6,20,0,5,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-4622,115,2579,1,29,9,34,0,19,0,True,['pointer_operations'],1
+CWE-416,CVE-2018-17182,62,1860,1,5,1,47,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2017-16648,15,288,1,3,2,5,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2016-8655,150,3606,1,41,9,82,0,28,0,True,['pointer_operations'],1
+CWE-416,CVE-2016-8655,212,4109,1,21,5,55,0,41,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-33288,18,508,1,9,2,8,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-8428,172,4210,1,45,9,70,2,33,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2020-15436,144,3382,1,31,5,57,0,24,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-15436,45,1126,1,12,4,8,0,5,0,True,['pointer_operations'],1
+CWE-416,CVE-2017-10661,47,1151,0,12,1,13,0,6,0,True,['pointer_operations'],1
+CWE-416,CVE-2017-10661,15,461,1,4,1,10,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2016-9794,22,565,1,7,2,5,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-15215,24,612,1,13,2,15,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2016-7913,56,1434,1,10,5,37,2,7,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-416,CVE-2017-15115,43,1128,1,7,6,12,0,4,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-0468,4,131,1,1,1,2,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-0468,67,1854,1,11,5,29,0,12,1,True,['pointer_operations'],1
+CWE-416,CVE-2022-22942,25,784,1,6,8,4,0,4,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-22942,234,6670,1,80,12,79,0,33,0,True,['pointer_operations'],1
+CWE-416,CVE-2021-0935,123,2847,1,23,7,61,1,19,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-20938,64,2249,1,8,12,23,0,7,1,True,"['buffer_variables', 'pointer_operations']",2
+CWE-416,CVE-2023-4207,106,2343,1,29,14,45,6,16,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2022-41849,25,674,1,6,2,8,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-41849,38,959,1,4,3,12,0,4,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-1204,80,1687,1,27,3,15,1,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-33250,22,683,1,13,3,11,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2021-28691,31,621,1,6,1,21,0,6,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-3317,51,1238,1,6,10,19,0,4,2,True,['pointer_operations'],1
+CWE-416,CVE-2022-2602,111,3339,1,36,2,53,0,3,2,True,['pointer_operations'],1
+CWE-416,CVE-2022-2602,53,1182,1,19,6,24,1,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2022-1055,231,5619,1,53,14,46,6,35,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2022-1055,133,3574,1,34,9,24,2,16,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2020-0423,52,1347,1,13,6,4,0,2,1,True,['pointer_operations'],1
+CWE-416,CVE-2023-1195,52,1331,1,20,2,30,0,4,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-2978,81,2193,1,18,4,77,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-30772,32,917,1,17,2,10,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-1838,93,1870,1,32,7,32,2,13,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2022-1280,139,4201,1,24,13,85,0,12,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-2024,65,1324,1,13,3,36,6,9,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2015-5706,61,1393,0,21,7,18,0,10,1,True,['pointer_operations'],1
+CWE-416,CVE-2016-10906,53,1323,1,12,8,27,2,7,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2016-10906,62,1612,1,24,6,31,5,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2019-15917,20,355,1,4,2,5,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-14416,19,436,1,4,2,12,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2017-18202,97,3042,1,27,4,27,0,5,1,True,['pointer_operations'],1
+CWE-416,CVE-2022-3534,11,283,1,2,4,1,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-3159,25,955,1,3,3,24,1,1,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2014-9940,21,477,1,4,3,11,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-1998,110,3207,1,23,10,22,0,14,0,True,['pointer_operations'],1
+CWE-416,CVE-2017-0861,77,1845,1,13,6,18,2,13,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2022-4696,20,447,1,4,3,5,1,4,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-1652,50,1428,1,18,7,36,0,4,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-41850,35,947,1,4,5,16,2,2,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2019-8956,97,2198,1,23,8,18,0,14,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-19529,13,287,1,6,2,3,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2018-19824,124,3222,1,30,6,43,14,20,2,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-1859,33,839,1,11,1,33,11,3,2,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2021-4202,17,377,1,4,4,6,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-42896,142,3234,1,33,9,71,3,12,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2022-1734,16,369,1,7,2,8,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-27066,15,306,1,7,1,12,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-4382,11,177,1,3,1,0,0,1,0,True,[],0
+CWE-416,CVE-2022-4382,56,1146,1,7,4,14,0,6,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-36313,18,466,1,1,3,12,8,1,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2020-36313,47,1587,1,12,5,18,3,9,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2020-36557,38,749,1,4,4,26,3,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2019-15213,13,334,1,4,3,3,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-19318,4,81,0,1,0,1,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-0646,9,223,1,3,3,6,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2021-37159,77,2071,0,20,4,27,4,9,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2019-15239,10,275,1,6,2,2,0,0,1,True,['pointer_operations'],1
+CWE-416,CVE-2017-16525,137,3256,1,27,12,75,0,14,1,True,['pointer_operations'],1
+CWE-416,CVE-2021-45868,46,1189,1,13,6,16,3,6,1,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2019-6974,51,989,1,12,5,30,1,7,0,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2022-2977,31,792,1,14,1,29,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-2977,10,364,1,8,1,7,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2019-19769,26,919,1,5,2,6,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-4394,36,1032,1,12,5,18,1,5,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-416,CVE-2022-1973,1479,34947,1,333,47,555,26,161,15,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-416,CVE-2022-0487,21,602,1,13,3,12,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2014-4654,116,3108,1,15,5,61,1,23,1,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-416,CVE-2023-5345,663,17453,1,99,5,261,9,77,2,True,"['pointer_operations', 'array_operations']",2
+CWE-416,CVE-2023-35828,18,474,1,9,2,13,0,0,0,True,['pointer_operations'],1
+CWE-416,CVE-2016-6828,5,155,1,0,2,2,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-4133,11,308,1,3,1,10,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-40283,27,446,1,10,3,3,0,1,0,True,['pointer_operations'],1
+CWE-416,CVE-2023-4921,14,402,1,4,2,18,0,2,0,True,['pointer_operations'],1
+CWE-416,CVE-2020-0466,162,4269,1,35,5,52,0,26,0,True,['pointer_operations'],1
+CWE-416,CVE-2014-9914,23,660,1,11,5,14,0,3,0,True,['pointer_operations'],1
+CWE-416,CVE-2022-2585,163,4008,1,37,2,37,0,14,0,True,['pointer_operations'],1
+CWE-476,CVE-2023-31083,54,1011,1,9,3,16,0,7,0,True,['pointer_operations'],1
+CWE-476,CVE-2017-15116,19,442,1,3,4,11,0,1,0,True,['pointer_operations'],1
+CWE-476,CVE-2017-15116,4,88,1,0,1,1,0,0,0,True,['pointer_operations'],1
+CWE-476,CVE-2017-15116,6,197,1,0,3,1,0,0,0,True,['pointer_operations'],1
+CWE-476,CVE-2017-15116,19,311,1,3,3,1,0,2,0,True,['pointer_operations'],1
+CWE-476,CVE-2018-7492,149,3860,1,28,9,51,3,16,2,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2023-32252,27,679,1,5,1,8,0,5,0,True,['pointer_operations'],1
+CWE-476,CVE-2023-32252,23,638,1,4,5,13,0,2,0,True,['pointer_operations'],1
+CWE-476,CVE-2023-32252,58,1341,1,7,5,6,0,8,1,True,['pointer_operations'],1
+CWE-476,CVE-2023-32252,173,4920,1,47,6,91,0,15,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-476,CVE-2023-32252,4,91,1,1,1,2,0,0,0,True,['pointer_operations'],1
+CWE-476,CVE-2023-32252,11,278,1,2,2,3,0,1,0,True,['pointer_operations'],1
+CWE-476,CVE-2023-0122,93,2351,1,28,5,58,0,15,0,True,['pointer_operations'],1
+CWE-476,CVE-2023-28466,228,6002,1,52,15,62,0,24,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-476,CVE-2023-28466,29,628,1,6,4,6,0,7,0,True,['pointer_operations'],1
+CWE-476,CVE-2023-28466,23,493,1,3,4,0,0,1,0,True,[],0
+CWE-476,CVE-2019-12818,63,1536,1,15,7,18,0,6,0,True,['pointer_operations'],1
+CWE-476,CVE-2017-18079,15,361,1,2,2,3,0,0,0,True,['pointer_operations'],1
+CWE-476,CVE-2017-18079,8,133,1,1,2,2,0,0,0,True,['pointer_operations'],1
+CWE-476,CVE-2017-18079,89,2570,1,14,4,8,1,13,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2019-15923,55,1322,1,14,3,18,8,8,2,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2019-15923,32,553,1,7,1,7,0,4,2,True,['pointer_operations'],1
+CWE-476,CVE-2019-15923,45,1101,1,7,2,46,5,3,1,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-476,CVE-2023-3358,31,901,0,4,2,11,2,2,3,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2023-3358,28,852,1,5,3,13,2,2,1,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2017-16646,25,945,1,5,3,26,8,4,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2017-16646,40,1222,1,7,4,41,7,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2017-16646,39,1293,1,14,3,36,5,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2017-16646,42,1266,1,13,3,30,2,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2017-16646,37,1296,1,17,3,35,2,4,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2017-16646,32,1053,1,12,2,29,3,4,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2017-16646,38,1289,1,17,3,36,2,4,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2017-16646,28,995,1,13,2,28,2,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2017-16646,35,1199,1,14,3,32,2,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2017-16646,33,1103,1,13,2,30,3,4,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2017-16646,23,716,1,6,2,22,3,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2020-27675,21,335,1,8,1,3,0,2,0,True,['pointer_operations'],1
+CWE-476,CVE-2020-27675,16,345,1,6,2,2,0,0,1,True,['pointer_operations'],1
+CWE-476,CVE-2020-27675,26,526,1,5,0,0,5,4,0,True,['array_operations'],1
+CWE-476,CVE-2020-27675,7,148,1,2,0,1,0,1,0,True,['pointer_operations'],1
+CWE-476,CVE-2020-27675,7,145,1,0,0,0,2,0,1,True,['array_operations'],1
+CWE-476,CVE-2017-12153,45,1250,1,10,6,13,10,7,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2019-19815,24,652,1,9,5,0,0,5,0,True,[],0
+CWE-476,CVE-2019-19815,16,370,1,3,4,4,0,3,0,True,['pointer_operations'],1
+CWE-476,CVE-2019-19815,111,2711,1,27,9,15,0,14,0,True,['pointer_operations'],1
+CWE-476,CVE-2019-19815,47,1130,1,14,7,17,0,6,1,True,['pointer_operations'],1
+CWE-476,CVE-2022-1671,7,182,1,0,2,3,1,1,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2022-1671,7,149,1,0,2,3,1,1,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2022-1671,22,491,1,3,2,9,1,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2022-3105,53,1605,1,14,6,36,3,6,1,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2018-1094,1027,31257,1,366,18,316,8,156,5,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-476,CVE-2022-23222,57,1593,1,14,6,20,8,8,2,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2022-23222,22,650,1,5,3,3,0,2,0,True,['pointer_operations'],1
+CWE-476,CVE-2022-23222,35,797,1,0,0,0,0,1,0,True,[],0
+CWE-476,CVE-2022-23222,44,1099,1,7,4,11,3,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2022-23222,135,4366,1,46,6,85,17,30,4,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2022-23222,118,3976,1,12,4,29,0,15,0,True,['pointer_operations'],1
+CWE-476,CVE-2022-23222,47,1524,1,1,5,14,1,5,1,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2022-23222,294,8742,1,75,11,86,28,46,3,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2022-23222,131,3888,1,23,8,45,4,17,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2022-23222,34,958,1,5,5,7,4,4,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2022-23222,54,1819,1,11,4,24,3,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2022-23222,9,262,1,0,0,0,0,0,0,True,[],0
+CWE-476,CVE-2022-23222,230,7442,1,36,20,97,6,24,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2022-23222,210,6780,1,58,11,47,12,47,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2022-23222,176,4768,1,31,10,58,7,21,4,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2022-23222,191,6399,1,56,12,101,16,31,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2022-23222,49,1276,1,2,2,22,0,5,0,True,['pointer_operations'],1
+CWE-476,CVE-2022-23222,18,376,1,0,0,0,0,1,0,True,[],0
+CWE-476,CVE-2020-27830,28,586,1,6,2,11,0,3,0,True,['pointer_operations'],1
+CWE-476,CVE-2020-27830,49,1062,1,13,3,13,0,7,0,True,['pointer_operations'],1
+CWE-476,CVE-2023-4459,38,1143,1,5,3,41,18,2,2,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2020-10711,32,673,1,1,5,12,1,4,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2020-10711,41,920,1,7,6,9,4,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2018-14617,99,2525,0,32,6,53,0,14,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-476,CVE-2019-18885,159,4799,1,51,4,89,0,13,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-476,CVE-2019-18885,30,743,0,8,3,7,1,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2019-18885,104,2888,1,39,8,62,9,9,1,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2019-18885,16,496,1,4,4,11,0,4,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-476,CVE-2019-18885,34,1073,1,8,4,15,2,6,2,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2019-18885,71,1779,1,18,9,20,7,7,1,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2019-18885,89,2370,1,14,7,28,2,9,1,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2019-18885,206,6515,0,57,11,82,1,21,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-476,CVE-2019-18885,31,916,0,9,8,12,0,3,0,True,['pointer_operations'],1
+CWE-476,CVE-2019-18885,44,1040,1,14,6,20,2,5,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-476,CVE-2015-8551,33,855,1,11,4,8,0,5,0,True,['pointer_operations'],1
+CWE-476,CVE-2015-8970,4,135,1,1,2,0,0,0,0,True,[],0
+CWE-476,CVE-2015-8970,4,117,0,1,1,0,0,0,0,True,[],0
+CWE-476,CVE-2015-8970,38,909,1,13,5,23,0,2,0,True,['pointer_operations'],1
+CWE-476,CVE-2015-8970,4,79,1,1,1,0,0,0,0,True,[],0
+CWE-476,CVE-2020-11609,12,384,1,1,3,11,4,0,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2020-11609,23,730,1,4,3,16,5,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2020-11609,52,1797,1,30,6,20,3,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2017-2647,34,838,0,11,3,4,0,3,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-476,CVE-2017-2647,31,731,1,4,3,12,0,4,0,True,['pointer_operations'],1
+CWE-476,CVE-2017-2647,5,148,1,0,1,1,0,0,0,True,['pointer_operations'],1
+CWE-476,CVE-2017-2647,138,3722,1,31,8,60,0,19,0,True,['pointer_operations'],1
+CWE-476,CVE-2017-2647,67,1680,0,16,7,17,0,8,0,True,['pointer_operations'],1
+CWE-476,CVE-2014-7826,47,1252,1,10,8,11,1,5,0,True,"['buffer_variables', 'pointer_operations', 'array_operations']",3
+CWE-476,CVE-2014-7826,38,1062,1,9,5,12,0,5,0,True,['pointer_operations'],1
+CWE-476,CVE-2014-7826,36,930,1,9,5,9,0,5,0,True,['pointer_operations'],1
+CWE-476,CVE-2018-8043,64,1574,1,12,6,43,0,5,0,True,['pointer_operations'],1
+CWE-476,CVE-2022-3110,25,843,1,1,3,35,9,2,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2022-3110,167,4530,1,33,7,91,1,6,4,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2018-1092,255,8153,0,105,10,123,5,35,1,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2019-15223,86,2244,1,18,8,35,0,7,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-476,CVE-2019-15223,49,1200,1,13,3,17,0,7,0,True,['pointer_operations'],1
+CWE-476,CVE-2019-15223,28,681,1,9,3,12,0,5,0,True,['pointer_operations'],1
+CWE-476,CVE-2019-15223,10,260,1,3,2,2,0,1,0,True,['pointer_operations'],1
+CWE-476,CVE-2022-47929,87,2105,1,19,11,24,0,17,1,True,['pointer_operations'],1
+CWE-476,CVE-2019-12984,23,515,1,5,3,3,3,2,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2019-12381,54,1361,1,16,5,40,0,6,1,True,['pointer_operations'],1
+CWE-476,CVE-2019-15924,13,331,1,5,0,0,0,0,0,True,[],0
+CWE-476,CVE-2020-11668,14,370,1,4,3,6,1,1,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2020-11668,23,498,1,1,2,10,3,1,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2020-11668,33,773,1,4,2,15,4,4,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2023-0458,60,1725,1,6,5,16,0,11,0,True,['pointer_operations'],1
+CWE-476,CVE-2015-7515,215,7180,1,48,8,115,10,7,6,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2023-2177,235,7428,0,40,5,209,8,7,1,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-476,CVE-2023-2177,46,1022,1,8,3,11,0,4,1,True,['pointer_operations'],1
+CWE-476,CVE-2022-1852,174,5051,1,31,5,69,0,31,0,True,['pointer_operations'],1
+CWE-476,CVE-2022-1852,24,647,1,4,4,5,0,1,0,True,['pointer_operations'],1
+CWE-476,CVE-2020-15437,62,1566,1,7,6,38,8,5,2,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2020-12364,16,532,1,7,2,2,6,0,1,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2020-12364,17,311,1,4,2,5,0,1,0,True,['pointer_operations'],1
+CWE-476,CVE-2020-12364,60,2192,1,18,4,46,2,1,1,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2020-12364,124,3958,1,40,6,78,0,11,0,True,['pointer_operations'],1
+CWE-476,CVE-2020-12364,79,2395,1,24,4,59,6,8,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2018-1130,63,1536,1,18,6,11,0,9,0,True,['pointer_operations'],1
+CWE-476,CVE-2021-3739,148,4198,1,46,6,62,0,16,0,True,['pointer_operations'],1
+CWE-476,CVE-2022-1205,29,696,1,14,1,17,0,3,0,True,['pointer_operations'],1
+CWE-476,CVE-2022-1205,45,1127,1,16,4,15,0,4,0,True,['pointer_operations'],1
+CWE-476,CVE-2019-15218,102,2630,1,25,3,62,6,6,2,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2019-15219,140,3323,1,27,6,65,7,11,2,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2022-3202,39,900,1,20,3,21,1,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2016-10147,13,336,1,2,4,4,0,3,0,True,['pointer_operations'],1
+CWE-476,CVE-2016-10147,65,1765,1,16,9,52,1,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2023-3106,9,245,1,2,4,4,1,0,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2023-3106,44,1061,1,8,7,18,8,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2021-4095,45,1075,1,8,1,8,0,5,0,True,['pointer_operations'],1
+CWE-476,CVE-2021-4095,45,1372,1,11,5,11,0,3,0,True,['pointer_operations'],1
+CWE-476,CVE-2018-5333,93,2727,1,12,6,114,0,8,0,True,['pointer_operations'],1
+CWE-476,CVE-2017-16647,10,225,1,2,3,3,0,1,0,True,['pointer_operations'],1
+CWE-476,CVE-2017-16647,10,260,1,2,3,3,0,1,0,True,['pointer_operations'],1
+CWE-476,CVE-2019-20054,15,292,1,4,2,5,0,3,0,True,['pointer_operations'],1
+CWE-476,CVE-2023-3212,52,1457,1,26,5,34,0,9,0,True,['pointer_operations'],1
+CWE-476,CVE-2017-18216,41,1164,1,9,6,17,2,6,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2017-18216,6,255,0,1,1,3,0,0,0,True,['pointer_operations'],1
+CWE-476,CVE-2017-18216,49,1446,1,8,5,22,0,7,0,True,['pointer_operations'],1
+CWE-476,CVE-2017-7374,45,1309,1,9,3,12,0,4,0,True,['pointer_operations'],1
+CWE-476,CVE-2017-7374,12,331,1,1,2,4,0,1,0,True,['pointer_operations'],1
+CWE-476,CVE-2017-7374,56,1427,1,15,8,19,0,6,0,True,['pointer_operations'],1
+CWE-476,CVE-2017-7374,66,1694,1,10,5,55,1,11,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-476,CVE-2022-3104,29,886,1,8,2,8,3,0,3,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2021-3543,42,877,1,9,6,9,0,3,0,True,['pointer_operations'],1
+CWE-476,CVE-2023-22997,59,1211,1,13,5,12,0,5,1,True,['pointer_operations'],1
+CWE-476,CVE-2023-22997,53,1114,1,9,6,10,0,4,1,True,['pointer_operations'],1
+CWE-476,CVE-2015-8787,49,1299,1,10,5,24,3,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2023-23001,10,284,1,3,2,5,0,1,0,True,['pointer_operations'],1
+CWE-476,CVE-2018-14616,9,222,1,3,3,1,1,1,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2018-14616,114,3693,1,69,5,82,5,15,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2018-14616,33,896,0,11,5,4,0,4,0,True,['pointer_operations'],1
+CWE-476,CVE-2018-19406,52,1292,1,9,6,20,4,7,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2019-9213,74,2168,1,15,3,21,0,8,0,True,['pointer_operations'],1
+CWE-476,CVE-2014-2678,32,833,1,7,1,11,0,3,0,True,['pointer_operations'],1
+CWE-476,CVE-2017-9211,26,766,1,4,3,24,0,4,0,True,['pointer_operations'],1
+CWE-476,CVE-2019-15291,56,1325,1,11,5,17,0,4,0,True,['pointer_operations'],1
+CWE-476,CVE-2019-12378,39,847,1,11,4,19,0,5,1,True,['pointer_operations'],1
+CWE-476,CVE-2019-19227,10,349,1,5,0,4,0,1,0,True,['pointer_operations'],1
+CWE-476,CVE-2019-19227,47,885,1,18,0,9,0,6,0,True,['pointer_operations'],1
+CWE-476,CVE-2017-12192,50,1120,1,9,2,8,0,6,0,True,"['buffer_variables', 'pointer_operations']",2
+CWE-476,CVE-2020-25285,23,566,1,3,6,6,0,3,0,True,"['buffer_variables', 'pointer_operations']",2
+CWE-476,CVE-2020-25285,29,610,1,5,5,8,0,4,0,True,"['buffer_variables', 'pointer_operations']",2
+CWE-476,CVE-2023-28327,39,867,1,8,5,29,8,3,1,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2017-12193,330,11215,1,64,12,142,61,21,14,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2023-1382,26,579,1,6,3,15,0,2,0,True,['pointer_operations'],1
+CWE-476,CVE-2023-1382,39,967,1,11,6,19,0,3,1,True,['pointer_operations'],1
+CWE-476,CVE-2023-22999,145,3500,1,45,6,54,2,20,1,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2018-1066,32,1089,1,3,3,21,0,2,0,True,"['buffer_variables', 'unsafe_functions', 'pointer_operations']",3
+CWE-476,CVE-2018-1066,37,949,1,9,3,38,0,4,0,True,['pointer_operations'],1
+CWE-476,CVE-2018-1066,116,3787,1,28,6,102,0,7,0,True,"['buffer_variables', 'unsafe_functions', 'pointer_operations']",3
+CWE-476,CVE-2022-42722,241,7496,1,46,10,84,9,38,2,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2022-3078,60,1188,0,8,3,40,0,6,1,True,['pointer_operations'],1
+CWE-476,CVE-2022-1789,30,752,1,4,3,14,3,3,1,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2023-1095,14,304,0,1,2,3,0,1,0,True,['pointer_operations'],1
+CWE-476,CVE-2017-2634,23,594,1,6,3,6,0,2,0,True,['pointer_operations'],1
+CWE-476,CVE-2018-14614,83,2101,1,23,12,15,0,10,1,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-476,CVE-2018-14614,77,2529,1,28,3,23,4,7,2,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2022-3106,20,619,1,9,6,3,0,0,0,True,['pointer_operations'],1
+CWE-476,CVE-2019-10207,30,448,1,7,2,10,0,3,0,True,['pointer_operations'],1
+CWE-476,CVE-2019-10207,19,289,1,4,2,7,0,1,0,True,['pointer_operations'],1
+CWE-476,CVE-2019-10207,89,2286,1,24,3,59,0,5,0,True,['pointer_operations'],1
+CWE-476,CVE-2019-10207,64,1189,1,11,4,33,0,7,0,True,['pointer_operations'],1
+CWE-476,CVE-2019-15216,25,642,1,9,3,15,0,0,0,True,['pointer_operations'],1
+CWE-476,CVE-2022-3111,15,756,1,12,1,0,0,0,0,True,[],0
+CWE-476,CVE-2022-0168,224,6359,1,43,20,108,46,29,0,True,"['buffer_variables', 'pointer_operations', 'array_operations']",3
+CWE-476,CVE-2020-14356,37,776,1,12,2,5,0,4,1,True,['pointer_operations'],1
+CWE-476,CVE-2020-14356,123,3509,0,43,5,48,0,10,0,True,['pointer_operations'],1
+CWE-476,CVE-2020-14356,7,143,1,3,2,0,0,0,0,True,[],0
+CWE-476,CVE-2020-14356,19,516,0,1,1,6,0,2,0,True,['pointer_operations'],1
+CWE-476,CVE-2023-32248,229,7378,1,81,20,129,0,6,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-476,CVE-2019-16231,80,2029,1,21,5,43,6,4,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2019-12881,67,1966,1,13,6,24,0,10,0,True,['pointer_operations'],1
+CWE-476,CVE-2019-12614,23,545,0,7,4,9,0,2,0,True,['pointer_operations'],1
+CWE-476,CVE-2019-15217,16,525,1,5,4,14,0,0,0,True,['pointer_operations'],1
+CWE-476,CVE-2017-16914,132,3375,1,31,9,61,11,8,2,True,"['buffer_variables', 'pointer_operations', 'array_operations']",3
+CWE-476,CVE-2021-3659,48,1132,0,17,3,20,7,7,2,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2023-2166,14,405,1,5,4,3,0,1,0,True,['pointer_operations'],1
+CWE-476,CVE-2023-2166,14,405,1,5,4,3,0,1,0,True,['pointer_operations'],1
+CWE-476,CVE-2023-2166,14,396,1,5,4,3,0,1,0,True,['pointer_operations'],1
+CWE-476,CVE-2023-2898,17,387,1,6,2,2,0,3,0,True,['pointer_operations'],1
+CWE-476,CVE-2017-16537,89,2170,1,24,9,25,0,8,0,True,['pointer_operations'],1
+CWE-476,CVE-2016-8646,33,695,1,9,10,10,0,3,0,True,['pointer_operations'],1
+CWE-476,CVE-2021-30178,11,267,0,2,3,1,0,2,0,True,['pointer_operations'],1
+CWE-476,CVE-2022-25258,423,11326,1,71,19,163,10,72,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-476,CVE-2019-15221,61,1567,1,14,6,34,3,6,1,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2019-19037,71,1964,1,27,6,29,0,10,1,True,['pointer_operations'],1
+CWE-476,CVE-2016-9313,4,86,1,1,0,1,0,0,0,True,['pointer_operations'],1
+CWE-476,CVE-2022-4127,34,711,1,6,3,8,2,5,1,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2023-4385,69,1701,1,21,6,12,0,6,1,True,['pointer_operations'],1
+CWE-476,CVE-2022-4128,39,990,1,18,4,16,0,1,0,True,['pointer_operations'],1
+CWE-476,CVE-2022-3112,77,2424,1,21,8,32,0,8,0,True,['pointer_operations'],1
+CWE-476,CVE-2022-3112,16,463,1,4,2,13,0,0,0,True,['pointer_operations'],1
+CWE-476,CVE-2022-1263,15,433,1,6,1,4,0,0,0,True,['pointer_operations'],1
+CWE-476,CVE-2016-3070,69,1855,1,38,2,0,0,14,0,True,[],0
+CWE-476,CVE-2016-3070,99,2873,1,35,6,22,0,9,0,True,['pointer_operations'],1
+CWE-476,CVE-2019-19965,108,3010,1,35,7,92,1,8,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-476,CVE-2019-19036,47,1487,1,11,3,13,0,5,0,True,['pointer_operations'],1
+CWE-476,CVE-2017-15274,80,1751,0,20,3,3,1,11,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2021-44879,151,3513,1,48,14,28,8,20,1,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2023-1583,19,427,1,1,3,10,0,2,1,True,['pointer_operations'],1
+CWE-476,CVE-2023-1583,28,688,1,8,4,15,0,2,2,True,['pointer_operations'],1
+CWE-476,CVE-2023-3359,31,607,1,9,3,6,1,2,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2019-16234,182,5021,0,52,5,75,1,20,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2018-1000200,30,761,1,8,3,8,0,1,1,True,['pointer_operations'],1
+CWE-476,CVE-2023-23005,42,1148,1,13,1,3,0,3,0,True,['pointer_operations'],1
+CWE-476,CVE-2017-13686,123,2863,1,38,13,42,12,18,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2022-1516,15,308,1,6,2,5,0,1,0,True,['pointer_operations'],1
+CWE-476,CVE-2017-15306,166,3643,1,12,2,6,0,10,0,True,['pointer_operations'],1
+CWE-476,CVE-2019-15099,17,496,0,5,2,13,0,1,0,True,['pointer_operations'],1
+CWE-476,CVE-2019-15099,12,321,1,3,2,11,0,0,0,True,['pointer_operations'],1
+CWE-476,CVE-2023-23004,39,674,1,5,5,11,0,5,2,True,['pointer_operations'],1
+CWE-476,CVE-2017-15299,146,3870,1,31,9,60,0,20,0,True,['pointer_operations'],1
+CWE-476,CVE-2018-14609,25,704,1,10,5,25,0,2,0,True,['pointer_operations'],1
+CWE-476,CVE-2021-38206,205,6093,1,15,14,83,19,28,3,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2019-16229,28,631,1,7,1,10,0,1,0,True,['pointer_operations'],1
+CWE-476,CVE-2019-11810,59,1349,1,11,2,23,4,3,3,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2023-6176,111,2658,1,24,12,54,0,19,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-476,CVE-2017-18241,66,1893,1,23,4,27,0,10,0,True,['pointer_operations'],1
+CWE-476,CVE-2023-6679,23,617,1,5,4,0,3,2,0,True,['array_operations'],1
+CWE-476,CVE-2018-13094,88,2286,1,24,8,50,2,5,1,True,"['buffer_variables', 'unsafe_functions', 'pointer_operations', 'array_operations']",4
+CWE-476,CVE-2023-46862,159,5235,1,55,28,93,8,14,6,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2017-5970,26,993,1,7,4,8,0,2,0,True,['pointer_operations'],1
+CWE-476,CVE-2022-3114,28,750,1,4,0,0,4,4,1,True,['array_operations'],1
+CWE-476,CVE-2023-23006,56,1329,1,16,1,21,0,6,0,True,['pointer_operations'],1
+CWE-476,CVE-2023-28328,91,2108,1,12,7,32,42,8,5,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2019-15222,12,340,1,3,3,2,1,1,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2018-7191,18,378,1,6,3,2,0,4,0,True,['pointer_operations'],1
+CWE-476,CVE-2022-3113,31,695,0,5,3,9,0,2,0,True,['pointer_operations'],1
+CWE-476,CVE-2019-15922,17,351,1,6,1,9,0,2,1,True,['pointer_operations'],1
+CWE-476,CVE-2019-15922,52,1230,1,14,2,18,7,8,2,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2023-23000,22,480,0,7,5,2,0,2,0,True,['pointer_operations'],1
+CWE-476,CVE-2023-3355,62,1504,1,8,5,28,7,5,1,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2020-35499,75,1426,1,18,5,14,0,10,0,True,['pointer_operations'],1
+CWE-476,CVE-2017-8106,66,1610,1,17,2,8,0,8,0,True,['pointer_operations'],1
+CWE-476,CVE-2017-8106,124,4868,1,8,0,1,0,3,0,True,['pointer_operations'],1
+CWE-476,CVE-2019-12382,50,1178,0,10,9,5,1,7,1,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2018-10322,126,3139,1,20,2,28,0,24,0,True,['pointer_operations'],1
+CWE-476,CVE-2023-5972,36,743,1,3,5,8,3,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2018-10074,34,936,1,8,3,22,1,3,1,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2020-36558,696,14655,1,104,10,124,13,80,4,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-476,CVE-2021-38200,17,417,1,5,3,3,0,4,0,True,['pointer_operations'],1
+CWE-476,CVE-2023-23002,120,3379,1,35,5,90,0,19,0,True,['pointer_operations'],1
+CWE-476,CVE-2022-0617,72,2102,1,28,5,46,0,6,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-476,CVE-2018-14646,92,2319,1,17,13,17,13,13,1,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2016-6327,52,1461,1,8,7,31,0,4,0,True,['pointer_operations'],1
+CWE-476,CVE-2023-0394,78,1529,1,17,6,22,0,9,0,True,['pointer_operations'],1
+CWE-476,CVE-2022-3115,10,251,1,3,2,5,0,1,0,True,['pointer_operations'],1
+CWE-476,CVE-2018-1065,135,3783,1,31,16,64,5,13,1,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2017-15102,131,3895,1,28,8,66,1,14,1,True,"['pointer_operations', 'array_operations']",2
+CWE-476,CVE-2019-12615,26,686,1,4,5,8,0,1,0,True,['pointer_operations'],1
+CWE-787,CVE-2017-18552,23,522,1,1,2,8,3,3,1,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2021-42008,19,448,1,0,2,11,9,1,0,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2018-13095,160,4003,1,24,2,34,0,30,0,True,['pointer_operations'],1
+CWE-787,CVE-2020-9391,101,2319,0,17,4,27,0,12,0,True,['pointer_operations'],1
+CWE-787,CVE-2020-9391,50,1354,1,17,3,1,0,8,0,True,['pointer_operations'],1
+CWE-787,CVE-2020-9391,139,3333,0,28,9,33,0,20,0,True,['pointer_operations'],1
+CWE-787,CVE-2019-19816,605,17240,1,193,5,266,0,99,0,True,['pointer_operations'],1
+CWE-787,CVE-2019-19816,48,1242,0,19,7,23,0,8,0,True,['pointer_operations'],1
+CWE-787,CVE-2019-19816,222,5826,0,48,16,72,10,28,0,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2019-19532,186,6076,1,45,13,81,17,24,6,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2019-19532,41,1071,1,8,5,19,14,3,0,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2019-19532,22,628,1,6,4,11,0,2,0,True,['pointer_operations'],1
+CWE-787,CVE-2019-19532,53,1444,1,12,6,33,16,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2019-19532,34,914,1,7,4,14,5,4,2,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2019-19532,58,1526,1,13,7,32,14,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2019-19532,117,3476,1,28,8,53,8,13,3,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2019-19532,26,771,1,6,4,7,2,3,1,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2021-39685,200,5301,1,38,8,96,0,23,0,True,['pointer_operations'],1
+CWE-787,CVE-2021-39685,58,1442,1,12,9,30,0,6,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-787,CVE-2021-39685,411,11020,1,70,18,159,10,70,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-787,CVE-2017-1000251,51,1420,1,17,2,20,0,5,0,True,['pointer_operations'],1
+CWE-787,CVE-2017-1000251,28,731,1,10,3,13,0,2,0,True,['pointer_operations'],1
+CWE-787,CVE-2017-1000251,72,1493,1,19,6,19,0,6,0,True,['pointer_operations'],1
+CWE-787,CVE-2017-1000251,111,2549,1,29,9,28,0,15,0,True,['pointer_operations'],1
+CWE-787,CVE-2017-1000251,134,3797,0,39,11,63,0,10,0,True,['pointer_operations'],1
+CWE-787,CVE-2017-1000251,76,1937,1,34,4,35,0,8,0,True,['pointer_operations'],1
+CWE-787,CVE-2021-27365,22,499,1,4,3,3,0,1,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-787,CVE-2021-27365,40,851,1,6,4,8,0,4,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-787,CVE-2021-27365,23,570,1,3,4,15,0,2,0,True,['pointer_operations'],1
+CWE-787,CVE-2021-27365,10,307,1,4,4,1,0,1,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-787,CVE-2021-27365,26,697,1,3,7,23,0,3,0,True,['pointer_operations'],1
+CWE-787,CVE-2021-27365,97,2839,1,28,3,29,0,1,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-787,CVE-2021-27365,6,213,1,2,4,1,0,0,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-787,CVE-2018-10880,59,1622,1,11,8,7,0,7,2,True,['pointer_operations'],1
+CWE-787,CVE-2018-12714,165,3317,0,22,14,37,20,21,4,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2020-25212,45,1181,1,16,7,9,3,9,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-787,CVE-2018-9518,36,727,0,6,2,16,4,3,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-787,CVE-2022-20369,34,1029,1,12,5,7,0,4,0,True,['pointer_operations'],1
+CWE-787,CVE-2022-20369,23,581,1,4,5,11,1,2,1,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2022-20369,9,279,1,3,5,3,0,0,0,True,['pointer_operations'],1
+CWE-787,CVE-2020-0465,671,22490,1,284,10,133,2,53,2,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2020-0465,7,223,1,2,4,1,0,0,0,True,['pointer_operations'],1
+CWE-787,CVE-2020-0465,187,5118,1,29,10,74,3,19,0,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2019-9456,27,740,1,11,5,24,0,2,0,True,['pointer_operations'],1
+CWE-787,CVE-2019-9456,36,1041,1,15,5,31,0,5,0,True,['pointer_operations'],1
+CWE-787,CVE-2022-4378,72,1495,1,9,11,27,0,13,1,True,"['buffer_variables', 'pointer_operations']",2
+CWE-787,CVE-2022-4378,56,1027,1,5,11,10,0,7,0,True,"['buffer_variables', 'pointer_operations']",2
+CWE-787,CVE-2021-33656,64,1410,1,7,3,5,0,2,0,True,['pointer_operations'],1
+CWE-787,CVE-2021-33656,80,1430,1,12,2,16,0,8,0,True,['pointer_operations'],1
+CWE-787,CVE-2021-33656,62,1333,1,8,4,33,1,11,2,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2021-33655,64,2001,1,16,10,23,7,5,2,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-787,CVE-2020-14390,202,5786,1,45,4,88,3,31,0,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2020-14390,19,511,1,2,3,3,0,4,1,True,['pointer_operations'],1
+CWE-787,CVE-2020-14390,6,124,1,1,1,0,0,1,0,True,[],0
+CWE-787,CVE-2020-14390,109,2763,0,16,7,72,4,15,0,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2020-14390,53,1096,1,9,3,22,3,8,1,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2020-14390,50,1368,1,16,6,32,3,10,0,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2020-14390,33,902,1,8,4,11,3,4,0,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2020-14390,39,1005,1,11,4,30,4,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2020-14390,90,1944,1,19,2,17,3,22,2,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2020-14390,30,735,1,8,4,9,2,5,0,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2020-14390,138,3398,1,20,8,65,8,19,0,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2020-14390,16,440,0,0,1,5,0,3,0,True,['pointer_operations'],1
+CWE-787,CVE-2020-14390,67,1717,1,13,9,70,3,12,0,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2020-14390,152,4124,1,20,11,114,9,26,0,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2022-47942,807,21739,1,211,42,339,0,143,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-787,CVE-2022-47942,158,4076,1,37,17,43,0,25,3,True,['pointer_operations'],1
+CWE-787,CVE-2022-47942,32,904,1,5,7,13,0,5,0,True,['pointer_operations'],1
+CWE-787,CVE-2022-47942,74,2076,1,22,12,33,0,7,0,True,['pointer_operations'],1
+CWE-787,CVE-2022-47942,69,1717,1,23,9,29,0,7,0,True,['pointer_operations'],1
+CWE-787,CVE-2022-48423,103,2060,0,18,5,22,0,20,0,True,['pointer_operations'],1
+CWE-787,CVE-2018-5703,8,127,1,2,0,2,0,0,0,True,['pointer_operations'],1
+CWE-787,CVE-2018-5703,31,770,1,3,4,13,0,2,0,True,['pointer_operations'],1
+CWE-787,CVE-2018-5703,4,120,1,0,2,3,1,0,0,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2021-33909,4,94,0,1,0,0,0,0,0,True,[],0
+CWE-787,CVE-2023-2124,114,3842,1,21,6,21,1,11,0,True,"['buffer_variables', 'pointer_operations', 'array_operations']",3
+CWE-787,CVE-2023-4273,30,793,1,5,4,4,0,2,1,True,['pointer_operations'],1
+CWE-787,CVE-2023-4273,206,4621,1,19,18,70,0,28,2,True,['pointer_operations'],1
+CWE-787,CVE-2020-12659,91,2188,1,13,7,28,0,14,0,True,['pointer_operations'],1
+CWE-787,CVE-2022-2991,93,2383,1,35,6,71,1,13,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-787,CVE-2022-2991,12,243,1,6,2,4,0,1,0,True,['pointer_operations'],1
+CWE-787,CVE-2020-14305,14,354,0,3,3,3,0,1,0,True,['pointer_operations'],1
+CWE-787,CVE-2020-14305,35,978,1,7,1,4,7,3,1,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2020-14305,39,1201,1,7,0,4,9,2,1,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2020-14305,37,969,1,7,1,4,7,3,1,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2020-14305,25,643,1,5,0,4,5,2,1,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2020-14305,41,933,1,7,0,5,4,5,1,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2012-3400,167,5234,1,50,17,97,8,14,2,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2022-21499,171,4435,1,50,3,8,6,16,1,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2023-2598,82,1900,1,15,7,20,7,9,2,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2023-0210,68,2120,1,19,5,22,0,7,0,True,['pointer_operations'],1
+CWE-787,CVE-2018-10882,1031,31355,1,364,18,318,8,156,5,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-787,CVE-2018-10882,136,3647,1,40,7,16,0,17,2,True,['pointer_operations'],1
+CWE-787,CVE-2017-13166,100,3677,1,16,14,69,0,15,0,True,['pointer_operations'],1
+CWE-787,CVE-2017-13166,89,3415,1,28,11,53,0,14,0,True,['pointer_operations'],1
+CWE-787,CVE-2017-13166,94,3474,1,30,11,56,0,16,0,True,['pointer_operations'],1
+CWE-787,CVE-2019-13631,335,7408,1,43,15,22,32,23,5,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-787,CVE-2023-1073,49,1321,0,6,2,8,7,6,0,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2017-18551,173,4491,1,8,7,59,59,20,5,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2020-10742,124,3570,1,35,18,25,2,16,2,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2020-10742,92,2078,1,26,10,29,0,13,0,True,['pointer_operations'],1
+CWE-787,CVE-2020-10742,64,1462,1,20,9,19,0,7,0,True,['pointer_operations'],1
+CWE-787,CVE-2023-34319,121,3370,1,24,14,69,7,9,3,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-787,CVE-2017-17806,67,1601,1,17,5,46,1,6,0,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2017-17806,5,115,1,0,2,0,0,0,0,True,[],0
+CWE-787,CVE-2019-19332,385,10703,1,151,26,142,21,31,6,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2023-5717,31,954,1,8,8,1,0,3,0,True,['pointer_operations'],1
+CWE-787,CVE-2023-5717,50,1380,1,12,5,15,8,7,0,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2018-14610,53,1248,1,9,8,20,3,6,1,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2022-36280,85,2244,1,15,7,60,1,7,1,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-787,CVE-2019-20636,39,873,1,8,3,11,0,3,0,True,['pointer_operations'],1
+CWE-787,CVE-2019-20636,59,1209,1,5,6,27,6,7,1,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2023-45863,16,472,1,6,4,2,0,0,1,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-787,CVE-2023-45863,15,267,0,3,2,0,0,2,0,True,[],0
+CWE-787,CVE-2021-31916,63,1566,1,17,9,18,0,2,2,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-787,CVE-2018-5332,32,783,1,2,3,5,1,3,1,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2018-16880,24,574,1,4,2,15,2,1,2,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2018-16880,40,1092,1,10,4,24,6,2,0,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2018-16880,43,1146,1,8,5,30,9,3,1,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2018-16880,63,1576,1,14,7,47,17,4,1,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2022-1943,98,2961,1,33,11,52,0,14,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-787,CVE-2022-3028,28,745,1,5,6,9,0,5,0,True,['pointer_operations'],1
+CWE-787,CVE-2020-0432,25,622,1,4,4,15,0,1,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-787,CVE-2020-0432,50,1235,1,9,8,26,6,3,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-787,CVE-2021-0935,123,2847,1,23,7,61,1,19,0,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2017-1000363,29,746,1,8,2,2,4,7,0,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2019-9162,7,170,1,0,2,1,0,1,0,True,['pointer_operations'],1
+CWE-787,CVE-2019-9162,17,414,1,2,4,11,0,2,0,True,['pointer_operations'],1
+CWE-787,CVE-2022-0435,144,4338,1,58,20,48,0,25,0,True,['pointer_operations'],1
+CWE-787,CVE-2022-0435,83,2341,1,23,13,36,2,11,1,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-787,CVE-2017-13216,48,1057,1,7,4,9,0,3,0,True,['pointer_operations'],1
+CWE-787,CVE-2023-35001,61,1393,1,11,8,28,14,4,6,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2019-2214,711,22631,1,151,37,330,0,62,2,True,"['buffer_variables', 'pointer_operations']",2
+CWE-787,CVE-2021-3489,42,1123,0,10,2,18,0,4,0,True,['pointer_operations'],1
+CWE-787,CVE-2017-7308,153,3583,1,40,10,86,0,28,0,True,['pointer_operations'],1
+CWE-787,CVE-2023-35788,84,2525,1,14,10,15,10,11,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-787,CVE-2021-38166,215,5392,1,45,22,47,1,24,1,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-787,CVE-2020-0429,13,347,1,3,1,9,0,3,0,True,['pointer_operations'],1
+CWE-787,CVE-2021-3490,35,1183,1,4,7,16,0,2,0,True,['pointer_operations'],1
+CWE-787,CVE-2021-3490,34,1158,1,4,7,17,0,2,0,True,['pointer_operations'],1
+CWE-787,CVE-2021-3490,29,977,1,3,6,16,0,2,0,True,['pointer_operations'],1
+CWE-787,CVE-2023-31436,128,3027,1,30,9,42,10,20,0,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2019-11683,47,1248,0,10,6,15,0,4,0,True,['pointer_operations'],1
+CWE-787,CVE-2021-22555,91,2160,1,17,10,35,8,6,2,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-787,CVE-2021-22555,91,2167,1,17,10,35,8,6,2,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-787,CVE-2021-0512,81,2633,1,9,4,83,6,6,1,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2018-11506,71,1726,1,7,5,18,0,10,0,True,['pointer_operations'],1
+CWE-787,CVE-2020-14331,28,773,1,1,2,21,0,3,1,True,['pointer_operations'],1
+CWE-787,CVE-2020-0066,85,1869,1,26,6,23,0,11,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-787,CVE-2020-25285,29,610,1,5,5,8,0,4,0,True,"['buffer_variables', 'pointer_operations']",2
+CWE-787,CVE-2020-25285,23,566,1,3,6,6,0,3,0,True,"['buffer_variables', 'pointer_operations']",2
+CWE-787,CVE-2019-8956,97,2198,1,23,8,18,0,14,0,True,['pointer_operations'],1
+CWE-787,CVE-2020-12653,36,1034,1,6,4,20,4,3,1,True,"['buffer_variables', 'unsafe_functions', 'pointer_operations', 'array_operations']",4
+CWE-787,CVE-2023-3611,17,469,1,6,4,1,0,2,0,True,['pointer_operations'],1
+CWE-787,CVE-2022-3577,88,2099,1,22,7,39,3,7,1,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2023-2194,32,918,1,10,3,13,3,2,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-787,CVE-2017-0750,49,1446,1,15,2,10,0,5,0,True,['pointer_operations'],1
+CWE-787,CVE-2018-1068,58,1371,1,7,7,13,0,8,1,True,['pointer_operations'],1
+CWE-787,CVE-2017-7294,191,5098,1,48,16,105,4,16,3,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-787,CVE-2019-14821,28,839,1,8,5,27,4,2,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-787,CVE-2023-6931,20,652,1,3,1,7,0,1,0,True,['pointer_operations'],1
+CWE-787,CVE-2023-6931,6,200,1,2,1,4,0,0,0,True,['pointer_operations'],1
+CWE-787,CVE-2022-1015,16,364,1,2,4,1,0,1,0,True,['pointer_operations'],1
+CWE-787,CVE-2022-1015,13,230,1,2,2,1,0,1,0,True,['pointer_operations'],1
+CWE-787,CVE-2022-0995,78,1942,1,14,7,32,11,10,2,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2022-41674,88,2633,1,23,12,25,4,8,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-787,CVE-2021-4090,22,460,1,3,3,3,2,3,2,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2018-10881,59,1426,1,21,5,26,0,8,0,True,['pointer_operations'],1
+CWE-787,CVE-2021-43975,50,1016,1,5,3,19,0,7,1,True,['pointer_operations'],1
+CWE-787,CVE-2017-1000111,220,4225,1,23,5,55,0,42,0,True,['pointer_operations'],1
+CWE-787,CVE-2021-42739,18,397,1,1,3,6,5,1,1,True,"['pointer_operations', 'array_operations']",2
+CWE-787,CVE-2021-42739,135,4105,1,14,4,61,55,12,1,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-787,CVE-2023-28410,51,1036,1,12,6,9,0,8,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-787,CVE-2020-8835,109,2964,1,29,13,30,0,20,0,True,['pointer_operations'],1
+CWE-787,CVE-2018-10878,59,1868,1,25,5,10,0,6,2,True,['pointer_operations'],1
+CWE-787,CVE-2016-9755,20,455,1,4,3,4,0,2,0,True,['pointer_operations'],1
+CWE-787,CVE-2019-19319,14,435,1,3,3,7,0,1,0,True,['pointer_operations'],1
+CWE-787,CVE-2020-12654,82,2412,1,9,10,39,1,2,1,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-787,CVE-2021-3612,30,587,1,6,4,5,4,2,2,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-787,CVE-2021-28660,129,3405,1,19,14,32,5,14,1,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-787,CVE-2019-9500,46,1392,1,11,7,40,2,4,0,True,"['unsafe_functions', 'pointer_operations', 'array_operations']",3
+CWE-787,CVE-2018-16276,34,738,1,6,7,16,0,3,0,True,"['buffer_variables', 'pointer_operations']",2
+CWE-787,CVE-2020-10942,31,545,0,4,1,9,0,4,0,True,['pointer_operations'],1
+CWE-787,CVE-2021-4093,8,212,1,1,1,13,0,0,0,True,"['unsafe_functions', 'pointer_operations']",2
+CWE-787,CVE-2023-21255,84,2270,1,21,9,35,0,13,0,True,"['buffer_variables', 'pointer_operations']",2
+CWE-787,CVE-2018-9385,32,681,1,8,7,4,0,4,0,True,['pointer_operations'],1
+CWE-787,CVE-2020-11565,116,2287,1,12,7,15,2,21,1,True,"['pointer_operations', 'array_operations']",2

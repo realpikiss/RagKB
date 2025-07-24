@@ -1,0 +1,21 @@
+{
+  "recommendation": "AST + PDG",
+  "reasoning": "Low control flow complexity, high data dependency requirements",
+  "success_rates": {
+    "ast": 100.0,
+    "cfg": 100.0,
+    "pdg": 100.0
+  },
+  "complexity_requirements": {
+    "complex_cfg_rate": 0.0,
+    "significant_pdg_rate": 64.3597181931206
+  },
+  "cost_analysis": {
+    "ast_only_ms": 1.0,
+    "ast_cfg_ms": 6.0,
+    "ast_pdg_ms": 11.0,
+    "full_ms": 16.0
+  },
+  "effectiveness": 100,
+  "efficiency": 9.090909090909092
+}

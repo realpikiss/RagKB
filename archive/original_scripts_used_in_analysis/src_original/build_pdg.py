@@ -10,19 +10,11 @@ from tree_sitter import Language, Parser
 
 # Configuration imports with fallback
 try:
-    from .config import PDG_TIMEOUT_SECONDS
+    from .config import PDG_TIMEOUT_SECONDS, TRACKED_FUNCTIONS, VULNERABILITY_PATTERNS
     from .utils import timeout_wrapper, clean_error_message
 except ImportError:
-    from config import PDG_TIMEOUT_SECONDS
+    from config import PDG_TIMEOUT_SECONDS, TRACKED_FUNCTIONS, VULNERABILITY_PATTERNS
     from utils import timeout_wrapper, clean_error_message
-
-# Context-dependent function detection (empirically validated from Phase 3)
-# These functions require context analysis rather than blacklist approach
-CONTEXT_DEPENDENT_FUNCTIONS = [
-    'kfree', 'memcpy', 'IS_ERR', 'unlikely', 'spin_lock', 'mutex_lock',
-    'malloc', 'free', 'strcpy', 'strcat', 'sprintf', 'printf', 'gets',
-    'scanf', 'fprintf', 'snprintf', 'calloc', 'realloc'
-]
 
 # Setup Tree-sitter C parser
 C_LANGUAGE = Language(tsc.language())
@@ -366,15 +358,13 @@ def _analyze_code_patterns(func_node, statements):
                 'type': 'memory_operation'
             })
         
-        # Track context-dependent function calls (Phase 3 validation: superior to blacklists)
+        # Track function calls from centralized list (observational only)
         for func_call in stmt['function_calls']:
-            if func_call in CONTEXT_DEPENDENT_FUNCTIONS:
+            if func_call in TRACKED_FUNCTIONS:
                 patterns['function_calls'].append({
                     'line': stmt['line'],
                     'function': func_call,
-                    'statement': stmt['text'][:100],
-                    'context_dependent': True,  # Requires surrounding code analysis
-                    'blacklist_approach': False  # Empirically proven inferior
+                    'statement': stmt['text'][:100]
                 })
     
     return patterns
@@ -388,3 +378,36 @@ def _count_pattern_indicators(patterns):
         'tracked_funcs': len(patterns['function_calls'])
     }
 
+# Test function
+if __name__ == "__main__":
+    test_code = """
+    int vulnerable_function(char *buffer, int size) {
+        char local_buffer[100];
+        int *ptr = malloc(size * sizeof(int));
+        
+        if (size > 100) {
+            return -1;
+        }
+        
+        strcpy(local_buffer, buffer);
+        *ptr = size;
+        
+        free(ptr);
+        return 0;
+    }
+    """
+    
+    result = build_simple_pdg(test_code)
+    print("PDG Construction Test:")
+    print(f"Success: {result['success']}")
+    if result['success']:
+        stats = result['global_stats']
+        print(f"Functions: {stats['total_functions']}")
+        print(f"Total variables: {stats['total_variables']}")
+        print(f"Total dependencies: {stats['total_dependencies']}")
+        
+        for func_name, func_pdg in result['functions'].items():
+            print(f"\nFunction '{func_name}':")
+            print(f"  Variables: {func_pdg['variable_count']}")
+            print(f"  Dependencies: {func_pdg['dependency_count']}")
+            print(f"  Pattern indicators: {func_pdg['vulnerability_indicators']}")

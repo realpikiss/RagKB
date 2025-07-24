@@ -30,7 +30,7 @@ def process_all_raw_files():
     raw_files = glob.glob(str(DATA_RAW_DIR / RAW_FILE_PATTERN))
     
     if not raw_files:
-        print(f"❌ No files found in directory: {DATA_RAW_DIR}")
+        print(MESSAGES['no_files_found'].format(DATA_RAW_DIR))
         return False
     
     print(f"📁 {len(raw_files)} files found")
@@ -68,7 +68,7 @@ def process_all_raw_files():
     print(f"\n{'='*60}")
     print(f"📊 FINAL SUMMARY")
     print(f"{'='*60}")
-    print(MESSAGES['processing_complete'].format(f"{success_count} files"))
+    print(MESSAGES['batch_complete'].format(success_count))
     
     if failed_files:
         print(f"❌ Failed files:")

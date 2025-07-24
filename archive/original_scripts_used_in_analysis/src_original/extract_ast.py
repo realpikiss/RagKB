@@ -30,7 +30,7 @@ def extract_ast_patterns_internal(c_code: str):
         parser.language = C_LANGUAGE
         tree = parser.parse(bytes(c_code, "utf8"))
         root_node = tree.root_node
-
+        
         # Extract patterns using proper AST traversal
         patterns = {
             'success': True,
@@ -46,9 +46,9 @@ def extract_ast_patterns_internal(c_code: str):
                 'loops': _extract_loops(root_node)
             }
         }
-
+        
         return patterns
-
+        
     except Exception as e:
         return {
             'success': False,
@@ -62,7 +62,7 @@ def _count_nodes(node, current_depth=0, max_depth=AST_MAX_DEPTH):
     """Count AST nodes with depth limit"""
     if current_depth > max_depth:
         return 1
-
+    
     count = 1
     for child in node.children:
         count += _count_nodes(child, current_depth + 1, max_depth)
@@ -72,27 +72,27 @@ def _calculate_depth(node, current_depth=0):
     """Calculate maximum AST depth"""
     if not node.children:
         return current_depth
-
+    
     max_child_depth = 0
     for child in node.children:
         child_depth = _calculate_depth(child, current_depth + 1)
         max_child_depth = max(max_child_depth, child_depth)
-
+    
     return max_child_depth
 
 def _extract_functions(root_node):
     """Extract function definitions from AST"""
     functions = []
-
+    
     def traverse(node):
         if node.type == 'function_definition':
             func_info = _parse_function_definition(node)
             if func_info:
                 functions.append(func_info)
-
+        
         for child in node.children:
             traverse(child)
-
+    
     traverse(root_node)
     return functions
 
@@ -102,7 +102,7 @@ def _parse_function_definition(node):
         func_name = None
         return_type = None
         params = []
-
+        
         # Find function declarator
         for child in node.children:
             if child.type == 'function_declarator':
@@ -116,11 +116,11 @@ def _parse_function_definition(node):
                             if param.type == 'parameter_declaration':
                                 param_text = param.text.decode('utf8')
                                 params.append(param_text.strip())
-
+            
             # Try to get return type (simplified)
             elif child.type in ['primitive_type', 'type_identifier']:
                 return_type = child.text.decode('utf8')
-
+        
         if func_name:
             return {
                 'name': func_name,
@@ -128,24 +128,24 @@ def _parse_function_definition(node):
                 'params': params,
                 'line': node.start_point[0] + 1
             }
-    except Exception:
+    except:
         pass
-
+    
     return None
 
 def _extract_function_calls(root_node):
     """Extract function calls from AST"""
     calls = []
-
+    
     def traverse(node):
         if node.type == 'call_expression':
             call_info = _parse_function_call(node)
             if call_info:
                 calls.append(call_info)
-
+        
         for child in node.children:
             traverse(child)
-
+    
     traverse(root_node)
     return calls
 
@@ -154,40 +154,40 @@ def _parse_function_call(node):
     try:
         func_name = None
         args = []
-
+        
         for child in node.children:
             if child.type == 'identifier':
                 func_name = child.text.decode('utf8')
             elif child.type == 'argument_list':
                 # Count arguments
                 for arg in child.children:
-                    if arg.type not in {',', '(', ')'}:
+                    if arg.type != ',' and arg.type != '(' and arg.type != ')':
                         args.append(arg.text.decode('utf8'))
-
+        
         if func_name:
             return {
                 'function': func_name,
                 'args': args,
                 'line': node.start_point[0] + 1
             }
-    except Exception:
+    except:
         pass
-
+    
     return None
 
 def _extract_variables(root_node):
     """Extract variable declarations from AST"""
     variables = []
-
+    
     def traverse(node):
         if node.type in ['declaration', 'parameter_declaration']:
             var_info = _parse_variable_declaration(node)
             if var_info:
                 variables.extend(var_info)
-
+        
         for child in node.children:
             traverse(child)
-
+    
     traverse(root_node)
     return variables
 
@@ -196,7 +196,7 @@ def _parse_variable_declaration(node):
     variables = []
     try:
         var_type = None
-
+        
         # Get type information
         for child in node.children:
             if child.type in ['primitive_type', 'type_identifier']:
@@ -206,9 +206,9 @@ def _parse_variable_declaration(node):
                 if var_info:
                     var_info['line'] = node.start_point[0] + 1
                     variables.append(var_info)
-    except Exception:
+    except:
         pass
-
+    
     return variables
 
 def _extract_declarator_info(node, var_type):
@@ -225,15 +225,15 @@ def _extract_declarator_info(node, var_type):
             elif child.type in ['pointer_declarator', 'array_declarator', 'declarator']:
                 # Recursive extraction for nested declarators
                 return _extract_declarator_info(child, var_type)
-    except Exception:
+    except:
         pass
-
+    
     return None
 
 def _extract_pointer_operations(root_node):
     """Extract pointer operations from AST"""
     pointers = []
-
+    
     def traverse(node):
         if node.type in ['pointer_expression', 'field_expression']:
             pointers.append({
@@ -241,61 +241,91 @@ def _extract_pointer_operations(root_node):
                 'type': node.type,
                 'line': node.start_point[0] + 1
             })
-
+        
         for child in node.children:
             traverse(child)
-
+    
     traverse(root_node)
     return pointers
 
 def _extract_array_operations(root_node):
     """Extract array operations from AST"""
     arrays = []
-
+    
     def traverse(node):
         if node.type == 'subscript_expression':
             arrays.append({
                 'operation': node.text.decode('utf8')[:50],
                 'line': node.start_point[0] + 1
             })
-
+        
         for child in node.children:
             traverse(child)
-
+    
     traverse(root_node)
     return arrays
 
 def _extract_conditionals(root_node):
     """Extract conditional statements from AST"""
     conditionals = []
-
+    
     def traverse(node):
         if node.type in ['if_statement', 'conditional_expression', 'switch_statement']:
             conditionals.append({
                 'type': node.type,
                 'line': node.start_point[0] + 1
             })
-
+        
         for child in node.children:
             traverse(child)
-
+    
     traverse(root_node)
     return conditionals
 
 def _extract_loops(root_node):
     """Extract loop statements from AST"""
     loops = []
-
+    
     def traverse(node):
         if node.type in ['for_statement', 'while_statement', 'do_statement']:
             loops.append({
                 'type': node.type,
                 'line': node.start_point[0] + 1
             })
-
+        
         for child in node.children:
             traverse(child)
-
+    
     traverse(root_node)
     return loops
 
+# Test function
+if __name__ == "__main__":
+    test_code = """
+    int main(int argc, char* argv[]) {
+        int buffer[100];
+        char* ptr = malloc(sizeof(char) * 50);
+        
+        if (argc > 1) {
+            strcpy(buffer, argv[1]);
+            for (int i = 0; i < 100; i++) {
+                buffer[i] = *ptr;
+                ptr++;
+            }
+        }
+        
+        free(ptr);
+        return 0;
+    }
+    """
+    
+    result = extract_ast_patterns(test_code)
+    print("AST Extraction Test:")
+    print(f"Success: {result['success']}")
+    if result['success']:
+        print(f"Node count: {result['node_count']}")
+        print(f"Depth: {result['depth']}")
+        patterns = result['patterns']
+        print(f"Functions: {len(patterns['functions'])}")
+        print(f"Function calls: {len(patterns['calls'])}")
+        print(f"Variables: {len(patterns['variables'])}")

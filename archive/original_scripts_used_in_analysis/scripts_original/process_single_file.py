@@ -12,7 +12,7 @@ import os
 sys.path.append(str(Path(__file__).parent.parent / "src"))
 
 from extract_ast import extract_ast_patterns
-# CFG import removed - Phase 4 analysis showed CFG not needed (0% complex control flow)
+from build_cfg import build_simple_cfg  
 from build_pdg import build_simple_pdg
 from config import DATA_ENRICHED_DIR, MESSAGES
 from utils import extract_cwe_from_filename, safe_json_load, safe_json_save, get_file_stats
@@ -56,12 +56,12 @@ def process_single_file(raw_file_path):
                 print(f"      ⚠️ No vulnerable code")
                 continue
             
-            # Enrich with structural analysis (AST + PDG only, optimized based on Phase 4)
+            # Enrich with structural analysis
             enriched_entry = {
                 'original_vulrag': entry,
                 'structural_analysis': {
                     'ast_patterns': extract_ast_patterns(vulnerable_code),
-                    # CFG removed - Phase 4 showed 0% complex control flow, 31% efficiency gain
+                    'cfg_patterns': build_simple_cfg(vulnerable_code),
                     'pdg_patterns': build_simple_pdg(vulnerable_code)
                 },
                 '_metadata': {

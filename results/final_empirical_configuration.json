@@ -1,0 +1,104 @@
+{
+  "empirical_configuration": {
+    "metadata": {
+      "generated_from": "empirical_analysis",
+      "total_samples_analyzed": 2317,
+      "generation_date": "2024-07-24",
+      "evidence_based": true,
+      "validation_status": "complete"
+    },
+    "performance": {
+      "processing_timeouts": {
+        "ast_timeout_seconds": 5,
+        "cfg_timeout_seconds": 5,
+        "pdg_timeout_seconds": 5,
+        "total_timeout_seconds": 15
+      },
+      "expected_performance": {
+        "avg_time_per_instance_seconds": 0.0030378560645342592,
+        "p95_time_per_instance_seconds": 0.008018302917480452,
+        "max_memory_per_instance_mb": 2.859375,
+        "success_rate_target": 0.98,
+        "actual_success_rate": 1.0
+      },
+      "batch_processing": {
+        "max_parallel_workers": 4,
+        "batch_size": 100,
+        "memory_limit_gb": 2
+      }
+    },
+    "architecture": {
+      "components": {
+        "use_ast": true,
+        "use_cfg": false,
+        "use_pdg": true
+      },
+      "rationale": {
+        "recommendation": "AST + PDG",
+        "reasoning": "Low control flow complexity, high data dependency requirements",
+        "effectiveness": 100,
+        "efficiency_gain": 9.090909090909092
+      },
+      "complexity_thresholds": {
+        "max_ast_depth": 20,
+        "max_cfg_complexity": 10,
+        "max_pdg_dependencies": 50
+      }
+    },
+    "context_analysis": {
+      "context_window": {
+        "optimal_lines": 5,
+        "min_lines": 5,
+        "max_lines": 25
+      },
+      "approach_validation": {
+        "context_dependent_functions_count": 3407,
+        "analysis_success_rate": 1.0,
+        "cwe_patterns_identified": 10
+      },
+      "pattern_matching": {
+        "enable_context_patterns": true,
+        "enable_function_blacklists": false,
+        "use_cwe_specific_patterns": true
+      }
+    },
+    "dataset": {
+      "composition": {
+        "total_cves": 1217,
+        "total_instances": 2317,
+        "cwe_categories": 9
+      },
+      "complexity_characteristics": {
+        "median_lines": 42,
+        "p95_lines": 205,
+        "max_lines": 1479,
+        "median_functions": 2,
+        "max_nesting_depth": 7
+      },
+      "supported_cwe_types": [
+        "CWE-119",
+        "CWE-125",
+        "CWE-200",
+        "CWE-20",
+        "CWE-264",
+        "CWE-362",
+        "CWE-401",
+        "CWE-416",
+        "CWE-476",
+        "CWE-787"
+      ]
+    }
+  },
+  "validation_results": {
+    "all_phases_completed": true,
+    "total_samples_analyzed": 2317,
+    "evidence_files_generated": [
+      "vulrag_summary_report.json",
+      "performance_summary_report.json",
+      "context_based_analysis_config.json",
+      "architecture_decision.json",
+      "code_characteristics_sample.csv"
+    ],
+    "configuration_status": "production_ready"
+  }
+}
