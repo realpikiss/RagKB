@@ -10,31 +10,25 @@ import threading
 import time
 from typing import Dict, List, Any
 
+# Configuration imports with fallback
+try:
+    from .config import (
+        AST_TIMEOUT_SECONDS, 
+        AST_MAX_DEPTH, 
+        AST_ERROR_MESSAGE_LENGTH
+    )
+    from .utils import timeout_wrapper, clean_error_message
+except ImportError:
+    # Fallback for standalone execution
+    from config import (
+        AST_TIMEOUT_SECONDS, 
+        AST_MAX_DEPTH, 
+        AST_ERROR_MESSAGE_LENGTH
+    )
+    from utils import timeout_wrapper, clean_error_message
+
 # Setup Tree-sitter C parser
 C_LANGUAGE = Language(tsc.language())
-
-def timeout_function(func, args, timeout_seconds):
-    """Execute function with timeout using threading"""
-    result = [None]
-    exception = [None]
-    
-    def target():
-        try:
-            result[0] = func(*args)
-        except Exception as e:
-            exception[0] = e
-    
-    thread = threading.Thread(target=target)
-    thread.daemon = True
-    thread.start()
-    thread.join(timeout_seconds)
-    
-    if thread.is_alive():
-        return {'success': False, 'error': 'timeout'}
-    elif exception[0]:
-        return {'success': False, 'error': str(exception[0])}
-    else:
-        return result[0]
 
 def extract_ast_patterns_internal(c_code: str) -> Dict[str, Any]:
     """Internal AST extraction function"""
@@ -59,7 +53,7 @@ def extract_ast_patterns_internal(c_code: str) -> Dict[str, Any]:
         }
         
         # Simple pattern extraction without deep recursion
-        patterns['node_count'] = count_nodes_safe(root_node, max_depth=10)
+        patterns['node_count'] = count_nodes_safe(root_node, max_depth=AST_MAX_DEPTH)
         patterns['functions'] = extract_functions_safe(root_node)
         patterns['function_calls'] = extract_function_calls_safe(root_node)
         patterns['variables'] = extract_variables_safe(root_node)
@@ -71,7 +65,7 @@ def extract_ast_patterns_internal(c_code: str) -> Dict[str, Any]:
     except Exception as e:
         return {
             'success': False,
-            'error': str(e)[:100],
+            'error': clean_error_message(str(e), AST_ERROR_MESSAGE_LENGTH),
             'node_count': 0,
             'functions': [],
             'variables': [],
@@ -80,13 +74,13 @@ def extract_ast_patterns_internal(c_code: str) -> Dict[str, Any]:
             'loops': []
         }
 
-def extract_ast_patterns(c_code: str, timeout_seconds: int = 5) -> Dict[str, Any]:
+def extract_ast_patterns(c_code: str, timeout_seconds: int = AST_TIMEOUT_SECONDS) -> Dict[str, Any]:
     """
     Extract AST patterns with timeout protection using threading
     """
-    return timeout_function(extract_ast_patterns_internal, (c_code,), timeout_seconds)
+    return timeout_wrapper(extract_ast_patterns_internal, (c_code,), timeout_seconds)
 
-def count_nodes_safe(node, max_depth=10, current_depth=0):
+def count_nodes_safe(node, max_depth=AST_MAX_DEPTH, current_depth=0):
     """Count nodes safely with depth limit"""
     if current_depth > max_depth:
         return 1

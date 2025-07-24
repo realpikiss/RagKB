@@ -1,4 +1,3 @@
-
 # **Hybrid Vulnerability Knowledge Base**
 
 > Enriching semantic vulnerability knowledge with structural code analysis for enhanced vulnerability detection and repair

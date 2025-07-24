@@ -10,31 +10,17 @@ from tree_sitter import Language, Parser
 import threading
 import re
 
+# Configuration imports with fallback
+try:
+    from .config import CFG_TIMEOUT_SECONDS
+    from .utils import timeout_wrapper, clean_error_message
+except ImportError:
+    # Fallback for standalone execution
+    from config import CFG_TIMEOUT_SECONDS
+    from utils import timeout_wrapper, clean_error_message
+
 # Setup Tree-sitter C parser
 C_LANGUAGE = Language(tsc.language())
-
-def timeout_function(func, args, timeout_seconds):
-    """Execute function with timeout using threading"""
-    result = [None]
-    exception = [None]
-    
-    def target():
-        try:
-            result[0] = func(*args)
-        except Exception as e:
-            exception[0] = e
-    
-    thread = threading.Thread(target=target)
-    thread.daemon = True
-    thread.start()
-    thread.join(timeout_seconds)
-    
-    if thread.is_alive():
-        return {'success': False, 'error': 'timeout'}
-    elif exception[0]:
-        return {'success': False, 'error': str(exception[0])}
-    else:
-        return result[0]
 
 def build_simple_cfg_internal(c_code):
     """Internal CFG building function"""
@@ -71,7 +57,7 @@ def build_simple_cfg_internal(c_code):
                 # Skip problematic functions
                 cfg_data['functions'][func_name] = {
                     'success': False,
-                    'error': str(e)[:50],
+                    'error': clean_error_message(str(e), 50),
                     'node_count': 0,
                     'edge_count': 0
                 }
@@ -81,13 +67,13 @@ def build_simple_cfg_internal(c_code):
     except Exception as e:
         return {
             'success': False,
-            'error': str(e)[:100],
+            'error': clean_error_message(str(e), 100),
             'functions': {}
         }
 
-def build_simple_cfg(c_code, timeout_seconds=5):
+def build_simple_cfg(c_code, timeout_seconds=CFG_TIMEOUT_SECONDS):
     """Build a simple CFG with timeout protection using threading"""
-    return timeout_function(build_simple_cfg_internal, (c_code,), timeout_seconds)
+    return timeout_wrapper(build_simple_cfg_internal, (c_code,), timeout_seconds)
 
 def _find_functions_safe(root_node):
     """Find all function definitions safely"""

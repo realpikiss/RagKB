@@ -9,11 +9,32 @@ import tree_sitter_c as tsc
 from tree_sitter import Language, Parser
 import re
 
+# Configuration imports with fallback
+try:
+    from .config import (
+        PDG_TIMEOUT_SECONDS,
+        TRACKED_FUNCTIONS,
+        VULNERABILITY_PATTERNS
+    )
+    from .utils import timeout_wrapper, clean_error_message
+except ImportError:
+    # Fallback for standalone execution
+    from config import (
+        PDG_TIMEOUT_SECONDS,
+        TRACKED_FUNCTIONS,
+        VULNERABILITY_PATTERNS
+    )
+    from utils import timeout_wrapper, clean_error_message
+
 # Setup Tree-sitter C parser
 C_LANGUAGE = Language(tsc.language())
 
-def build_simple_pdg(c_code):
-    """Build a simple PDG from C code"""
+def build_simple_pdg(c_code, timeout_seconds=PDG_TIMEOUT_SECONDS):
+    """Build a simple PDG from C code with timeout protection"""
+    return timeout_wrapper(build_simple_pdg_internal, (c_code,), timeout_seconds)
+
+def build_simple_pdg_internal(c_code):
+    """Internal PDG building function"""
     try:
         # Parse the code
         parser = Parser()
@@ -48,7 +69,7 @@ def build_simple_pdg(c_code):
     except Exception as e:
         return {
             'success': False,
-            'error': str(e),
+            'error': clean_error_message(str(e), 100),
             'functions': {}
         }
 
@@ -282,7 +303,7 @@ def _analyze_dependencies(statements, variables):
     return dependencies
 
 def _analyze_vulnerability_patterns(statements, dependencies):
-    """Analyze common vulnerability patterns"""
+    """Analyze common vulnerability patterns using centralized configuration"""
     patterns = {
         'buffer_operations': [],
         'pointer_operations': [],
@@ -290,46 +311,72 @@ def _analyze_vulnerability_patterns(statements, dependencies):
         'dangerous_functions': []
     }
     
-    # Simple function call tracking
-    tracked_funcs = ['strcpy', 'strcat', 'sprintf', 'gets', 'scanf', 'malloc', 'free']
-    
     for stmt in statements:
         stmt_text = stmt['text'].lower()
         
-        # Buffer operations
-        if any(op in stmt_text for op in ['[', 'strcpy', 'memcpy', 'strcat']):
-            patterns['buffer_operations'].append({
-                'line': stmt['line'],
-                'statement': stmt['text'][:100],
-                'type': 'buffer_operation'
-            })
+        # Buffer operations using centralized patterns
+        for pattern in VULNERABILITY_PATTERNS.get('buffer_overflow', []):
+            if re.search(pattern, stmt_text, re.IGNORECASE):
+                patterns['buffer_operations'].append({
+                    'line': stmt['line'],
+                    'statement': stmt['text'][:100],
+                    'type': 'buffer_operation',
+                    'pattern': pattern
+                })
+                break
+        
+        # Format string vulnerabilities
+        for pattern in VULNERABILITY_PATTERNS.get('format_string', []):
+            if re.search(pattern, stmt_text, re.IGNORECASE):
+                patterns['buffer_operations'].append({
+                    'line': stmt['line'],
+                    'statement': stmt['text'][:100],
+                    'type': 'format_string',
+                    'pattern': pattern
+                })
+                break
         
         # Pointer operations
-        if '*' in stmt_text or '->' in stmt_text:
-            patterns['pointer_operations'].append({
-                'line': stmt['line'],
-                'statement': stmt['text'][:100],
-                'type': 'pointer_operation'
-            })
+        for pattern in VULNERABILITY_PATTERNS.get('null_pointer', []):
+            if re.search(pattern, stmt_text, re.IGNORECASE):
+                patterns['pointer_operations'].append({
+                    'line': stmt['line'],
+                    'statement': stmt['text'][:100],
+                    'type': 'pointer_operation',
+                    'pattern': pattern
+                })
+                break
         
-        # Track function calls
-        if any(func in stmt_text for func in tracked_funcs):
-            found_funcs = [func for func in tracked_funcs if func in stmt_text]
-            
+        # Memory leak patterns
+        for pattern in VULNERABILITY_PATTERNS.get('memory_leak', []):
+            if re.search(pattern, stmt_text, re.IGNORECASE):
+                patterns['unchecked_operations'].append({
+                    'line': stmt['line'],
+                    'statement': stmt['text'][:100],
+                    'type': 'memory_leak',
+                    'pattern': pattern
+                })
+                break
+        
+        # Track dangerous function calls using centralized list
+        found_funcs = [func for func in TRACKED_FUNCTIONS if func in stmt_text]
+        if found_funcs:
             patterns['dangerous_functions'].append({
                 'line': stmt['line'],
                 'statement': stmt['text'][:100],
                 'functions': found_funcs
             })
         
-        # Unchecked operations (heuristic)
-        if ('=' in stmt_text and 'if' not in stmt_text and 
-            any(op in stmt_text for op in ['malloc', 'fopen', 'strcpy'])):
-            patterns['unchecked_operations'].append({
-                'line': stmt['line'],
-                'statement': stmt['text'][:100],
-                'type': 'unchecked_operation'
-            })
+        # Additional pointer operations (fallback)
+        if '*' in stmt_text or '->' in stmt_text:
+            # Only add if not already detected by patterns
+            if not any('pointer_operation' in op.get('type', '') for op in patterns['pointer_operations']):
+                patterns['pointer_operations'].append({
+                    'line': stmt['line'],
+                    'statement': stmt['text'][:100],
+                    'type': 'pointer_operation',
+                    'pattern': 'manual_detection'
+                })
     
     return patterns
 

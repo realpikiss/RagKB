@@ -1,64 +1,62 @@
 #!/usr/bin/env python3
 """
-Script simple pour traiter un fichier raw et créer sa KB hybride
+Simple script to process a single raw file and create its hybrid KB
 """
 
 import json
 import sys
 from pathlib import Path
+import os
 
-# Ajouter le répertoire src au path
+# Add src directory to path
 sys.path.append(str(Path(__file__).parent.parent / "src"))
 
 from extract_ast import extract_ast_patterns
 from build_cfg import build_simple_cfg  
 from build_pdg import build_simple_pdg
+from config import DATA_ENRICHED_DIR, MESSAGES
+from utils import extract_cwe_from_filename, safe_json_load, safe_json_save, get_file_stats
 
 def process_single_file(raw_file_path):
-    """Traiter un fichier raw et créer sa KB hybride"""
+    """Process a single raw file and create its hybrid KB"""
     
     raw_file = Path(raw_file_path)
     if not raw_file.exists():
-        print(f"❌ Fichier non trouvé: {raw_file_path}")
+        print(MESSAGES['file_not_found'].format(raw_file_path))
         return False
     
-    # Extraire le CWE du nom de fichier
-    filename = raw_file.stem  # sans extension
-    if "CWE-" in filename:
-        cwe = filename.split("CWE-")[1].split("_")[0]
-        cwe = f"CWE-{cwe}"
-    else:
-        print(f"❌ CWE non trouvé dans le nom: {filename}")
+    # Extract CWE from filename robustly
+    cwe = extract_cwe_from_filename(raw_file.name)
+    if not cwe.startswith('CWE-'):
+        print(MESSAGES['invalid_cwe'].format(cwe))
         return False
     
-    print(f"🎯 Traitement de {filename} -> {cwe}")
+    print(f"🎯 Processing {raw_file.name} -> {cwe}")
     
-    # Charger les données
-    try:
-        with open(raw_file, 'r', encoding='utf-8') as f:
-            raw_data = json.load(f)
-    except Exception as e:
-        print(f"❌ Erreur lecture: {e}")
+    # Load data with secure error handling
+    raw_data = safe_json_load(raw_file)
+    if not isinstance(raw_data, dict):
+        print(f"❌ Read error: {raw_data.get('error', 'Invalid format')}")
         return False
     
-    print(f"✅ {len(raw_data)} entrées chargées")
+    print(f"✅ {len(raw_data)} entries loaded")
     
-    # Traiter chaque entrée
+    # Process each entry
     enriched_entries = []
     
     for cve_id, entries in raw_data.items():
-        print(f"📦 Traitement de {cve_id} ({len(entries)} entrées)")
+        print(f"📦 Processing {cve_id} ({len(entries)} entries)")
         
         for i, entry in enumerate(entries):
-            print(f"   🔄 Entrée {i+1}/{len(entries)}")
+            print(f"   🔄 Entry {i+1}/{len(entries)}")
             
-            # Extraire le code vulnérable
+            # Extract vulnerable code
             vulnerable_code = entry.get('code_before_change', '')
             if not vulnerable_code:
-                print(f"      ⚠️ Pas de code vulnérable")
+                print(f"      ⚠️ No vulnerable code")
                 continue
             
-            # Enrichir avec les analyses structurelles
+            # Enrich with structural analysis
             enriched_entry = {
                 'original_vulrag': entry,
                 'structural_analysis': {
@@ -75,40 +73,34 @@ def process_single_file(raw_file_path):
             }
             
             enriched_entries.append(enriched_entry)
-            print(f"      ✅ Enrichie")
+            print(f"      ✅ Enriched")
     
-    # Sauvegarder la KB hybride
-    output_dir = Path("data/enriched")
-    output_dir.mkdir(exist_ok=True)
+    # Save hybrid KB
+    output_path = DATA_ENRICHED_DIR / f"hybrid_kb_{cwe}.json"
     
-    output_path = output_dir / f"hybrid_kb_{cwe}.json"
-    
-    try:
-        with open(output_path, 'w', encoding='utf-8') as f:
-            json.dump(enriched_entries, f, indent=2, ensure_ascii=False)
-        
-        file_size = output_path.stat().st_size / (1024 * 1024)  # MB
-        print(f"\n✅ KB hybride créée: {output_path}")
-        print(f"   Taille: {file_size:.1f} MB")
-        print(f"   Entrées: {len(enriched_entries)}")
+    if safe_json_save(enriched_entries, output_path):
+        # Get file statistics
+        stats = get_file_stats(output_path)
+        if stats.get('exists'):
+            print(f"\n✅ Hybrid KB created: {output_path}")
+            print(f"   Size: {stats['size_formatted']}")
+            print(f"   Entries: {len(enriched_entries)}")
+        else:
+            print(f"\n✅ Hybrid KB created: {output_path}")
+            print(f"   Entries: {len(enriched_entries)}")
         
         return True
-        
-    except Exception as e:
-        print(f"❌ Erreur sauvegarde: {e}")
+    else:
+        print(f"❌ Save error: {output_path}")
         return False
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python process_single_file.py <fichier_raw>")
-        print("Exemple: python process_single_file.py data/raw/gpt-4o-mini_CWE-119_316.json")
+        print("Usage: python process_single_file.py <raw_file_path>")
         sys.exit(1)
     
-    raw_file = sys.argv[1]
-    success = process_single_file(raw_file)
+    raw_file_path = sys.argv[1]
+    success = process_single_file(raw_file_path)
     
-    if success:
-        print(f"\n🎉 Traitement terminé avec succès!")
-    else:
-        print(f"\n❌ Échec du traitement")
+    if not success:
         sys.exit(1) 
