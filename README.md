@@ -49,11 +49,9 @@ The **Hybrid Vulnerability Knowledge Base** is a comprehensive system that enric
 | Level | Scope | Analysis Type | Example |
 |-------|-------|---------------|---------|
 | **Function Level** | Individual functions | AST + PDG patterns | `void process_buffer(char* data, int size)` |
-| **File Level** | Single source files | Cross-function dependencies | `vulnerable_module.c` |
-| **Module Level** | Related file groups | Inter-module patterns | `memory_management/` |
-| **Project Level** | Complete codebases | Global vulnerability patterns | `openssl/` |
 
-**Primary Focus**: Function-level vulnerability analysis with file-level context.
+
+**Primary Focus**: Function-level vulnerability analysis.
 
 #### **Supported Vulnerability Types**
 
